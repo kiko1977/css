@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* Tables searchbox */
+.views-exposed-form .uk-form-controls .form-text.uk-input {
+  width: 40%;
+  background-image: url(/sites/default/files/custom/svg/search/glass-grey.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 40px;
+  opacity: 0.5;
+  border-radius: 0.5rem;
+  height: 35px;
+}
+.views-exposed-form .uk-form-controls .form-text.uk-input:focus-within {
+  opacity: 1;
+  border-color: #ed9b24;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+form.node-form .fieldset .main-line-fieldset legend, form.node-form .fieldset .main-line-fieldset legend span, form.node-form .fieldset .main-line-fieldset h4, form.node-form .fieldset .main-line-fieldset label {
+  width: 35%;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+form.node-form .fieldset .main-line-fieldset legend .field--widget-inline-entity-form-complex legend, form.node-form .fieldset .main-line-fieldset legend .field--widget-inline-entity-form-complex legend span, form.node-form .fieldset .main-line-fieldset legend .field--type-datetime h4, form.node-form .fieldset .main-line-fieldset legend .field--type-daterange h4, form.node-form .fieldset .main-line-fieldset legend span .field--widget-inline-entity-form-complex legend, form.node-form .fieldset .main-line-fieldset legend span .field--widget-inline-entity-form-complex legend span, form.node-form .fieldset .main-line-fieldset legend span .field--type-datetime h4, form.node-form .fieldset .main-line-fieldset legend span .field--type-daterange h4, form.node-form .fieldset .main-line-fieldset h4 .field--widget-inline-entity-form-complex legend, form.node-form .fieldset .main-line-fieldset h4 .field--widget-inline-entity-form-complex legend span, form.node-form .fieldset .main-line-fieldset h4 .field--type-datetime h4, form.node-form .fieldset .main-line-fieldset h4 .field--type-daterange h4, form.node-form .fieldset .main-line-fieldset label .field--widget-inline-entity-form-complex legend, form.node-form .fieldset .main-line-fieldset label .field--widget-inline-entity-form-complex legend span, form.node-form .fieldset .main-line-fieldset label .field--type-datetime h4, form.node-form .fieldset .main-line-fieldset label .field--type-daterange h4 {
+  font-size: 13px;
+  background-color: transparent;
+  color: #ed9b24;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+form.node-form .fieldset .main-line-fieldset .field--type-datetime h4 {
+  display: block;
+  margin-bottom: 0px !important;
+  height: 40px !important;
+}
+form.node-form .fieldset .main-line-fieldset .field--type-datetime h4 .form-type-date {
+  margin-bottom: 0px;
+}
+form.node-form .fieldset .main-line-fieldset .field--type-datetime h4 .form-type-date input.form-date {
+  width: 100%;
+}
+form.node-form .fieldset .uk-legend {
+  display: none;
+}
+form.node-form .fieldset .fieldset-legend {
+  font-weight: 500;
+}
+form.node-form .label-above, form.node-form .uk-form-label, form.node-form label.form-item__label {
+  color: #ed9b24;
+  font-weight: bold;
+}

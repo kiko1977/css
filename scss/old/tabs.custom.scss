@@ -1,0 +1,69 @@
+@import "variables";
+
+// ul.uk-tab li {
+//   a {
+//     background-image: url(/sites/default/files/custom/svg/view/eye-grey.svg);
+//     background-repeat: no-repeat;
+//     background-position: 10px;
+//     background-size: 20px;
+//     padding-left: 40px;
+//     opacity: 0.75;
+//     font-size: 1.25rem;
+//     text-transform: none;
+//   }
+//   a[href*="edit"] {
+//     background-image: url(/sites/default/files/custom/svg/edit/pen-grey.svg);
+//     background-repeat: no-repeat;
+//     background-position: 10px;
+//     background-size: 20px;
+//     padding-left: 40px;
+//     opacity: 0.75;
+//   }
+//   a[href*="delete"] {
+//     background-image: url(/sites/default/files/custom/svg/delete/trash-grey.svg);
+//     background-repeat: no-repeat;
+//     background-position: 10px;
+//     background-size: 15px;
+//     padding-left: 40px;
+//     opacity: 0.75;
+//   }
+//   &.uk-active {
+//     a {
+//       background-image: url(/sites/default/files/custom/svg/view/eye-orange.svg);
+//       opacity: 1;
+//       color: $main;
+//       border-color: $main;
+//       border-width: 3px;
+//     }
+//     a[href*="edit"] {
+//       background-image: url(/sites/default/files/custom/svg/edit/pen-orange.svg);
+//       opacity: 1;
+//     }
+//     a[href*="delete"] {
+//       background-image: url(/sites/default/files/custom/svg/delete/trash-orange.svg);
+//       opacity: 1;
+//     }
+//     ul.uk-tab li {
+//       a[href*="revisions"] {
+//         display: none;
+//       }
+//     }
+//     &:hover a {
+//       opacity: 1;
+//       color: $black;
+//     }
+//   }
+// }
+
+// .second-level-tab {
+//   display: flow-root;
+// }
+
+// .field-group-tabs-wrapper .horizontal-tabs {
+//   border: 0px;
+//   /* display: flex; */
+// }
+
+// .horizontal-tabs .horizontal-tabs-list {
+//   background-color: transparent !important;
+// }

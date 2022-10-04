@@ -1,0 +1,594 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* Form general */
+form.node-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* hide form's vertical tab */
+  /* form's bottom buttons zone */
+  /* trip form modifications */
+  /* hotel form modifications */
+  /* general form fieldsets */
+}
+form.node-form .js-form-type-vertical-tabs {
+  display: none;
+}
+form.node-form #edit-actions {
+  margin-left: 1%;
+  margin-top: 10px !important;
+}
+form.node-form .horizontal-tabs {
+  border: 0px solid transparent;
+  border-radius: 6px;
+  /* forms tabs list */
+  /* fieldset region in form */
+}
+form.node-form .horizontal-tabs .horizontal-tabs-list {
+  border-bottom: 0px solid transparent;
+  background-color: transparent;
+}
+form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button {
+  background-color: #fff;
+  height: 60px;
+  line-height: 40px;
+  margin: 1% 20px;
+  border-right: 0px solid transparent;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a {
+  color: #808080;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 90% 20px;
+  background-size: 20px;
+  min-height: 60px;
+  font-size: 16px;
+  font-family: "Inter_Semi_Bold";
+  line-height: 60px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a:hover {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #ed9b24;
+}
+form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button.selected a {
+  color: #ed9b24;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+form.node-form .horizontal-tabs .horizontal-tabs-panes {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+form.node-form.node-main-form {
+  /* trip form tabs */
+}
+form.node-form.node-main-form li.horizontal-tab-button {
+  width: calc((100% - 320px) / 8);
+}
+form.node-form.node-main-form li:first-child a {
+  background-image: url(/sites/default/files/custom/svg/data_main/table-grey.svg);
+}
+form.node-form.node-main-form li:first-child.selected a, form.node-form.node-main-form li:first-child a:hover {
+  background-image: url(/sites/default/files/custom/svg/data_main/table-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(2) a {
+  background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(2).selected a, form.node-form.node-main-form li:nth-child(2) a:hover {
+  background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(3) a {
+  background-image: url(/sites/default/files/custom/svg/add/plus-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(3).selected a, form.node-form.node-main-form li:nth-child(3) a:hover {
+  background-image: url(/sites/default/files/custom/svg/add/plus-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(4) a {
+  background-image: url(/sites/default/files/custom/svg/plane/plane-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(4).selected a, form.node-form.node-main-form li:nth-child(4) a:hover {
+  background-image: url(/sites/default/files/custom/svg/plane/plane-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(5) a {
+  background-image: url(/sites/default/files/custom/svg/bed/bed-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(5).selected a, form.node-form.node-main-form li:nth-child(5) a:hover {
+  background-image: url(/sites/default/files/custom/svg/bed/bed-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(6) a {
+  background-image: url(/sites/default/files/custom/svg/list/list-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(6).selected a, form.node-form.node-main-form li:nth-child(6) a:hover {
+  background-image: url(/sites/default/files/custom/svg/list/list-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(7) a {
+  background-image: url(/sites/default/files/custom/svg/file/file-grey.svg);
+  background-size: 16px;
+}
+form.node-form.node-main-form li:nth-child(7).selected a, form.node-form.node-main-form li:nth-child(7) a:hover {
+  background-image: url(/sites/default/files/custom/svg/file/file-orange.svg);
+}
+form.node-form.node-main-form li:nth-child(8) a {
+  background-image: url(/sites/default/files/custom/svg/money/money-grey.svg);
+}
+form.node-form.node-main-form li:nth-child(8).selected a, form.node-form.node-main-form li:nth-child(8) a:hover {
+  background-image: url(/sites/default/files/custom/svg/money/money-orange.svg);
+}
+form.node-form.node-main-form label[value="edit-field-trip-duration-0-end-value-date"] {
+  display: none;
+}
+form.node-form.node-hotel-form li.horizontal-tab-button {
+  width: calc((100% - 160px) / 4);
+}
+form.node-form.node-hotel-form li:first-child a {
+  background-image: url(/sites/default/files/custom/svg/hotels/hotel-grey.svg);
+}
+form.node-form.node-hotel-form li:first-child.selected a, form.node-form.node-hotel-form li:first-child a:hover {
+  background-image: url(/sites/default/files/custom/svg/hotels/hotel-orange.svg);
+}
+form.node-form.node-hotel-form li:nth-child(2) a {
+  background-image: url(/sites/default/files/custom/svg/bed/bed-grey.svg);
+}
+form.node-form.node-hotel-form li:nth-child(2).selected a, form.node-form.node-hotel-form li:nth-child(2) a:hover {
+  background-image: url(/sites/default/files/custom/svg/bed/bed-orange.svg);
+}
+form.node-form.node-hotel-form li:nth-child(3) a {
+  background-image: url(/sites/default/files/custom/svg/contact/contact-grey.svg);
+}
+form.node-form.node-hotel-form li:nth-child(3).selected a, form.node-form.node-hotel-form li:nth-child(3) a:hover {
+  background-image: url(/sites/default/files/custom/svg/contact/contact-orange.svg);
+}
+form.node-form.node-hotel-form li:nth-child(4) a {
+  background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
+}
+form.node-form.node-hotel-form li:nth-child(4).selected a, form.node-form.node-hotel-form li:nth-child(4) a:hover {
+  background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
+}
+form.node-form fieldset.main-line-fieldset {
+  width: 100%;
+}
+/* forms */
+body[class*="nodeadd"] main#page--content, body[class*="edit"] main#page--content {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+body[class*="nodeadd"] main#page--content h1.uk-article-title, body[class*="edit"] main#page--content h1.uk-article-title {
+  padding-left: 2%;
+}
+body[class*="nodeadd"] main#page--content label.uk-form-label, body[class*="nodeadd"] main#page--content div.fieldset-wrapper h4, body[class*="edit"] main#page--content label.uk-form-label, body[class*="edit"] main#page--content div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] main#page--content input[type="text"], body[class*="nodeadd"] main#page--content textarea, body[class*="nodeadd"] main#page--content input[type="tel"], body[class*="nodeadd"] main#page--content input[type="date"], body[class*="nodeadd"] main#page--content input[type="email"], body[class*="nodeadd"] main#page--content select, body[class*="nodeadd"] main#page--content div.form-select, body[class*="edit"] main#page--content input[type="text"], body[class*="edit"] main#page--content textarea, body[class*="edit"] main#page--content input[type="tel"], body[class*="edit"] main#page--content input[type="date"], body[class*="edit"] main#page--content input[type="email"], body[class*="edit"] main#page--content select, body[class*="edit"] main#page--content div.form-select {
+  width: 75% !important;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+body[class*="nodeadd"] main#page--content input[type="text"]:focus-within, body[class*="nodeadd"] main#page--content textarea:focus-within, body[class*="nodeadd"] main#page--content input[type="tel"]:focus-within, body[class*="nodeadd"] main#page--content input[type="date"]:focus-within, body[class*="nodeadd"] main#page--content input[type="email"]:focus-within, body[class*="nodeadd"] main#page--content select:focus-within, body[class*="nodeadd"] main#page--content div.form-select:focus-within, body[class*="edit"] main#page--content input[type="text"]:focus-within, body[class*="edit"] main#page--content textarea:focus-within, body[class*="edit"] main#page--content input[type="tel"]:focus-within, body[class*="edit"] main#page--content input[type="date"]:focus-within, body[class*="edit"] main#page--content input[type="email"]:focus-within, body[class*="edit"] main#page--content select:focus-within, body[class*="edit"] main#page--content div.form-select:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+body[class*="nodeadd"] main#page--content input[type="number"], body[class*="edit"] main#page--content input[type="number"] {
+  width: 10% !important;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+body[class*="nodeadd"] main#page--content input[type="number"]:focus-within, body[class*="edit"] main#page--content input[type="number"]:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+body[class*="nodeadd"] main#page--content .field-suffix, body[class*="edit"] main#page--content .field-suffix {
+  font-size: 18px;
+  margin-left: 10px;
+}
+body[class*="nodeadd"] main#page--content a#edit-delete, body[class*="edit"] main#page--content a#edit-delete {
+  color: #fafafa;
+  background-color: "inherit";
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+body[class*="nodeadd"] main#page--content a#edit-delete:hover, body[class*="edit"] main#page--content a#edit-delete:hover {
+  background-color: "inherit";
+}
+body[class*="nodeadd"] main#page--content a#edit-cancel, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"], body[class*="edit"] main#page--content a#edit-cancel, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"] {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+body[class*="nodeadd"] main#page--content a#edit-cancel:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"]:hover, body[class*="edit"] main#page--content a#edit-cancel:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"]:hover {
+  background-color: #efbe4c;
+}
+body[class*="nodeadd"] main#page--content input#edit-submit, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"], body[class*="edit"] main#page--content input#edit-submit, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"] {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+body[class*="nodeadd"] main#page--content input#edit-submit:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"]:hover, body[class*="edit"] main#page--content input#edit-submit:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"]:hover {
+  background-color: #34c494;
+}
+body[class*="nodeadd"] main#page--content input[id*="edit-field-address"][type="submit"], body[class*="nodeadd"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"], body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"], body[class*="edit"] main#page--content input[id*="edit-field-address"][type="submit"], body[class*="edit"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"], body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"] {
+  color: #fafafa;
+  background-color: #1f57b8;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+body[class*="nodeadd"] main#page--content input[id*="edit-field-address"][type="submit"]:hover, body[class*="nodeadd"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-address"][type="submit"]:hover, body[class*="edit"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover {
+  background-color: #1e52af;
+}
+body[class*="nodeadd"] main#page--content input[id*="field-contact"][type="submit"], body[class*="edit"] main#page--content input[id*="field-contact"][type="submit"] {
+  color: #fafafa;
+  background-color: #1f57b8;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/contact/contact-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+body[class*="nodeadd"] main#page--content input[id*="field-contact"][type="submit"]:hover, body[class*="edit"] main#page--content input[id*="field-contact"][type="submit"]:hover {
+  background-color: #1e52af;
+}
+body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodeadd"] main#page--content #uikit-local-tasks, body[class*="edit"] main#page--content #edit-path-wrapper, body[class*="edit"] main#page--content #uikit-local-tasks {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions, body[class*="edit"] main#page--content div#edit-actions {
+  text-align: right;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+body[class*="nodeadd"] main#page--content div.uk-form-row, body[class*="edit"] main#page--content div.uk-form-row {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] main#page--content div.uk-form-row div.js-form-item, body[class*="edit"] main#page--content div.uk-form-row div.js-form-item {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] main#page--content table.field-multiple-table thead, body[class*="edit"] main#page--content table.field-multiple-table thead {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper, body[class*="edit"] main#page--content div.paragraphs-add-wrapper {
+  color: transparent;
+}
+body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper em.placeholder, body[class*="edit"] main#page--content div.paragraphs-add-wrapper em.placeholder {
+  color: transparent;
+}
+body[class*="edit"] h1.uk-article-title, body[class*="nodeadd"] h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/edit/pen-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  color: #1f2937;
+  font-weight: bold;
+}
+body[class*="edit"] h1.uk-article-title em, body[class*="nodeadd"] h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
+  width: 20% !important;
+}
+body.nodeaddcountries h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/countries/country-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+.chosen-container-single .chosen-single {
+  background: transparent !important;
+  border: 0 solid transparent !important;
+  box-shadow: unset !important;
+}
+.chosen-container-single .chosen-single div {
+  display: none;
+}
+.chosen-container-active .chosen-single {
+  background: transparent !important;
+  border: 0 solid transparent !important;
+  box-shadow: unset !important;
+}
+body.nodeaddroom_types h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/accom-type/acom-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddclients h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/customers/customers-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0 5px;
+}
+body.nodeaddcustomer h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/bus/bus-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeadddestinations h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/destinations/destination-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddfile_status h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/statuses/status-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddfile_type h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0 5px;
+}
+body.nodeaddinvoicing_status h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/money/money-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddlanguages h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/languages/language-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0 5px;
+}
+body.nodeaddmarket h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/markets/market-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddovernight_tax h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/overnight/overnight-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.nodeaddservices h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/temple/temple-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body[class$="0"] ul.uk-tab, body[class$="1"] ul.uk-tab, body[class$="2"] ul.uk-tab, body[class$="3"] ul.uk-tab, body[class$="4"] ul.uk-tab, body[class$="5"] ul.uk-tab, body[class$="6"] ul.uk-tab, body[class$="7"] ul.uk-tab, body[class$="8"] ul.uk-tab, body[class$="9"] ul.uk-tab {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2%;
+}
+body[class$="0"] h1.uk-article-title, body[class$="1"] h1.uk-article-title, body[class$="2"] h1.uk-article-title, body[class$="3"] h1.uk-article-title, body[class$="4"] h1.uk-article-title, body[class$="5"] h1.uk-article-title, body[class$="6"] h1.uk-article-title, body[class$="7"] h1.uk-article-title, body[class$="8"] h1.uk-article-title, body[class$="9"] h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/view/eye-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body[class$="0"] article.contextual-region, body[class$="1"] article.contextual-region, body[class$="2"] article.contextual-region, body[class$="3"] article.contextual-region, body[class$="4"] article.contextual-region, body[class$="5"] article.contextual-region, body[class$="6"] article.contextual-region, body[class$="7"] article.contextual-region, body[class$="8"] article.contextual-region, body[class$="9"] article.contextual-region {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 2%;
+}
+body[class$="0"] article.contextual-region .uk-form-wrapper, body[class$="1"] article.contextual-region .uk-form-wrapper, body[class$="2"] article.contextual-region .uk-form-wrapper, body[class$="3"] article.contextual-region .uk-form-wrapper, body[class$="4"] article.contextual-region .uk-form-wrapper, body[class$="5"] article.contextual-region .uk-form-wrapper, body[class$="6"] article.contextual-region .uk-form-wrapper, body[class$="7"] article.contextual-region .uk-form-wrapper, body[class$="8"] article.contextual-region .uk-form-wrapper, body[class$="9"] article.contextual-region .uk-form-wrapper {
+  border-bottom: 1px solid #ed9b24;
+  margin-bottom: 10px;
+}
+body[class$="0"] article.contextual-region article.contextual-region, body[class$="1"] article.contextual-region article.contextual-region, body[class$="2"] article.contextual-region article.contextual-region, body[class$="3"] article.contextual-region article.contextual-region, body[class$="4"] article.contextual-region article.contextual-region, body[class$="5"] article.contextual-region article.contextual-region, body[class$="6"] article.contextual-region article.contextual-region, body[class$="7"] article.contextual-region article.contextual-region, body[class$="8"] article.contextual-region article.contextual-region, body[class$="9"] article.contextual-region article.contextual-region {
+  box-shadow: unset !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+body[class$="0"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="1"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="2"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="3"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="4"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="5"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="6"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="7"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="8"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="9"] article.contextual-region article.contextual-region h2.uk-text-lead {
+  display: none;
+}
+body[class$="0"] article.contextual-region .uk-form-label, body[class$="1"] article.contextual-region .uk-form-label, body[class$="2"] article.contextual-region .uk-form-label, body[class$="3"] article.contextual-region .uk-form-label, body[class$="4"] article.contextual-region .uk-form-label, body[class$="5"] article.contextual-region .uk-form-label, body[class$="6"] article.contextual-region .uk-form-label, body[class$="7"] article.contextual-region .uk-form-label, body[class$="8"] article.contextual-region .uk-form-label, body[class$="9"] article.contextual-region .uk-form-label {
+  font-size: 14px;
+  background-color: transparent;
+  color: #808080;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class$="0"] article.contextual-region .uk-form-value, body[class$="1"] article.contextual-region .uk-form-value, body[class$="2"] article.contextual-region .uk-form-value, body[class$="3"] article.contextual-region .uk-form-value, body[class$="4"] article.contextual-region .uk-form-value, body[class$="5"] article.contextual-region .uk-form-value, body[class$="6"] article.contextual-region .uk-form-value, body[class$="7"] article.contextual-region .uk-form-value, body[class$="8"] article.contextual-region .uk-form-value, body[class$="9"] article.contextual-region .uk-form-value {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+fieldset[id*="edit-field-addres"] legend {
+  padding: 0 !important;
+}
+fieldset[id*="edit-field-addres"] legend span.fieldset-legend {
+  display: block !important;
+  font-size: 18px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+fieldset[id*="edit-field-addres"] input[id*="edit-field-address-actions-ief-add"] {
+  background-image: url(/sites/default/files/custom/svg/address/address-white.svg);
+  margin-left: 0 !important;
+  position: relative;
+  top: -20px;
+}
+fieldset[id*="edit-field-addres"] fieldset {
+  padding-top: 0 !important;
+}
+fieldset[id*="edit-field-addres"] fieldset span.fieldset-legend {
+  display: none !important;
+}
+fieldset[id*="edit-field-addres"] fieldset label.uk-form-label, fieldset[id*="edit-field-addres"] fieldset div.fieldset-wrapper h4 {
+  width: 100%;
+  float: unset;
+}
+fieldset[id*="edit-field-addres"] fieldset div.uk-form-controls {
+  width: 100%;
+  float: unset;
+}
+fieldset[id*="edit-field-addres"] fieldset div.uk-form-controls input {
+  background: transparent;
+  background-image: none;
+}
+p.uk-text-meta.uk-margin-small-top {
+  display: none;
+}
+div[class*="js-form-item-field-contact-details"] {
+  display: inline-block !important;
+}
+div[id*="edit-field-contact-details"] div.paragraphs-dropbutton-wrapper.paragraphs-add-wrapper {
+  position: relative;
+  right: -400px;
+  top: 60px;
+}

@@ -1,0 +1,179 @@
+@import "variables";
+@import "mixins";
+
+/* Home Page Footer block */
+
+footer {
+  .uk-container.uk-margin-top {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}
+
+#region--footer {
+  color: #1f2937;
+  font-family: "Inter_Semi_Bold";
+  font-size: 20px;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  #database-entries {
+    width: 100%;
+    margin-left: 10px;
+    .uk-margin {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      h2 {
+        color: $font-black;
+        font-family: $font-family-title;
+        font-size: 20px;
+        margin-bottom: 10px !important;
+        background-image: url(/sites/default/files/custom/svg/data_support/table-blue.svg);
+        background-repeat: no-repeat;
+        background-position: 0px;
+        background-size: 19px;
+        padding-left: 1.5%;
+      }
+    }
+  }
+  #accommodation-types,
+  #clients,
+  #countries,
+  #customers,
+  #destinations,
+  #file-statuses,
+  #file-types,
+  #invoicing-statuses,
+  #languages,
+  #markets,
+  #overnight-tax,
+  #regions,
+  #room-types,
+  #services-btn,
+  #suppliers,
+  #hotels {
+    width: calc(100% / 4);
+    float: left;
+    .uk-margin {
+      width: 98%;
+      display: block;
+      margin: 0 2% !important;
+      a {
+        @include shadowedWhiteBg();
+        font-family: "Inter_Semi_Bold";
+        font-size: 16px;
+        color: $orange;
+        padding: 15px 20px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        width: 88%;
+        // display: block;
+        text-align: center;
+        &:hover {
+          background-color: $orange;
+          color: $whiteFont;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  #accommodation-types {
+    @include backgroundBottomButtons("accom-type", "acom-orange", "acom-white");
+  }
+  #clients {
+    @include backgroundBottomButtons(
+      "customers",
+      "customers-orange",
+      "customers-white"
+    );
+  }
+  #countries {
+    @include backgroundBottomButtons(
+      "countries",
+      "country-orange",
+      "country-white"
+    );
+  }
+
+  #languages {
+    @include backgroundBottomButtons(
+      "languages",
+      "language-orange",
+      "language-white"
+    );
+  }
+
+  #room-types {
+    @include backgroundBottomButtons("bed", "bed-orange", "bed-white");
+  }
+
+  #hotels {
+    @include backgroundBottomButtons("hotels", "hotel-orange", "hotel-white");
+  }
+
+  #regions {
+    @include backgroundBottomButtons("region", "region-orange", "region-white");
+  }
+
+  #destinations {
+    @include backgroundBottomButtons(
+      "destinations",
+      "destination-orange",
+      "destination-white"
+    );
+  }
+
+  #markets {
+    @include backgroundBottomButtons(
+      "markets",
+      "market-orange",
+      "market-white"
+    );
+  }
+
+  #services-btn {
+    @include backgroundBottomButtons("temple", "temple-orange", "temple-white");
+  }
+
+  #suppliers {
+    @include backgroundBottomButtons("taxi", "taxi-orange", "taxi-white");
+  }
+
+  #customers {
+    @include backgroundBottomButtons("bus", "bus-orange", "bus-white");
+  }
+
+  #file-statuses {
+    @include backgroundBottomButtons(
+      "statuses",
+      "status-orange",
+      "status-white"
+    );
+  }
+
+  #overnight-tax {
+    @include backgroundBottomButtons(
+      "overnight",
+      "overnight-orange",
+      "overnight-white"
+    );
+  }
+
+  #invoicing-statuses {
+    @include backgroundBottomButtons("money", "money-orange", "money-white");
+  }
+
+  #file-types {
+    @include backgroundBottomButtons(
+      "trip-types",
+      "trip-types-orange",
+      "trip-types-white"
+    );
+  }
+}

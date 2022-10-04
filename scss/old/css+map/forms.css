@@ -1,0 +1,110 @@
+/* FORMS */
+
+body[data-once*="form-single-submit"] div#page.uk-container {
+  margin-top: 0px !important;
+  margin-bottom:0px !important;
+}
+
+h1.uk-article-title {
+  color: #999;
+  font-size: 29px;
+  margin-bottom: 0px !important;
+  /* margin:0 !important;
+  padding: 10px;
+  background-color:var(--green-deep);
+  color: var(--white);
+  font-size: 2.225rem; */
+}
+div#uikit-page-title{
+  margin-bottom:20px;
+}
+
+.field-group-tabs-wrapper .horizontal-tabs {
+  border:0px;
+  /* display: flex; */
+}
+
+
+
+#main-parent {
+  padding:0px;
+}
+
+.field-group-tabs-wrapper.tabs-container .horizontal-tabs-list{
+  display: inline-grid;
+  width:10%;
+  float:left;
+}
+
+.field-group-tabs-wrapper.tabs-container .horizontal-tabs-list li {
+  font-size: 0.825rem;
+      font-weight: 500;
+        padding: 20px 0px;
+}
+
+.field-group-tabs-wrapper.tabs-container .horizontal-tabs-panes {
+  width:90%;
+  float:right;
+  border-left:2px dotted var(--main);
+  display: contents;
+}
+
+.second-level-tab {
+  display: flow-root;
+}
+
+
+
+
+form.node-form fieldset.field-group-fieldset {
+  border:1px solid var(--grey-main);
+  border-radius:5px;
+}
+
+
+
+
+h1.uk-article-title em {
+  display:none;
+}
+
+
+form.node-form .uk-legend {
+  color: var(--white);
+  background-color: var(--main);
+  border-radius:5px;
+  font-size: 1rem;
+  display: none;
+}
+
+form.node-form .fieldset-legend {
+  font-weight:500;
+}
+
+.uk-form-controls .vertical-tabs {
+  display:none;
+}
+
+.form-item .uk-form-controls .uk-input,
+.form-item .uk-form-controls .uk-textarea,
+.form-item .uk-form-controls .cke {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--grey);
+  outline: 0;
+  font-size: 1rem;
+  padding: 7px 5px;
+  /*background: transparent;*/
+  transition: border-color 0.5s;
+}
+
+.form-item .uk-form-controls .uk-input:focus-within,
+.form-item .uk-form-controls .uk-textarea:focus-within,
+.form-item .uk-form-controls .cke:focus-within {
+  border-bottom: 3px solid var(--main);
+}
+
+span.cke_bottom {
+  display:none;
+}

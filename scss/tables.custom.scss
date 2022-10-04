@@ -1,0 +1,106 @@
+@import "variables";
+@import "mixins";
+
+/* General Table Setting*/
+table.uk-table {
+  @include table();
+}
+
+/* Table Pager */
+.pager__items.js-pager__items.uk-pagination {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+/* Home Page tables Block */
+.views-element-container {
+  @include shadowedWhiteBg();
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1% 2.55%;
+    width: 45%;
+    float: left;
+    background-image: url(/sites/default/files/custom/svg/trip/trip-orange.svg);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 19px;
+    a {
+      color: $orange;
+      margin-left: 3.5%;
+    }
+  }
+  .uk-form-row {
+    @include horizontalMarginZero();
+  }
+
+  header {
+    position: absolute;
+    top: 7%;
+    left: 95%;
+  }
+  form {
+    width: 45%;
+    float: left;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 2.5%;
+
+    .form-actions {
+      margin-top: -20px !important;
+    }
+    .form-item-combine {
+      margin-bottom: 0px !important;
+    }
+  }
+  table.uk-table {
+    margin-top: 80px !important;
+  }
+}
+
+#views-block____custom-block-main-overview-block-1 {
+  form {
+    float: right;
+    margin-right: 2.55%;
+    text-align: right;
+    top: -45px;
+  }
+}
+
+#views-block____custom-block-hotels-overview-block-1,
+#views-block____custom-block-services-overview-block-1 {
+  width: 47%;
+  display: inline-flex;
+  margin-right: 1%;
+  .views-exposed-form {
+    top: -43px;
+    width: 65%;
+  }
+  h2 {
+    margin: 2% 2.55%;
+  }
+}
+
+#views-block____custom-block-hotels-overview-block-1 {
+  float: left;
+}
+
+#views-block____custom-block-services-overview-block-1 {
+  float: right;
+}
+
+/* SPECIFIC TABLE FIELDS */
+
+/* Destinations */
+
+div.layout__region.layout__region--first {
+  float: left;
+  margin-right: 1%;
+}
+
+body.overviewdestinations,
+body.overviewservices {
+  header {
+    top: 3%;
+  }
+}

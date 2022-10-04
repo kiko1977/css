@@ -1,0 +1,257 @@
+@import "variables";
+
+@mixin button($color, $bg-color, $bg-color-hover, $svgFolder, $bg-image) {
+  color: $color;
+  background-color: $bg-color;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+
+  &:hover {
+    background-color: $bg-color-hover;
+  }
+}
+
+@mixin button_er(
+  $color,
+  $bg-color,
+  $color-hover,
+  $bg-color-hover,
+  $svgFolder,
+  $bg-image,
+  $bg-image-hover
+) {
+  background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: $bg-color;
+  padding-right: 10px;
+  font-size: 13px;
+  color: $color;
+  text-transform: capitalize;
+  border-radius: 5px;
+  &:hover {
+    background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image-hover + ".svg");
+    color: $color-hover;
+    background-color: $bg-color-hover;
+  }
+}
+
+@mixin verticalMarginZero() {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+@mixin horizontalMarginZero() {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+@mixin table() {
+  margin-bottom: 0px;
+  --bs-table-bg: transparent;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #374151;
+  --bs-table-striped-bg: rgba(17, 24, 39, 0.05);
+  --bs-table-active-color: #374151;
+  --bs-table-active-bg: rgba(17, 24, 39, 0.1);
+  --bs-table-hover-color: #374151;
+  --bs-table-hover-bg: rgba(17, 24, 39, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #374151;
+  vertical-align: top;
+  border-color: #e5e7eb;
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin-top: 0px !important;
+  position: relative;
+  top: -10px;
+  width: 95%;
+  margin: auto;
+  thead {
+    vertical-align: bottom;
+    border-radius: 0.5rem;
+    tr {
+      border-radius: 0.5rem;
+      th {
+        padding: 0.5rem 1.5rem;
+        background-color: #f2f4f6;
+        color: #1f2937;
+        font-weight: bold;
+        &:first-child {
+          border-top-left-radius: 0.5rem;
+          border-bottom-left-radius: 0.5rem;
+        }
+        &:last-child {
+          border-top-right-radius: 0.5rem;
+          border-bottom-right-radius: 0.5rem;
+        }
+        &#view-nid-table-column {
+          width: 10%;
+        }
+
+        a {
+          color: #1f2937;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.875rem;
+        white-space: nowrap;
+        border-bottom: 1px solid rgb(229, 231, 235);
+        a {
+          color: $orange;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@mixin shadowedWhiteBg() {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+}
+
+@mixin searchbox() {
+  width: 40%;
+  background-image: url(/sites/default/files/custom/svg/search/glass-grey.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 40px;
+  opacity: 0.5;
+  border-radius: 0.5rem;
+  height: 35px;
+  &:focus-within {
+    opacity: 1;
+    border-color: $orange;
+  }
+}
+
+@mixin inputField($width, $padding, $height) {
+  width: $width !important;
+  padding: $padding !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: $height !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+  &:focus-within {
+    opacity: 1 !important;
+    border: 1.5px solid $orange;
+    border-color: $orange !important;
+    transition-property: border-color, opacity;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+  }
+}
+
+@mixin labelOrange() {
+  font-size: 13px;
+  background-color: transparent;
+  color: $orange;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+
+@mixin labelValue() {
+  font-size: 18px;
+  background-color: transparent;
+  color: $font-black;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+@mixin viewLabelBlack() {
+  font-size: 14px;
+  background-color: transparent;
+  color: $grey;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+@mixin labelBlack() {
+  font-size: 15px;
+  background-color: transparent;
+  color: $font-black;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+@mixin labelWhite() {
+  color: $white;
+  background-color: $main;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+@mixin linkOrange() {
+  background-color: $main !important;
+  a {
+    color: $white !important;
+  }
+}
+
+@mixin backgroundBottomButtons($svgFolder, $bg-image, $bg-image-hover) {
+  a {
+    border-bottom-left-radius: 2em !important;
+    border-top-left-radius: 2em !important;
+    background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 21px;
+
+    &:hover {
+      background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image-hover + ".svg");
+    }
+  }
+}
+
+@mixin pageTitleIcons($svgFolder, $bg-image) {
+  //border-bottom-left-radius: 2em !important;
+  //border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+
+@mixin addressParagraphFields($width) {
+  width: $width;
+  margin-right: 2% !important;
+  float: left;
+  input,
+  select,
+  textarea {
+    width: 100% !important;
+  }
+}

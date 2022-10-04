@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+form.node-form {
+  .fieldset {
+    .main-line-fieldset {
+      legend,
+      legend span,
+      h4,
+      label {
+        width: 35%;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        .field--widget-inline-entity-form-complex legend,
+        .field--widget-inline-entity-form-complex legend span,
+        .field--type-datetime h4,
+        .field--type-daterange h4 {
+          @include labelOrange();
+        }
+      }
+      .field--type-datetime h4 {
+        display: block;
+        margin-bottom: 0px !important;
+        height: 40px !important;
+        .form-type-date {
+          margin-bottom: 0px;
+          input.form-date {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .uk-legend {
+      //@include labelWhite();
+      display: none;
+    }
+    .fieldset-legend {
+      font-weight: 500;
+    }
+  }
+  .label-above,
+  .uk-form-label,
+  label.form-item__label {
+    color: $main;
+    font-weight: bold;
+  }
+}

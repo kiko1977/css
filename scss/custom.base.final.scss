@@ -1,0 +1,73 @@
+@import "buttons.custom";
+@import "fieldset.custom";
+@import "forms.custom";
+@import "footer.custom";
+@import "header.custom";
+@import "labels.custom";
+@import "menus.custom";
+@import "search_box.custom";
+@import "tables.custom";
+@import "titles.custom";
+@import "variables";
+@import "mixins";
+@import "responsive.custom";
+@import "new.custom";
+@import "rooms.custom";
+@import "hotels.custom";
+@import "suppliers.custom";
+@import "referenced_entities.custom";
+
+html {
+  background-color: $main-bg;
+}
+
+.uk-alert,
+#edit-title-wrapper {
+  display: none;
+}
+
+.toolbar-horizontal .uk-alert {
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+div#page.uk-container {
+  margin: 35px 10px 0px 10px !important;
+  padding: 0px !important;
+  max-width: unset;
+}
+
+div.region-content div.lc-main-content.block-system-main-block {
+  @include shadowedWhiteBg();
+  left: 50%;
+  padding: 25px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+body[data-once*="form-single-submit"] div#page.uk-container {
+  @include horizontalMarginZero();
+}
+
+body div#page-wrapper {
+  background-color: $main-bg;
+}
+
+span.cke_bottom {
+  display: none;
+}
+
+strong.error {
+  color: $delBtn;
+  font-style: italic;
+}

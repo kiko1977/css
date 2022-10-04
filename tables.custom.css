@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* General Table Setting*/
+table.uk-table {
+  margin-bottom: 0px;
+  --bs-table-bg: transparent;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #374151;
+  --bs-table-striped-bg: rgba(17, 24, 39, 0.05);
+  --bs-table-active-color: #374151;
+  --bs-table-active-bg: rgba(17, 24, 39, 0.1);
+  --bs-table-hover-color: #374151;
+  --bs-table-hover-bg: rgba(17, 24, 39, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #374151;
+  vertical-align: top;
+  border-color: #e5e7eb;
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin-top: 0px !important;
+  position: relative;
+  top: -10px;
+  width: 95%;
+  margin: auto;
+}
+table.uk-table thead {
+  vertical-align: bottom;
+  border-radius: 0.5rem;
+}
+table.uk-table thead tr {
+  border-radius: 0.5rem;
+}
+table.uk-table thead tr th {
+  padding: 0.5rem 1.5rem;
+  background-color: #f2f4f6;
+  color: #1f2937;
+  font-weight: bold;
+}
+table.uk-table thead tr th:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+table.uk-table thead tr th:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+table.uk-table thead tr th#view-nid-table-column {
+  width: 10%;
+}
+table.uk-table thead tr th a {
+  color: #1f2937;
+}
+table.uk-table tbody tr td {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  border-bottom: 1px solid #e5e7eb;
+}
+table.uk-table tbody tr td a {
+  color: #ed9b24;
+  font-weight: bold;
+}
+/* Table Pager */
+.pager__items.js-pager__items.uk-pagination {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+/* Home Page tables Block */
+.views-element-container {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+}
+.views-element-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1% 2.55%;
+  width: 45%;
+  float: left;
+  background-image: url(/sites/default/files/custom/svg/trip/trip-orange.svg);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 19px;
+}
+.views-element-container h2 a {
+  color: #ed9b24;
+  margin-left: 3.5%;
+}
+.views-element-container .uk-form-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.views-element-container header {
+  position: absolute;
+  top: 7%;
+  left: 95%;
+}
+.views-element-container form {
+  width: 45%;
+  float: left;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 2.5%;
+}
+.views-element-container form .form-actions {
+  margin-top: -20px !important;
+}
+.views-element-container form .form-item-combine {
+  margin-bottom: 0px !important;
+}
+.views-element-container table.uk-table {
+  margin-top: 80px !important;
+}
+#views-block____custom-block-main-overview-block-1 form {
+  float: right;
+  margin-right: 2.55%;
+  text-align: right;
+  top: -45px;
+}
+#views-block____custom-block-hotels-overview-block-1, #views-block____custom-block-services-overview-block-1 {
+  width: 47%;
+  display: inline-flex;
+  margin-right: 1%;
+}
+#views-block____custom-block-hotels-overview-block-1 .views-exposed-form, #views-block____custom-block-services-overview-block-1 .views-exposed-form {
+  top: -43px;
+  width: 65%;
+}
+#views-block____custom-block-hotels-overview-block-1 h2, #views-block____custom-block-services-overview-block-1 h2 {
+  margin: 2% 2.55%;
+}
+#views-block____custom-block-hotels-overview-block-1 {
+  float: left;
+}
+#views-block____custom-block-services-overview-block-1 {
+  float: right;
+}
+/* SPECIFIC TABLE FIELDS */
+/* Destinations */
+div.layout__region.layout__region--first {
+  float: left;
+  margin-right: 1%;
+}
+body.overviewdestinations header, body.overviewservices header {
+  top: 3%;
+}

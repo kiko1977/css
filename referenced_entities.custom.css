@@ -1,0 +1,536 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+fieldset.ief-form.ief-form-bottom {
+  padding-top: 0;
+}
+fieldset.ief-form.ief-form-bottom legend {
+  display: none !important;
+}
+/* region field ER buttons */
+input[id*="-actions-ief-add"] {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add"]:hover {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-add-existing"] {
+  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #1f57b8;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add-existing"]:hover {
+  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
+  color: #e2f2f2;
+  background-color: #1e52af;
+}
+input[id*="-actions-ief-add-cancel"], input[id*="-actions-ief-reference-cancel"], input[id*="-form-actions-ief-edit-cancel"], input[id*="-form-actions-ief-remove-cancel"], input[id*="-actions-remove-button"] {
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #ecb32c;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add-cancel"]:hover, input[id*="-actions-ief-reference-cancel"]:hover, input[id*="-form-actions-ief-edit-cancel"]:hover, input[id*="-form-actions-ief-remove-cancel"]:hover, input[id*="-actions-remove-button"]:hover {
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  color: #e2f2f2;
+  background-color: #efbe4c;
+}
+input[id*="-actions-ief-reference-save"], input[id*="-form-actions-ief-edit-save"] {
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-reference-save"]:hover, input[id*="-form-actions-ief-edit-save"]:hover {
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-entity-edit"] {
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-edit"]:hover {
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-entity-duplicate--"] {
+  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #1f57b8;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-duplicate--"]:hover {
+  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
+  color: #e2f2f2;
+  background-color: #1e52af;
+}
+input[id*="-actions-ief-entity-remove"], input[id*="-form-actions-ief-remove-confirm"] {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #e11d48;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-remove"]:hover, input[id*="-form-actions-ief-remove-confirm"]:hover {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  color: #e2f2f2;
+  background-color: #ca1a41;
+}
+div[class*="-form-entities-0-form-delete"] {
+  display: none;
+}
+table[id*="ief-entity-table-edit-field-"] {
+  margin-left: 0;
+  width: 75%;
+}
+table[id*="ief-entity-table-edit-field-"] thead {
+  display: none;
+}
+table[id*="ief-entity-table-edit-field-"] tr {
+  background: transparent;
+}
+table[id*="ief-entity-table-edit-field-"] tr td.ief-tabledrag-handle {
+  display: none;
+}
+table[id*="ief-entity-table-edit-field-"] tr td:last-child {
+  float: right;
+}
+table[id*="ief-entity-table-edit-field-"] tr td:last-child input {
+  height: 30px;
+  line-height: 30px;
+}
+table[id*="ief-entity-table-edit-field-"] tr td.inline-entity-form-node-status {
+  display: none;
+}
+table[id*="ief-entity-table-edit-field-"] tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+fieldset#edit-field-region-re-supplier, fieldset[id*="edit-field-region-re-supplier-form"], fieldset[id*="edit-field-region-re-supplier--"] {
+  padding-top: 5px !important;
+}
+table.ief-entity-table {
+  margin-top: 15px !important;
+}
+fieldset[id*="edit-field-contact-details-fc-"], fieldset[id*="edit-field-contact-details-email-"], fieldset[id*="edit-field-contact-details-fax-"] {
+  padding-top: 5px !important;
+}
+fieldset[id*="edit-field-contact-details-fc-"] div.field--name-field-tel-number-details, fieldset[id*="edit-field-contact-details-email-"] div.field--name-field-tel-number-details, fieldset[id*="edit-field-contact-details-fax-"] div.field--name-field-tel-number-details {
+  width: 35%;
+  float: left;
+}
+fieldset[id*="edit-field-contact-details-fc-"] div.field--name-field-telephone-number, fieldset[id*="edit-field-contact-details-fc-"] div.field--name-field-email-address, fieldset[id*="edit-field-contact-details-email-"] div.field--name-field-telephone-number, fieldset[id*="edit-field-contact-details-email-"] div.field--name-field-email-address, fieldset[id*="edit-field-contact-details-fax-"] div.field--name-field-telephone-number, fieldset[id*="edit-field-contact-details-fax-"] div.field--name-field-email-address {
+  width: 35%;
+  float: left;
+  margin-top: 0 !important;
+}
+details#service-details-parent fieldset.field-group-fieldset {
+  padding-top: 5px !important;
+}
+details#service-details-parent fieldset.field-group-fieldset#car-rental-fields, details#service-details-parent fieldset.field-group-fieldset#transportation-fields {
+  padding-top: 25px !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] {
+  padding-top: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  margin-top: 35px !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] thead {
+  display: block !important;
+  padding-left: 0 !important;
+  margin-bottom: 5px !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] thead tr th {
+  background-color: transparent;
+  padding: 0;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] thead h4.label {
+  display: block !important;
+  font-size: 15px !important;
+  background-color: transparent !important;
+  color: #1f2937 !important;
+  font-weight: 500 !important;
+  padding-right: 5px !important;
+  margin-bottom: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody {
+  padding-top: 0 !important;
+  border: 1px solid #1f2937 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  width: 72.5% !important;
+  border-radius: 0.5rem !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div[id*="-field-supplier-wrapper"] {
+  display: none !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody span.field-suffix {
+  margin-left: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-from-fc, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-to {
+  width: 15% !important;
+  float: left !important;
+  margin-top: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-from-fc input, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-to input {
+  width: 90% !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-category {
+  width: 15% !important;
+  float: left !important;
+  margin-top: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-route-category select {
+  width: 90% !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-type-fc {
+  width: 10% !important;
+  float: left !important;
+  margin-top: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-type-fc select {
+  width: 90% !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-a-fc, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-b-fc, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-c-fc, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-d-fc, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-type {
+  width: 9% !important;
+  float: left !important;
+  margin-top: 0 !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-a-fc input.uk-input, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-b-fc input.uk-input, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-c-fc input.uk-input, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-of-type-d-fc input.uk-input, body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.field--name-field-rate-type input.uk-input {
+  width: 70% !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions {
+  float: right;
+  margin-top: 30px !important;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #e11d48;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button:hover {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  color: #e2f2f2;
+  background-color: #ca1a41;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) label {
+  display: none;
+}
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) div.form-actions {
+  margin-top: 0 !important;
+}
+input.field-add-more-submit {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input.field-add-more-submit:hover {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+/* View form */
+fieldset.right-side-fieldset div.fieldset-wrapper div.uk-margin {
+  display: flow-root;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-value {
+  width: 100%;
+  border-bottom: 1px solid #808080;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.route-category-field {
+  width: 18%;
+  float: left;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.rate-type-field {
+  width: 12%;
+  float: left;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.from-field {
+  width: 13%;
+  float: left;
+  text-align: right;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.to-field {
+  width: 13%;
+  float: left;
+  text-align: left;
+  margin-top: 21px;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.route-helper-field {
+  width: 4%;
+  margin-top: 21px;
+  float: left;
+}
+fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.rate-a-field, fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.rate-b-field, fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.rate-c-field, fieldset.right-side-fieldset div.fieldset-wrapper div.field-collection-item--name-field-rates-list-fc div.uk-form-field.rate-d-field {
+  width: 10%;
+  float: left;
+}
+fieldset.right-side-fieldset div.uk-margin:not(:first-child) div.uk-form-label {
+  display: none;
+}
+fieldset.right-side-fieldset div.uk-margin:not(:first-child) div.uk-form-field.to-field {
+  margin-top: 0 !important;
+}
+fieldset.right-side-fieldset div.uk-margin:not(:first-child) div.uk-form-field.route-helper-field {
+  margin-top: 0 !important;
+}
+details.tab {
+  padding-left: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] {
+  margin: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] td {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table {
+  margin: 0 !important;
+  display: block;
+  width: 100% !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody {
+  width: 100% !important;
+  display: block;
+  border: 0px solid transparent !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr {
+  width: 100% !important;
+  display: flex;
+  border: 0 solid transparent !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr td {
+  width: 100% !important;
+  display: block;
+  border: 0px solid transparent !important;
+  padding: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr td fieldset {
+  padding-top: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr:not(:first-child) {
+  margin-top: 15px !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr:not(:first-child) span.fieldset-legend, fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] table tbody tr:not(:first-child) label {
+  display: none !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-room-type-fc {
+  width: 18%;
+  float: left;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-room-type-fc select {
+  width: 95% !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-room-type-fieldc {
+  width: 82%;
+  float: right;
+  margin-top: 0 !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div[id*="-actions"] {
+  display: none;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-accommodation-type-fc-re {
+  width: 22% !important;
+  float: left;
+  margin-top: 10px !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-accommodation-type-fc-re select {
+  width: 95% !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-room-period-rate-fc {
+  width: 78% !important;
+  margin-top: 25px !important;
+  float: left;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-period-fc {
+  width: 35%;
+  float: left;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-period-fc span.fieldset-legend {
+  display: block;
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-period-fc h4 {
+  display: none;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-period-fc div[id*="field-room-period-rate-fc-"] {
+  width: 50%;
+  float: left;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-period-fc div[id*="field-room-period-rate-fc-"] input {
+  width: 90% !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-day-start, fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-day-end {
+  width: 20%;
+  float: left;
+  margin-top: -5px !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-day-start select, fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-day-end select {
+  width: 90% !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-price-fc {
+  width: 12%;
+  float: left;
+  margin-top: -5px !important;
+}
+fieldset#hotel-line-rooms table[id*="field-hotel-rooms-fc-values"] tbody tr div.field--name-field-price-fc input[type="number"] {
+  width: 90% !important;
+}
+/* Buttons */
+table#field-hotel-rooms-fc-values div.form-actions {
+  position: relative;
+  left: -18%;
+  top: 55px;
+}
+table#field-hotel-rooms-fc-values table#field-room-type-fieldc-values div.form-actions {
+  position: relative;
+  left: -100%;
+  top: 65px;
+}
+table#field-hotel-rooms-fc-values table#field-room-type-fieldc-values table#field-room-period-rate-fc-values div.form-actions {
+  position: relative;
+  left: 2%;
+  top: 5px;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-er {
+  width: 25% !important;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er {
+  width: 75% !important;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er .uk-form-label {
+  display: none;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div .uk-form-label {
+  display: block;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.acc-type-er {
+  width: 30%;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er {
+  width: 70%;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er .uk-form-label {
+  display: none;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er div .uk-form-label {
+  display: block;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er .period-re-field {
+  width: 40%;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er .day-start-er, div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er .day-end-er {
+  width: 20%;
+  float: left;
+}
+div.field-collection-item--name-field-hotel-rooms-fc .room-type-col-er div.room-period-rate-er .pricday-start-ere-er {
+  width: 20%;
+}

@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* Overview table add buttons */
+a.add-btn {
+  float: right;
+}
+a.add-btn i {
+  font-size: 35px;
+  color: #808080;
+}
+a.add-btn:hover i {
+  color: #ed9b24;
+}
+/* Overview table edit buttons */
+.tbl-action-btn i {
+  font-size: 16px;
+  padding: 5px;
+}
+form.node-form {
+  /* form bottom buttons */
+  /* Entity Reference forms buttons */
+}
+form.node-form a#edit-delete {
+  display: none;
+}
+form.node-form input#edit-preview {
+  color: #e2f2f2;
+  background-color: #19a679;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/view/eye-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+form.node-form input#edit-preview:hover {
+  background-color: #24edac;
+}
+form.node-form input#edit-submit {
+  color: #e2f2f2;
+  background-color: #ed9b24;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+form.node-form input#edit-submit:hover {
+  background-color: #a67f19;
+}
+form.node-form fieldset input.add-new-btn-er {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+form.node-form fieldset input.add-new-btn-er:hover {
+  background-image: url("/sites/default/files/custom/svg/add/plus-orange.svg");
+  color: #ed9b24;
+  background-color: #34c494;
+}
+form.node-form fieldset input.add-existing-btn-er {
+  background-image: url("/sites/default/files/custom/svg/list/list-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+form.node-form fieldset input.add-existing-btn-er:hover {
+  background-image: url("/sites/default/files/custom/svg/list/list-orange.svg");
+  color: #ed9b24;
+  background-color: #34c494;
+}

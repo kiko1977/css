@@ -1,0 +1,548 @@
+@import "variables";
+@import "mixins";
+
+
+fieldset.ief-form.ief-form-bottom {
+  padding-top: 0;
+  legend {
+    display: none !important;
+  }
+}
+/* region field ER buttons */
+input[id*="-actions-ief-add"] {
+  @include button_er(
+      $white,
+      $saveBtn,
+      $white,
+      $saveBtnHover ,
+      "add",
+      "plus-white",
+      "plus-white"
+  )
+}
+input[id*="-actions-ief-add-existing"] {
+  @include button_er(
+      $white,
+      $addParBtn,
+      $white,
+      $addParBtnHover,
+      "region",
+      "region-white",
+      "region-white"
+  )
+}
+input[id*="-actions-ief-add-cancel"],
+input[id*="-actions-ief-reference-cancel"],
+input[id*="-form-actions-ief-edit-cancel"],
+input[id*="-form-actions-ief-remove-cancel"],
+input[id*="-actions-remove-button"] {
+  @include button_er(
+      $white,
+      $cancelBtn,
+      $white,
+      $cancelBtnHover,
+      "cancel",
+      "cancel-white",
+      "cancel-white"
+  )
+}
+input[id*="-actions-ief-reference-save"],
+input[id*="-form-actions-ief-edit-save"]{
+  @include button_er(
+      $white,
+      $saveBtn,
+      $white,
+      $saveBtnHover,
+      "save",
+      "save-white",
+      "save-white"
+  )
+}
+input[id*="-actions-ief-entity-edit"] {
+  @include button_er(
+      $white,
+      $saveBtn,
+      $white,
+      $saveBtnHover,
+      "edit",
+      "pen-white",
+      "pen-white"
+  )
+}
+input[id*="-actions-ief-entity-duplicate--"] {
+  @include button_er(
+      $white,
+      $addParBtn,
+      $white,
+      $addParBtnHover,
+      "copy",
+      "copy-white",
+      "copy-white"
+  )
+}
+
+
+input[id*="-actions-ief-entity-remove"],
+input[id*="-form-actions-ief-remove-confirm"]{
+  @include button_er(
+      $white,
+      $delBtn,
+      $white,
+      $delBtnHover,
+      "delete",
+      "trash-white",
+      "trash-white"
+  )
+}
+
+div[class*='-form-entities-0-form-delete'] {
+  display: none;
+}
+
+table[id*="ief-entity-table-edit-field-"] {
+  margin-left: 0;
+  width: 75%;
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    background: transparent;
+
+    td.ief-tabledrag-handle {
+      display: none;
+    }
+
+    td:last-child {
+      float: right;
+
+      input {
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+
+    td.inline-entity-form-node-status {
+      display: none;
+    }
+
+    td {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+fieldset#edit-field-region-re-supplier,
+fieldset[id*="edit-field-region-re-supplier-form"],
+fieldset[id*="edit-field-region-re-supplier--"] {
+  padding-top: 5px !important;
+}
+
+table.ief-entity-table {
+  margin-top: 15px !important;
+}
+
+  fieldset[id*="edit-field-contact-details-fc-"],
+  fieldset[id*="edit-field-contact-details-email-"],
+  fieldset[id*="edit-field-contact-details-fax-"]{
+    padding-top: 5px !important;
+          div {
+            &.field--name-field-tel-number-details,
+            &.field--name-field-tel-number-details {
+              width: 35%;
+              float: left;
+            }
+
+            &.field--name-field-telephone-number,
+            &.field--name-field-email-address {
+              width: 35%;
+              float: left;
+              margin-top: 0 !important;
+            }
+          }
+}
+
+  details#service-details-parent {
+    fieldset.field-group-fieldset {
+      padding-top: 5px !important;
+    }
+    fieldset.field-group-fieldset#car-rental-fields,
+    fieldset.field-group-fieldset#transportation-fields {
+      padding-top: 25px !important;
+    }
+
+  }
+
+body main#page--content form.node-form table[id*="field-rates-list-fc-values"] {
+    padding-top: 0 !important;
+  margin-left:0;
+  margin-right: 0;
+  width: 100%;
+  margin-top: 35px !important;
+    thead {
+      display: block !important;
+      padding-left:0 !important;
+      margin-bottom: 5px !important;
+      tr {
+        th{
+          background-color: transparent;
+          padding: 0;
+        }
+      }
+      h4.label {
+        display: block !important;
+        font-size: 15px !important;
+        background-color: transparent !important;
+        color: #1f2937 !important;
+        font-weight: 500 !important;
+        padding-right: 5px !important;
+        margin-bottom: 0 !important;
+    }
+    }
+    tbody {
+      padding-top: 0 !important;
+      border: 1px solid $font-black !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      width: 72.5% !important;
+      border-radius:  0.5rem !important;
+
+      div[id*="-field-supplier-wrapper"] {
+        display: none !important;
+      }
+      span.field-suffix {
+        margin-left: 0 !important;
+      }
+      div.field--name-field-route-from-fc,
+      div.field--name-field-route-to{
+        width: 15% !important;
+        float:left !important;
+        margin-top: 0 !important;
+        input{
+          width: 90% !important;
+        }
+      }
+
+      div.field--name-field-route-category {
+        width: 15% !important;
+        float:left !important;
+        margin-top: 0 !important;
+        select{
+          width: 90% !important;
+        }
+      }
+      div.field--name-field-rate-type-fc{
+        width: 10% !important;
+        float:left !important;
+        margin-top: 0 !important;
+        select{
+          width: 90% !important;
+        }
+      }
+      div.field--name-field-rate-of-type-a-fc,
+      div.field--name-field-rate-of-type-b-fc,
+      div.field--name-field-rate-of-type-c-fc,
+      div.field--name-field-rate-of-type-d-fc,
+      div.field--name-field-rate-type  {
+        width: 9% !important;
+        float:left !important;
+        margin-top: 0 !important;
+        input.uk-input {
+          width: 70% !important;
+        }
+      }
+      div.form-actions {
+        float: right;
+        margin-top: 30px !important;
+        input.cancel.button{
+          @include button_er(
+              $white,
+              $delBtn,
+              $white,
+              $delBtnHover,
+              "delete",
+              "trash-white",
+              "trash-white"
+          )
+        }
+      }
+      tr:not(:first-child) {
+        label {
+          display: none;
+        }
+        div.form-actions {
+          margin-top: 0 !important;
+      }
+    }
+  }
+}
+
+input.field-add-more-submit {
+  @include button_er(
+      $white,
+      $saveBtn,
+      $white,
+      $saveBtnHover ,
+      "add",
+      "plus-white",
+      "plus-white"
+  )
+}
+
+/* View form */
+fieldset.right-side-fieldset {
+  div.fieldset-wrapper {
+    div.uk-margin {
+      display: flow-root;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+    }
+
+    div.field-collection-item--name-field-rates-list-fc {
+      div.uk-form-value {
+        width: 100%;
+        border-bottom: 1px solid $grey;
+      }
+      div.uk-form-field.route-category-field {
+        width: 18%;
+        float: left;
+      }
+
+      div.uk-form-field.rate-type-field {
+        width: 12%;
+        float: left;
+      }
+
+      div.uk-form-field.from-field {
+        width: 13%;
+        float: left;
+        text-align: right;
+      }
+
+      div.uk-form-field.to-field {
+        width: 13%;
+        float: left;
+        text-align: left;
+        margin-top: 21px;
+      }
+
+      div.uk-form-field.route-helper-field {
+        width: 4%;
+        margin-top: 21px;
+        float: left;
+      }
+
+      div.uk-form-field.rate-a-field,
+      div.uk-form-field.rate-b-field,
+      div.uk-form-field.rate-c-field,
+      div.uk-form-field.rate-d-field {
+        width: 10%;
+        float: left;
+      }
+    }
+  }
+  div.uk-margin:not(:first-child) {
+    div.uk-form-label {
+      display: none;
+    }
+    div.uk-form-field.to-field {
+      margin-top: 0 !important;
+    }
+
+    div.uk-form-field.route-helper-field {
+      margin-top: 0 !important;
+    }
+  }
+
+}
+details.tab {
+  padding-left:0 !important;
+}
+fieldset#hotel-line-rooms {
+  table[id*="field-hotel-rooms-fc-values"] {
+    margin:0 !important;
+    td {
+      padding-top: 0 !important;
+      padding-left: 0 !important;
+    }
+    table {
+      margin:0 !important;
+      display: block;
+      width: 100% !important;
+      tbody {
+        width: 100% !important;
+        display: block;
+        border: 0px solid transparent !important;
+        tr {
+
+          width: 100% !important;
+          display: flex;
+          border: 0 solid transparent !important;
+          td {
+            width: 100% !important;
+            display: block;
+            border: 0px solid transparent !important;
+            padding:0 !important;
+            fieldset {
+              padding-top: 0 !important;
+            }
+          }
+        }
+        tr:not(:first-child) {
+          margin-top: 15px !important;
+          span.fieldset-legend,
+          label {
+            display: none !important;
+          }
+
+        }
+      }
+    }
+    tbody tr{
+      div.field--name-field-room-type-fc {
+        width: 18%;
+        float:left;
+        select {
+          width: 95% !important;
+        }
+      }
+      div.field--name-field-room-type-fieldc {
+        width: 82%;
+        float:right;
+        margin-top: 0 !important;
+      }
+      div[id*="-actions"] {
+        display: none;
+      }
+      div.field--name-field-accommodation-type-fc-re {
+        width: 22% !important;
+        float: left;
+        margin-top: 10px !important;
+        select {
+          width: 95% !important;
+        }
+      }
+      div.field--name-field-room-period-rate-fc {
+        width: 78% !important;
+        margin-top: 25px !important;
+        float: left;
+      }
+      div.field--name-field-period-fc {
+        width: 35%;
+        float: left;
+        span.fieldset-legend {
+          display: block;
+          @include labelBlack();
+        }
+        h4 {
+          display: none;
+      }
+        div[id*="field-room-period-rate-fc-"] {
+          width: 50%;
+          float: left;
+          input {
+            width: 90% !important;
+          }
+        }
+      }
+      div.field--name-field-day-start,
+      div.field--name-field-day-end {
+        width: 20%;
+        float: left;
+        margin-top: -5px !important;
+        select {
+          width: 90% !important;
+        }
+      }
+      div.field--name-field-price-fc {
+        width: 12%;
+        float: left;
+        margin-top: -5px !important;
+        input[type="number"] {
+          width: 90% !important;
+        }
+      }
+    }
+  }
+}
+
+/* Buttons */
+table#field-hotel-rooms-fc-values {
+  div.form-actions {
+    position: relative;
+    left: -18%;
+    top: 55px;
+  }
+  table#field-room-type-fieldc-values {
+    div.form-actions {
+      position: relative;
+      left: -100%;
+      top: 65px;
+    }
+    table#field-room-period-rate-fc-values {
+      div.form-actions {
+        position: relative;
+        left: 2%;
+        top: 5px;
+      }
+
+    }
+  }
+}
+div.field-collection-item--name-field-hotel-rooms-fc {
+  .room-type-er {
+    width: 25% !important;
+    float: left;
+  }
+  .room-type-col-er {
+    width: 75% !important;
+    float: left;
+    .uk-form-label {
+      display: none;
+    }
+    div {
+      .uk-form-label {
+        display: block;
+      }
+    }
+    div.acc-type-er {
+      width: 30%;
+      float: left;
+    }
+    div.room-period-rate-er {
+      width: 70%;
+      float: left;
+      .uk-form-label {
+        display: none;
+      }
+      div {
+        .uk-form-label {
+          display: block;
+        }
+      }
+      .period-re-field {
+        width: 40%;
+        float:left;
+      }
+      .day-start-er,
+      .day-end-er {
+        width: 20%;
+        float:left;
+      }
+      .pricday-start-ere-er {
+        width: 20%;
+      }
+    }
+  }
+}
+//div.address-re-field.uk-form-wrapper,
+//div.contact-re-field.uk-form-wrapper,
+//div.agency-re-field {
+//  .uk-form-label {
+//    display: none;
+//  }
+//}
+
+

@@ -1,0 +1,529 @@
+@import "variables";
+@import "mixins";
+
+/* Fieldsets */
+
+form.node-form fieldset.form-wrapper {
+
+  .field-suffix {
+    font-size: 15px !important;
+    margin-left:-5px !important;
+  }
+
+  border: 0px solid transparent !important;
+  display: block;
+  margin: 0px;
+  padding: 25px 0px 0px 0px;
+
+  .fieldset-legend {
+    display: none;
+  }
+
+  &.left-fieldset {
+    float: left;
+    width: 48%;
+    //@include shadowedWhiteBg();
+  }
+  &.right-fieldset {
+    float: right;
+    width: 49%;
+    //@include shadowedWhiteBg();
+  }
+  &.full-size-fieldset {
+    width: 100%;
+  }
+
+  div.uk-form-controls {
+    //width: 65%;
+    //float: right;
+    input,
+    select {
+      border-radius: 6px;
+      &:focus {
+        border-color: #808080;
+      }
+    }
+  }
+  .main-line-fieldset {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    .uk-form-row {
+      width: 45%;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+      margin-right: 3%;
+      &.field--type-daterange {
+        width: 100%;
+        fieldset {
+          padding-top: 0px !important;
+          padding-bottom: 0px !important;
+          h4 {
+            width: 14% !important;
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+            padding-right: 1.5%;
+          }
+          #edit-field-trip-duration-0-value,
+          #edit-field-trip-duration-0-end-value {
+            width: 29.5% !important;
+            float: left;
+            .uk-form-controls {
+              float: left;
+              width: 100%;
+              input {
+                width: 100%;
+              }
+            }
+          }
+          #edit-field-trip-duration-0-value {
+            margin-right: 7%;
+          }
+        }
+      }
+      &:nth-child(1) {
+        float: left;
+      }
+      &:nth-child(2) {
+        float: right;
+      }
+      h4 {
+        width: 30%;
+        float: left;
+        line-height: 40px;
+      }
+    }
+    .field--widget-inline-entity-form-complex {
+      fieldset {
+        padding: 0px !important;
+        legend {
+          display: block;
+          width: 30%;
+          float: left;
+          line-height: 40px;
+          padding-right: 0px;
+        }
+        .uk-form-row {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+/* Passenger's form fieldset */
+
+fieldset#fieldset-passengers {
+  width: 36%;
+  margin-top: 0px;
+  padding-top: 0px;
+  float: left;
+  padding-bottom: 5px;
+  .field--widget-number {
+    width: calc(100% / 3);
+    margin-right: 0%;
+    label {
+      width: 100%;
+    }
+    &#edit-field-ca-wrapper {
+      float: left;
+    }
+    &#edit-field-cb-wrapper {
+      float: right;
+    }
+    .form-type-number {
+      margin-bottom: 0px;
+      margin-right: 0%;
+      .uk-form-controls {
+        // margin-left: 2%;
+      }
+      input[type="number"] {
+        width: 70% !important;
+      }
+    }
+  }
+}
+
+/* Forms specific fields */
+fieldset#main-line-1-b {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  #bottom-main-fieldset-right {
+    padding-bottom: 0px;
+  }
+  #edit-field-notes-2-wrapper {
+    margin-right: 0%;
+    width: 48.5%;
+    margin-right: 2%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    label {
+      width: 15%;
+    }
+    .uk-form-controls {
+      width: 83%;
+    }
+  }
+}
+
+fieldset .filter-wrapper {
+  display: none;
+}
+
+fieldset#main-fieldset-bottom--2 {
+  li:first-child a {
+    background-image: none;
+  }
+
+  .tabledrag-toggle-weight {
+    display: none;
+  }
+
+  #edit-group-files-line-1 {
+    width: 96%;
+    margin: auto;
+  }
+
+  #edit-field-file-table {
+    display: none;
+  }
+
+  table {
+    width: 90%;
+  }
+}
+
+tr.paragraph-type--address {
+  background-color: var(--white) !important;
+  background: var(--white) !important;
+  cursor: default !important;
+  border: 0px solid transparent !important;
+}
+
+table#field-address-values {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+
+  .paragraphs-subform {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+  }
+  td {
+    padding-top: 0px !important;
+    fieldset {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  }
+  #edit-field-address-0 {
+    margin-bottom: 0px !important;
+    .uk-form-row {
+      margin-bottom: 5px !important;
+    }
+  }
+}
+
+/* Hotel Form */
+
+form.node-hotel-form {
+  #edit-title-wrapper {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 39%;
+    float: left;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    label {
+      width: 17%;
+      float: left;
+      text-align: right;
+      line-height: 40px;
+    }
+
+    div.uk-form-controls {
+      width: 81%;
+      float: right;
+    }
+  }
+  #edit-field-hot-wrapper {
+    width: 32%;
+    float: left;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    .uk-form-controls {
+      width: 100% !important;
+    }
+    //label {
+    //  width: 55%;
+    //  float: left;
+    //  text-align: right;
+    //  line-height: 40px;
+    //}
+
+    //div.uk-form-controls {
+    //  width: 40%;
+    //  float: right;
+    //}
+  }
+  #edit-field-overnight-tax-wrapper {
+    width: 32%;
+    float: left;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    .uk-form-controls {
+      width: 100% !important;
+      input[type="number"] {
+        width: 25% !important;
+        padding: 3% !important;
+      }
+    }
+    //label {
+    //  width: 37%;
+    //  float: left;
+    //  text-align: right;
+    //  line-height: 40px;
+    //}
+
+    //div.uk-form-controls {
+    //  width: 60%;
+    //  float: right;
+    //  input#edit-field-overnight-tax-0-value {
+    //    width: 30%;
+    //    float: left;
+    //  }
+    //  span.field-suffix {
+    //    width: 65%;
+    //    float: right;
+    //    font-size: 13px;
+    //    line-height: 40px;
+    //  }
+    //}
+  }
+  #edit-field-vat-wrapper {
+    width: 32%;
+    float: left;
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    .uk-form-controls {
+      width: 100% !important;
+
+      input[type="number"] {
+        width: 25% !important;
+        padding: 3% !important;
+      }
+    }
+    //label {
+    //  width: 15%;
+    //  float: left;
+    //  text-align: right;
+    //  line-height: 40px;
+    //}
+    //
+    //div.uk-form-controls {
+    //  width: 78%;
+    //  float: right;
+    //  input {
+    //    width: 50%;
+    //    float: left;
+    //  }
+    //  span.field-suffix {
+    //    width: 45%;
+    //    float: right;
+    //    font-size: 13px;
+    //    line-height: 40px;
+    //  }
+    //}
+  }
+}
+
+fieldset button.tabledrag-toggle-weight {
+  display: none;
+}
+.uk-table-hover tbody tr:hover {
+  background: transparent;
+}
+
+table#field-address-values {
+  thead {
+    display: none;
+  }
+
+  .paragraphs-actions {
+    display: none;
+  }
+
+  .field-multiple-drag.paragraph-bullet {
+    display: none;
+  }
+
+  #edit-field-address-0-top {
+    display: none;
+  }
+
+  #edit-field-address-0-subform {
+    #edit-field-address-widget-0-subform-group-first-line-a {
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 0px;
+
+      div.field--name-field-main-address-line {
+        label {
+          width: 10%;
+          float: left;
+          line-height: 40px;
+          margin-right: 2%;
+        }
+
+        .uk-form-controls {
+          width: 50%;
+          float: left;
+          margin-right: 2%;
+        }
+      }
+
+      div.field--name-field-zip-code {
+        label {
+          width: 10%;
+          float: left;
+          line-height: 40px;
+          margin-right: 2%;
+        }
+
+        .uk-form-controls {
+          width: 10%;
+          float: left;
+        }
+      }
+    }
+
+    #edit-field-address-widget-0-subform-group-second-line-address {
+      .uk-form-row {
+        width: 24%;
+        float: left;
+        margin-top: 20px !important;
+        label {
+          width: 30%;
+          float: left;
+          line-height: 40px;
+          margin-right: 2%;
+        }
+
+        .uk-form-controls {
+          width: 65%;
+          float: left;
+        }
+      }
+    }
+  }
+}
+
+/* Paragraph setting header */
+
+fieldset {
+  .tabledrag-toggle-weight-wrapper {
+    display: none;
+  }
+  .field-multiple-table {
+    thead {
+      display: none;
+    }
+  }
+  table.field-multiple-table {
+    tr.draggable {
+      background-color: transparent !important;
+      border: 0px solid transparent !important;
+    }
+  }
+}
+
+/* Paragraph Address fieldset */
+
+fieldset {
+  div.paragraph-top {
+    display: none !important;
+  }
+  .field-multiple-drag {
+    display: none !important;
+  }
+  .sub-fieldset {
+    &#address-line-1 {
+      border-top: 1px solid #808080 !important;
+      padding-top: 20px !important;
+      div.uk-form-row {
+        &:nth-child(1) {
+          width: 70%;
+          label {
+            width: 14.5%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 84%;
+          }
+        }
+        &:nth-child(2) {
+          width: 19.5%;
+          float: left;
+          label {
+            width: 55%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 40%;
+          }
+        }
+      }
+    }
+    &#address-line-2 {
+      margin-top: 30px;
+      div.uk-form-row {
+        float: left;
+        &:nth-child(1) {
+          width: 25%;
+          label {
+            width: 26%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 70%;
+          }
+        }
+        &:nth-child(2) {
+          width: 25%;
+          label {
+            width: 30%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 65%;
+          }
+        }
+        &:nth-child(3) {
+          width: 22%;
+          label {
+            width: 30%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 65%;
+          }
+        }
+        &:nth-child(4) {
+          width: 15%;
+          label {
+            width: 30%;
+            text-align: right;
+          }
+          .uk-form-controls {
+            width: 65%;
+          }
+        }
+      }
+    }
+  }
+}

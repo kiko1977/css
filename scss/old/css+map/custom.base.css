@@ -1,0 +1,41 @@
+@import url("forms.css");
+/* VARS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.field-above,
+form.node-form div.form-item {
+  margin-top:20px;
+}
+
+.field-above.right {
+  float: left;
+  display: flex;
+  width: auto;
+  padding-top:2px;
+}
+
+
+
+
+
+/* TABLES */
+
+
+
+
+/* SEARCH BOX */
+
+
+
+

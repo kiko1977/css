@@ -1,0 +1,56 @@
+@import "variables";
+@import "mixins";
+
+/* page header zone */
+
+header#page--header {
+  background-color: $blue-menu;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 10001;
+  top: 0px;
+
+  #page--navbar {
+    width: 75%;
+    float: left;
+    display: inline-flex;
+  }
+
+  .right-nav {
+    width: 20%;
+    height: 35px;
+    float: right;
+    display: inline-flex;
+  }
+
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: $blue-menu !important;
+  }
+
+  .uk-navbar-left {
+    display: inline-flex;
+    width: 90%;
+
+    #mainnavigation {
+      display: block;
+      float: left;
+    }
+
+    #useraccountmenu {
+      display: block;
+      float: right;
+    }
+
+    .uk-hidden\@m {
+      display: inline-flex !important;
+      width: 10%;
+    }
+
+    .uk-navbar-item {
+      display: inline-flex;
+      width: 85%;
+    }
+  }
+}

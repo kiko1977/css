@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+
+/* COLORS */
+$orange: #ed9b24;
+$green: #19a679;
+$green-light: #24edac;
+$green-best: #16a085;
+$green-deep: #145242;
+$white: #e2f2f2; 
+
+$grey: #808080;
+$grey-light: #f1f2f3;
+$grey-main: #f8f8f8;
+$yellow: #ffe193;
+$yellow-light: #edde24;
+$brown: #a67f19;
+$black: #666;
+$blue-menu: #1f2937;
+$main-bg: #f2f4f6;
+$main: $orange;
+/* font color */
+$font-black: #1f2937;
+$whiteFont: #fafafa;
+/* Buttons */
+$delBtn: #e11d48;
+$delBtnHover: #ca1a41;
+$cancelBtn: #ecb32c;
+$cancelBtnHover: #efbe4c;
+$saveBtn: #0ea271;
+$saveBtnHover: #34c494;
+$addParBtn: #1f57b8;
+$addParBtnHover: #1e52af;
+
+/* FONTS */
+$font-family-title: "Inter_Semi_Bold";
+$font-family: "Inter";

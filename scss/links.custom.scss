@@ -1,0 +1,6 @@
+@import "variables";
+@import "mixins";
+
+.uk-navbar-nav .uk-active {
+  @include linkOrange();
+}

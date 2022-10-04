@@ -1,0 +1,61 @@
+@import "variables";
+@import "mixins";
+
+/* Overview table add buttons */
+a.add-btn {
+  float: right;
+  i {
+    font-size: 35px;
+    color: $grey;
+  }
+  &:hover {
+    i {
+      color: $main;
+    }
+  }
+}
+/* Overview table edit buttons */
+.tbl-action-btn i {
+  font-size: 16px;
+  padding: 5px;
+}
+
+form.node-form {
+  /* form bottom buttons */
+  a#edit-delete {
+    display: none;
+  }
+  input#edit-preview {
+    @include button($white, $green, $green-light, "view", "eye-white");
+  }
+  input#edit-submit {
+    @include button($white, $main, $brown, "edit", "pen-white");
+  }
+
+  /* Entity Reference forms buttons */
+  fieldset {
+    input.add-new-btn-er {
+      @include button_er(
+        $white,
+          $saveBtn,
+        $main,
+          $saveBtnHover,
+        "add",
+        "plus-white",
+        "plus-orange"
+      );
+    }
+
+    input.add-existing-btn-er {
+      @include button_er(
+        $white,
+          $saveBtn,
+        $main,
+          $saveBtnHover,
+        "list",
+        "list-white",
+        "list-orange"
+      );
+    }
+  }
+}

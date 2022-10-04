@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* tabs */
+form.node-form.node-supplier-form, form.node-form.node-supplier-edit-form {
+  margin-left: 0;
+  margin-right: 0;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li {
+  margin-bottom: 0 !important;
+  margin-top: 10px !important;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a {
+  background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
+  padding-right: 50px;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a:hover {
+  background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
+  padding-right: 50px;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a {
+  background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
+  padding-right: 50px;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a:hover {
+  background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
+  padding-right: 50px;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes, form.node-form.node-supplier-edit-form .horizontal-tabs-panes {
+  margin-right: 0;
+  margin-left: 0;
+  /* top fieldset */
+  /* 2nd Tab - Specific fieldsets */
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset.top-fieldset, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset.top-fieldset {
+  padding-top: 0;
+  /* region field */
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper {
+  margin-top: 10px !important;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper legend, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper legend {
+  display: block;
+  padding-left: 0;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper legend span.fieldset-legend, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper legend span.fieldset-legend {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+  display: unset;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper div[class*="-form-entities-0-form-delete"], form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset.top-fieldset div#edit-field-region-re-supplier-wrapper div[class*="-form-entities-0-form-delete"] {
+  display: none;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-price-wrapper, form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-weekend-price-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-price-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-weekend-price-wrapper {
+  display: inline-block;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-price-wrapper input, form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-weekend-price-wrapper input, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-price-wrapper input, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#guide-fields div#edit-field-weekend-price-wrapper input {
+  width: 45% !important;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields {
+  width: 75%;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper, form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper {
+  display: inline-block;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper {
+  width: 70%;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper input, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-details-wrapper input {
+  width: 90% !important;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper {
+  width: 25%;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper input, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#various-fields div#edit-field-price-per-person-wrapper input {
+  width: 45% !important;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#fees-fields, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#fees-fields {
+  width: 75%;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#fees-fields div[id*="edit-field-"], form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#fees-fields div[id*="edit-field-"] {
+  display: inline-block;
+}
+form.node-form.node-supplier-form .horizontal-tabs-panes fieldset#fees-fields div[id*="edit-field-"] input, form.node-form.node-supplier-edit-form .horizontal-tabs-panes fieldset#fees-fields div[id*="edit-field-"] input {
+  width: 45% !important;
+}
+fieldset.left-side-fieldset, fieldset.right-side-fieldset {
+  float: left;
+  width: 45%;
+}
+fieldset.left-side-fieldset div.half-size, fieldset.right-side-fieldset div.half-size {
+  float: left;
+  width: 48.5%;
+}
+fieldset.left-side-fieldset div.half-size-left, fieldset.right-side-fieldset div.half-size-left {
+  margin-right: 3% !important;
+}
+fieldset.left-side-fieldset div.tel-details, fieldset.left-side-fieldset div.email-details, fieldset.left-side-fieldset div.fax-details, fieldset.right-side-fieldset div.tel-details, fieldset.right-side-fieldset div.email-details, fieldset.right-side-fieldset div.fax-details {
+  float: left;
+  width: 50%;
+}
+fieldset.left-side-fieldset div.tel-number, fieldset.left-side-fieldset div.email-address, fieldset.left-side-fieldset div.fax-number, fieldset.right-side-fieldset div.tel-number, fieldset.right-side-fieldset div.email-address, fieldset.right-side-fieldset div.fax-number {
+  float: left;
+  width: 50%;
+}
+fieldset.left-side-fieldset .uk-form-wrapper-no-border, fieldset.right-side-fieldset .uk-form-wrapper-no-border {
+  border-bottom: 0 solid transparent !important;
+}
+fieldset.left-side-fieldset .uk-form-value .field-collection-item .uk-margin, fieldset.right-side-fieldset .uk-form-value .field-collection-item .uk-margin {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+fieldset.left-side-fieldset .uk-form-value div.half-size.small.uk-form-wrapper, fieldset.right-side-fieldset .uk-form-value div.half-size.small.uk-form-wrapper {
+  float: left;
+  width: 20%;
+}
+fieldset.left-side-fieldset .uk-form-value div.half-size.big.uk-form-wrapper, fieldset.right-side-fieldset .uk-form-value div.half-size.big.uk-form-wrapper {
+  float: left;
+  width: 75%;
+}
+fieldset.left-side-fieldset .uk-form-value div.half-size.big.uk-form-wrapper .uk-form-value, fieldset.right-side-fieldset .uk-form-value div.half-size.big.uk-form-wrapper .uk-form-value {
+  float: left;
+  width: 49%;
+  margin-bottom: 5px !important;
+}
+fieldset.left-side-fieldset .uk-form-value div.half-size-left, fieldset.right-side-fieldset .uk-form-value div.half-size-left {
+  margin-right: 3% !important;
+}
+fieldset.left-side-fieldset {
+  margin-right: 3% !important;
+}

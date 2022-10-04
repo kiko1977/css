@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* Rooms Paragraph */
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms {
+  border-bottom: 1px solid #ed9b24 !important;
+  padding-bottom: 10px !important;
+  padding-top: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="text"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms textarea, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="tel"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="date"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="email"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms select, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms div.form-select {
+  width: 85% !important;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="text"]:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms textarea:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="tel"]:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="date"]:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms input[type="email"]:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms select:focus-within, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms div.form-select:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms legend.uk-legend {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  /*left side - room type */
+  /* right side - accommodation types - period rates */
+  /* entity form buttons */
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] div.paragraphs-subform, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] div.field--type-entity-reference-revisions {
+  margin-top: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type {
+  padding: 0 !important;
+  width: 25%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type label {
+  width: 100%;
+  line-height: 40px;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type .uk-form-controls {
+  width: 100%;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details {
+  padding: 0 !important;
+  width: 74%;
+  float: left;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  /* when right side open */
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] {
+  padding-top: 5px !important;
+  /* the button when right fieldset is closed */
+  /* accommodation type - left side */
+  /* period rates - right side */
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] input[id*="-actions-ief-add"] {
+  margin-top: 45px;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-accommodation-type {
+  padding: 0 !important;
+  width: 35%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period {
+  padding: 0 !important;
+  width: 55%;
+  float: left;
+  /* Specific date fields */
+  /* price field */
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period .field--widget-options-select {
+  margin-top: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange {
+  width: 45%;
+  float: left;
+  /* Hide year fields in select period*/
+  /* period fields */
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange legend {
+  display: inline-block;
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange legend span {
+  display: inline-block;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange h4 {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange input.form-date {
+  width: 35%;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-value-year"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-end-value-year"] {
+  display: none !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-value-day"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-value-month"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-end-value-day"], body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--type-daterange div[class*="subform-field-period-0-end-value-month"] {
+  width: 40%;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 20px;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--name-field-day-start, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div.field--name-field-day-end {
+  width: 25%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] .field--name-field-room-type-details fieldset[id*="subform-field-room-type-details"] div.field--name-field-room-rates-per-period div[class*="-subform-field-price-0-value"] input[type="number"] {
+  width: 15% !important;
+  margin-right: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] div[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions"] {
+  top: 57px;
+  left: 120px;
+  position: relative;
+  margin-top: 10px !important;
+  width: 10%;
+}
+body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] div[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions"] input.ief-entity-submit, body[class*="nodeadd"] main#page--content fieldset#hotel-line-rooms table[id*="field-hotel-rooms-values"] div[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions"] input.cancel {
+  width: 1%;
+  color: transparent;
+  padding-left: 20px !important;
+}
+/* Contact Details tab */
+table[id*="field-contact-details-values"] {
+  /* hide extra text near buttons */
+  /* Fields */
+}
+table[id*="field-contact-details-values"] div#field-contact-details-add-more-wrapper, table[id*="field-contact-details-values"] div[id*="subform-field-telehones-add-more-wrapper"], table[id*="field-contact-details-values"] div[id*="subform-field-email-add-more-wrapper"], table[id*="field-contact-details-values"] div[id*="subform-field-fax-add-more-wrapper"], table[id*="field-contact-details-values"] div[id*="subform-field-website-add-more-wrapper"] {
+  color: transparent;
+}
+table[id*="field-contact-details-values"] div#field-contact-details-add-more-wrapper em, table[id*="field-contact-details-values"] div[id*="subform-field-telehones-add-more-wrapper"] em, table[id*="field-contact-details-values"] div[id*="subform-field-email-add-more-wrapper"] em, table[id*="field-contact-details-values"] div[id*="subform-field-fax-add-more-wrapper"] em, table[id*="field-contact-details-values"] div[id*="subform-field-website-add-more-wrapper"] em {
+  color: transparent;
+}
+table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper div.js-form-item {
+  display: flex;
+}
+table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper table.field-multiple-table, table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper table#field-agency-contact-details-values, table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper div.clearfix {
+  width: 50%;
+  float: left;
+}
+table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper table.field-multiple-table div.field--type-string, table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper table#field-agency-contact-details-values div.field--type-string, table[id*="field-contact-details-values"] .paragraphs-tabs-wrapper div.clearfix div.field--type-string {
+  width: 60%;
+  float: left;
+}

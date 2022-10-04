@@ -1,0 +1,108 @@
+@import "variables";
+@import "mixins";
+
+/* Main Page Title */
+h1.uk-article-title {
+  color: $font-black;
+  font-family: $font-family-title;
+  font-size: 24px;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-image: url(/sites/default/files/custom/svg/home/home-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  background-size: 22px;
+  span {
+    margin-left: 2%;
+  }
+  em {
+    display: none;
+  }
+}
+
+/* block page title */
+div.block-page-title-block {
+  margin-top: 20px;
+}
+
+div#uikit-page-title {
+  margin-bottom: 20px;
+}
+
+/* specific page titles */
+
+body.overviewaccommodation_types h1.uk-article-title {
+  @include pageTitleIcons("accom-type", "acom-blue");
+}
+body.overviewclients h1.uk-article-title {
+  @include pageTitleIcons("customers", "customers-blue");
+  background-position: 0px 5px;
+}
+
+body.overviewcountries h1.uk-article-title {
+  @include pageTitleIcons("countries", "country-blue");
+}
+
+body.overviewlanguages h1.uk-article-title {
+  @include pageTitleIcons("languages", "language-blue");
+  background-position: 0px 5px;
+}
+
+body.overviewroom_types h1.uk-article-title {
+  @include pageTitleIcons("bed", "bed-blue");
+  background-position: 0px 5px;
+}
+
+body.overviewhotels h1.uk-article-title {
+  @include pageTitleIcons("hotels", "hotel-blue");
+  background-position: 0px 5px;
+}
+
+body.overviewregions h1.uk-article-title {
+  @include pageTitleIcons("region", "region-blue");
+  background-position: 0px 4px;
+}
+
+body.overviewdestinations h1.uk-article-title {
+  @include pageTitleIcons("destinations", "destination-blue");
+  background-position: 0px 4px;
+}
+
+body.overviewmarkets h1.uk-article-title {
+  @include pageTitleIcons("markets", "market-blue");
+  background-position: 0px 4px;
+}
+
+body.overviewservices h1.uk-article-title {
+  @include pageTitleIcons("temple", "temple-blue");
+}
+
+body.overviewsuppliers h1.uk-article-title {
+  @include pageTitleIcons("taxi", "taxi-blue");
+}
+
+body.overviewcustomers h1.uk-article-title {
+  @include pageTitleIcons("bus", "bus-blue");
+}
+
+body.overviewtrip_statuses h1.uk-article-title {
+  @include pageTitleIcons("statuses", "status-blue");
+}
+
+body.overviewovernight_tax h1.uk-article-title {
+  @include pageTitleIcons("overnight", "overnight-blue");
+}
+
+body.overviewinvoicing_statuses h1.uk-article-title {
+  @include pageTitleIcons("money", "money-blue");
+}
+
+body.overviewtrip_types h1.uk-article-title {
+  @include pageTitleIcons("trip-types", "trip-types-blue");
+  background-position: 0px 5px;
+}

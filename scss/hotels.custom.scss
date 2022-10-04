@@ -1,0 +1,135 @@
+@import "variables";
+@import "mixins";
+
+/* Address Paragraph */
+body[class*="nodeadd"] main#page--content {
+  /* FORM */
+  /* Address line in first tab */
+  fieldset#hotel-line-details {
+    border-bottom: 1px solid #ed9b24 !important;
+    padding-bottom: 10px !important;
+    padding-top: 0 !important;
+    border-top: 1px solid #ed9b24 !important;
+    margin-top: 30px !important;
+    legend.uk-legend {
+      display: none;
+    }
+    input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"] {
+      @include button(
+        $whiteFont,
+        $saveBtn,
+        $saveBtnHover,
+        "save",
+        "save-white"
+      );
+    }
+    input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"] {
+      @include button(
+        $whiteFont,
+        $cancelBtn,
+        $cancelBtnHover,
+        "cancel",
+        "cancel-white"
+      );
+    }
+    /* address wrapper */
+    fieldset[id*="address-wrapper"] {
+      width: 75%;
+      /* first line address */
+      fieldset[id*="address-line-1"] {
+        margin-bottom: 25px !important;
+        div.field--name-field-main-address-line {
+          @include addressParagraphFields(60%);
+        }
+        div.field--name-field-zip-code {
+          @include addressParagraphFields(17%);
+        }
+        div.field--name-field-city-town {
+          @include addressParagraphFields(17%);
+        }
+      }
+      /* second line wrapper */
+      fieldset[id*="address-line-2"] {
+        div.field--name-field-state-province {
+          @include addressParagraphFields(35%);
+        }
+        div.field--name-field-region {
+          @include addressParagraphFields(32%);
+        }
+        div.field--name-field-country-address {
+          @include addressParagraphFields(27%);
+        }
+      }
+    }
+  }
+  /* TABLE */
+  table[id*="ief-entity-table-edit-field-address-entities"] {
+    margin: 0 !important;
+    thead {
+      display: none;
+    }
+    tr {
+      background: transparent !important;
+      border: 0 solid transparent !important;
+      td.inline-entity-form-paragraph-label {
+        font-size: 19px;
+      }
+      td {
+        border: 0 solid transparent !important;
+        div.ief-entity-operations {
+          text-align: -webkit-right;
+          input[id*="edit-field-address-entities-0-actions-ief-entity-edit"] {
+            @include button($white, $main, $brown, "edit", "pen-white");
+          }
+          input[id*="edit-field-address-entities-0-actions-ief-entity-remove"] {
+            @include button(
+              $whiteFont,
+              $delBtn,
+              $delBtnHover,
+              "delete",
+              "trash-white"
+            );
+          }
+        }
+        /* Buttons upon delete address in Hotel */
+        input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"] {
+          @include button(
+            $whiteFont,
+            $cancelBtn,
+            $cancelBtnHover,
+            "cancel",
+            "cancel-white"
+          );
+        }
+        input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"] {
+          @include button(
+            $whiteFont,
+            $delBtn,
+            $delBtnHover,
+            "delete",
+            "trash-white"
+          );
+        }
+        /* Buttons upon edit address in Hotel */
+        input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"] {
+          @include button(
+            $whiteFont,
+            $saveBtn,
+            $saveBtnHover,
+            "save",
+            "save-white"
+          );
+        }
+        input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"] {
+          @include button(
+            $whiteFont,
+            $delBtn,
+            $delBtnHover,
+            "delete",
+            "trash-white"
+          );
+        }
+      }
+    }
+  }
+}

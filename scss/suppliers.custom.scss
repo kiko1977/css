@@ -1,0 +1,168 @@
+@import "variables";
+@import "mixins";
+
+/* tabs */
+
+form.node-form.node-supplier-form,
+form.node-form.node-supplier-edit-form {
+  margin-left: 0;
+  margin-right: 0;
+
+  ul.horizontal-tabs-list {
+    li {
+      margin-bottom: 0 !important;
+      margin-top: 10px !important;
+    }
+
+    li:first-child a {
+      background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
+      padding-right: 50px;
+    }
+
+    li:first-child.selected a,
+    li:first-child a:hover {
+      background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
+      padding-right: 50px;
+    }
+
+    li:not(:first-child) a {
+      background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
+      padding-right: 50px;
+    }
+
+    li:not(:first-child).selected a, li:not(:first-child) a:hover {
+      background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
+      padding-right: 50px;
+    }
+  }
+
+  .horizontal-tabs-panes {
+    margin-right: 0;
+    margin-left: 0;
+    /* top fieldset */
+    fieldset.top-fieldset {
+      padding-top: 0;
+      /* region field */
+      div#edit-field-region-re-supplier-wrapper {
+        margin-top: 10px !important;
+
+        legend {
+          display: block;
+          padding-left:0;
+
+          span.fieldset-legend {
+
+            @include labelBlack();
+            display: unset;
+          }
+        }
+
+
+      div[class*='-form-entities-0-form-delete'] {
+        display: none;
+      }
+    }
+  }
+    /* 2nd Tab - Specific fieldsets */
+    fieldset#guide-fields {
+      div#edit-field-price-wrapper,
+      div#edit-field-weekend-price-wrapper{
+        display: inline-block;
+        input {
+          width: 45% !important;
+        }
+      }
+
+    }
+    fieldset#various-fields {
+      width: 75%;
+      div#edit-field-details-wrapper,
+      div#edit-field-price-per-person-wrapper {
+        display: inline-block;
+      }
+      div#edit-field-details-wrapper, {
+        width: 70%;
+        input {
+          width: 90% !important;
+        }
+      }
+      div#edit-field-price-per-person-wrapper {
+        width: 25%;
+        input {
+          width: 45% !important;
+        }
+      }
+    }
+    fieldset#fees-fields {
+      width: 75%;
+      div[id*="edit-field-"] {
+        display: inline-block;
+        input {
+          width: 45% !important;
+        }
+      }
+    }
+  }
+}
+
+fieldset.left-side-fieldset,
+fieldset.right-side-fieldset{
+  //display: inline-block;
+  float: left;
+  width: 45%;
+  div.half-size {
+    float: left;
+    width: 48.5%;
+  }
+  div.half-size-left {
+    margin-right:3% !important;
+  }
+  div.tel-details,
+  div.email-details,
+  div.fax-details {
+    float: left;
+    width: 50%;
+  }
+
+  div.tel-number,
+  div.email-address,
+  div.fax-number {
+    float: left;
+    width: 50%;
+  }
+  .uk-form-wrapper-no-border {
+    border-bottom: 0 solid transparent !important;
+  }
+  .uk-form-value {
+    .field-collection-item {
+      .uk-margin {
+        margin-top:0 !important;
+        margin-bottom:10px !important;
+      }
+    }
+
+    div.half-size.small.uk-form-wrapper {
+      float: left;
+      width: 20%;
+    }
+    div.half-size.big.uk-form-wrapper {
+      float: left;
+      width: 75%;
+      .uk-form-value {
+        float: left;
+        width: 49%;
+        margin-bottom: 5px !important;
+      }
+    }
+
+    div.half-size-left {
+      margin-right:3% !important;
+    }
+
+  }
+}
+fieldset.left-side-fieldset {
+  margin-right: 3% !important;
+}
+
+

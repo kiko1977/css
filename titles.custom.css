@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* Main Page Title */
+h1.uk-article-title {
+  color: #1f2937;
+  font-family: "Inter_Semi_Bold";
+  font-size: 24px;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-image: url(/sites/default/files/custom/svg/home/home-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  background-size: 22px;
+}
+h1.uk-article-title span {
+  margin-left: 2%;
+}
+h1.uk-article-title em {
+  display: none;
+}
+/* block page title */
+div.block-page-title-block {
+  margin-top: 20px;
+}
+div#uikit-page-title {
+  margin-bottom: 20px;
+}
+/* specific page titles */
+body.overviewaccommodation_types h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/accom-type/acom-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewclients h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/customers/customers-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 5px;
+}
+body.overviewcountries h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/countries/country-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewlanguages h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/languages/language-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 5px;
+}
+body.overviewroom_types h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/bed/bed-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 5px;
+}
+body.overviewhotels h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/hotels/hotel-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 5px;
+}
+body.overviewregions h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/region/region-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 4px;
+}
+body.overviewdestinations h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/destinations/destination-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 4px;
+}
+body.overviewmarkets h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/markets/market-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 4px;
+}
+body.overviewservices h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/temple/temple-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewsuppliers h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/taxi/taxi-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewcustomers h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/bus/bus-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewtrip_statuses h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/statuses/status-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewovernight_tax h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/overnight/overnight-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewinvoicing_statuses h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/money/money-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+}
+body.overviewtrip_types h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  padding-left: 35px;
+  background-position: 0px 5px;
+}
