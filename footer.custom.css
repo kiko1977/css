@@ -53,7 +53,7 @@ footer .uk-container.uk-margin-top {
   font-family: "Inter_Semi_Bold";
   font-size: 20px;
   margin-bottom: 10px !important;
-  background-image: url(/sites/default/files/custom/svg/data_support/table-blue.svg);
+  background-image: url(/sites/default/files/custom/svg/data_support/data_support-blue.svg);
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: 19px;
@@ -96,13 +96,13 @@ footer .uk-container.uk-margin-top {
 #region--footer #accommodation-types a {
   border-bottom-left-radius: 2em !important;
   border-top-left-radius: 2em !important;
-  background-image: url("/sites/default/files/custom/svg/accom-type/acom-orange.svg");
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 21px;
 }
 #region--footer #accommodation-types a:hover {
-  background-image: url("/sites/default/files/custom/svg/accom-type/acom-white.svg");
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-white.svg");
 }
 #region--footer #clients a {
   border-bottom-left-radius: 2em !important;
@@ -151,13 +151,13 @@ footer .uk-container.uk-margin-top {
 #region--footer #hotels a {
   border-bottom-left-radius: 2em !important;
   border-top-left-radius: 2em !important;
-  background-image: url("/sites/default/files/custom/svg/hotels/hotel-orange.svg");
+  background-image: url("/sites/default/files/custom/svg/hotel/hotel-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 21px;
 }
 #region--footer #hotels a:hover {
-  background-image: url("/sites/default/files/custom/svg/hotels/hotel-white.svg");
+  background-image: url("/sites/default/files/custom/svg/hotel/hotel-white.svg");
 }
 #region--footer #regions a {
   border-bottom-left-radius: 2em !important;
@@ -184,13 +184,13 @@ footer .uk-container.uk-margin-top {
 #region--footer #markets a {
   border-bottom-left-radius: 2em !important;
   border-top-left-radius: 2em !important;
-  background-image: url("/sites/default/files/custom/svg/markets/market-orange.svg");
+  background-image: url("/sites/default/files/custom/svg/market/market-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
   background-size: 21px;
 }
 #region--footer #markets a:hover {
-  background-image: url("/sites/default/files/custom/svg/markets/market-white.svg");
+  background-image: url("/sites/default/files/custom/svg/market/market-white.svg");
 }
 #region--footer #services-btn a {
   border-bottom-left-radius: 2em !important;

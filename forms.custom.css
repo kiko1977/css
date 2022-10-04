@@ -101,10 +101,10 @@ form.node-form.node-main-form li.horizontal-tab-button {
   width: calc((100% - 320px) / 8);
 }
 form.node-form.node-main-form li:first-child a {
-  background-image: url(/sites/default/files/custom/svg/data_main/table-grey.svg);
+  background-image: url(/sites/default/files/custom/svg/data_main/data_main-grey.svg);
 }
 form.node-form.node-main-form li:first-child.selected a, form.node-form.node-main-form li:first-child a:hover {
-  background-image: url(/sites/default/files/custom/svg/data_main/table-orange.svg);
+  background-image: url(/sites/default/files/custom/svg/data_main/data_main-orange.svg);
 }
 form.node-form.node-main-form li:nth-child(2) a {
   background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
@@ -113,10 +113,10 @@ form.node-form.node-main-form li:nth-child(2).selected a, form.node-form.node-ma
   background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
 }
 form.node-form.node-main-form li:nth-child(3) a {
-  background-image: url(/sites/default/files/custom/svg/add/plus-grey.svg);
+  background-image: url(/sites/default/files/custom/svg/add/add-grey.svg);
 }
 form.node-form.node-main-form li:nth-child(3).selected a, form.node-form.node-main-form li:nth-child(3) a:hover {
-  background-image: url(/sites/default/files/custom/svg/add/plus-orange.svg);
+  background-image: url(/sites/default/files/custom/svg/add/add-orange.svg);
 }
 form.node-form.node-main-form li:nth-child(4) a {
   background-image: url(/sites/default/files/custom/svg/plane/plane-grey.svg);
@@ -156,10 +156,10 @@ form.node-form.node-hotel-form li.horizontal-tab-button {
   width: calc((100% - 160px) / 4);
 }
 form.node-form.node-hotel-form li:first-child a {
-  background-image: url(/sites/default/files/custom/svg/hotels/hotel-grey.svg);
+  background-image: url(/sites/default/files/custom/svg/hotel/hotel-grey.svg);
 }
 form.node-form.node-hotel-form li:first-child.selected a, form.node-form.node-hotel-form li:first-child a:hover {
-  background-image: url(/sites/default/files/custom/svg/hotels/hotel-orange.svg);
+  background-image: url(/sites/default/files/custom/svg/hotel/hotel-orange.svg);
 }
 form.node-form.node-hotel-form li:nth-child(2) a {
   background-image: url(/sites/default/files/custom/svg/bed/bed-grey.svg);
@@ -275,7 +275,7 @@ body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper em.placehol
   color: transparent;
 }
 body[class*="edit"] h1.uk-article-title, body[class*="nodeadd"] h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/edit/pen-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -292,7 +292,7 @@ body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country
   width: 20% !important;
 }
 body.nodeaddcountries h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/countries/country-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/country/country-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -312,7 +312,7 @@ body.nodeaddcountries h1.uk-article-title {
   box-shadow: unset !important;
 }
 body.nodeaddroom_types h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/accom-type/acom-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -334,14 +334,14 @@ body.nodeaddcustomer h1.uk-article-title {
   padding-left: 35px;
 }
 body.nodeadddestinations h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/destinations/destination-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/destination/destination-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
   padding-left: 35px;
 }
 body.nodeaddfile_status h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/statuses/status-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/status/status-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -363,7 +363,7 @@ body.nodeaddinvoicing_status h1.uk-article-title {
   padding-left: 35px;
 }
 body.nodeaddlanguages h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/languages/language-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/language/language-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -371,7 +371,7 @@ body.nodeaddlanguages h1.uk-article-title {
   background-position: 0 5px;
 }
 body.nodeaddmarket h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/markets/market-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/market/market-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -398,7 +398,7 @@ body[class$="0"] ul.uk-tab, body[class$="1"] ul.uk-tab, body[class$="2"] ul.uk-t
   padding: 0 2%;
 }
 body[class$="0"] h1.uk-article-title, body[class$="1"] h1.uk-article-title, body[class$="2"] h1.uk-article-title, body[class$="3"] h1.uk-article-title, body[class$="4"] h1.uk-article-title, body[class$="5"] h1.uk-article-title, body[class$="6"] h1.uk-article-title, body[class$="7"] h1.uk-article-title, body[class$="8"] h1.uk-article-title, body[class$="9"] h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/view/eye-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/view/view-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;

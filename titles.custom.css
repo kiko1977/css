@@ -54,7 +54,7 @@ div#uikit-page-title {
 }
 /* specific page titles */
 body.overviewaccommodation_types h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/accom-type/acom-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -69,14 +69,14 @@ body.overviewclients h1.uk-article-title {
   background-position: 0px 5px;
 }
 body.overviewcountries h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/countries/country-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/country/country-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
   padding-left: 35px;
 }
 body.overviewlanguages h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/languages/language-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/language/language-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -92,7 +92,7 @@ body.overviewroom_types h1.uk-article-title {
   background-position: 0px 5px;
 }
 body.overviewhotels h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/hotels/hotel-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/hotel/hotel-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -108,7 +108,7 @@ body.overviewregions h1.uk-article-title {
   background-position: 0px 4px;
 }
 body.overviewdestinations h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/destinations/destination-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/destination/destination-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -116,7 +116,7 @@ body.overviewdestinations h1.uk-article-title {
   background-position: 0px 4px;
 }
 body.overviewmarkets h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/markets/market-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/market/market-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
@@ -145,7 +145,7 @@ body.overviewcustomers h1.uk-article-title {
   padding-left: 35px;
 }
 body.overviewtrip_statuses h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/statuses/status-blue.svg");
+  background-image: url("/sites/default/files/custom/svg/status/status-blue.svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;

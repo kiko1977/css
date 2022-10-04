@@ -18,11 +18,28 @@
 
   &:hover {
     background-color: $bg-color-hover;
+    color: $color;
   }
 }
 
 @mixin deleteButton() {
-  @include button()
+  @include button($whiteFont, $delBtn, $delBtnHover, "delete", "delete-white");
+}
+
+@mixin cancelButton() {
+  @include button($whiteFont, $cancelBtn, $cancelBtnHover, "cancel", "cancel-white");
+}
+
+@mixin saveButton() {
+  @include button($whiteFont, $saveBtn, $saveBtnHover, "save", "save-white");
+}
+
+@mixin addButton() {
+  @include button($whiteFont, $addParBtn, $addParBtnHover, "add", "add-white");
+}
+
+@mixin editButton() {
+  @include button($whiteFont, $editParBtn, $editParBtnHover, "edit", "edit-white");
 }
 
 @mixin verticalMarginZero() {
