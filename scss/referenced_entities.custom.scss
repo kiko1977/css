@@ -8,92 +8,7 @@ fieldset.ief-form.ief-form-bottom {
     display: none !important;
   }
 }
-/* region field ER buttons */
-input[id*="-actions-ief-add"] {
-  @include button_er(
-      $white,
-      $saveBtn,
-      $white,
-      $saveBtnHover ,
-      "add",
-      "plus-white",
-      "plus-white"
-  )
-}
-input[id*="-actions-ief-add-existing"] {
-  @include button_er(
-      $white,
-      $addParBtn,
-      $white,
-      $addParBtnHover,
-      "region",
-      "region-white",
-      "region-white"
-  )
-}
-input[id*="-actions-ief-add-cancel"],
-input[id*="-actions-ief-reference-cancel"],
-input[id*="-form-actions-ief-edit-cancel"],
-input[id*="-form-actions-ief-remove-cancel"],
-input[id*="-actions-remove-button"] {
-  @include button_er(
-      $white,
-      $cancelBtn,
-      $white,
-      $cancelBtnHover,
-      "cancel",
-      "cancel-white",
-      "cancel-white"
-  )
-}
-input[id*="-actions-ief-reference-save"],
-input[id*="-form-actions-ief-edit-save"]{
-  @include button_er(
-      $white,
-      $saveBtn,
-      $white,
-      $saveBtnHover,
-      "save",
-      "save-white",
-      "save-white"
-  )
-}
-input[id*="-actions-ief-entity-edit"] {
-  @include button_er(
-      $white,
-      $saveBtn,
-      $white,
-      $saveBtnHover,
-      "edit",
-      "pen-white",
-      "pen-white"
-  )
-}
-input[id*="-actions-ief-entity-duplicate--"] {
-  @include button_er(
-      $white,
-      $addParBtn,
-      $white,
-      $addParBtnHover,
-      "copy",
-      "copy-white",
-      "copy-white"
-  )
-}
 
-
-input[id*="-actions-ief-entity-remove"],
-input[id*="-form-actions-ief-remove-confirm"]{
-  @include button_er(
-      $white,
-      $delBtn,
-      $white,
-      $delBtnHover,
-      "delete",
-      "trash-white",
-      "trash-white"
-  )
-}
 
 div[class*='-form-entities-0-form-delete'] {
   display: none;
@@ -256,17 +171,7 @@ body main#page--content form.node-form table[id*="field-rates-list-fc-values"] {
       div.form-actions {
         float: right;
         margin-top: 30px !important;
-        input.cancel.button{
-          @include button_er(
-              $white,
-              $delBtn,
-              $white,
-              $delBtnHover,
-              "delete",
-              "trash-white",
-              "trash-white"
-          )
-        }
+        
       }
       tr:not(:first-child) {
         label {
@@ -277,18 +182,6 @@ body main#page--content form.node-form table[id*="field-rates-list-fc-values"] {
       }
     }
   }
-}
-
-input.field-add-more-submit {
-  @include button_er(
-      $white,
-      $saveBtn,
-      $white,
-      $saveBtnHover ,
-      "add",
-      "plus-white",
-      "plus-white"
-  )
 }
 
 /* View form */

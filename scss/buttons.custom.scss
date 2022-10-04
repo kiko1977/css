@@ -14,6 +14,232 @@ a.add-btn {
     }
   }
 }
+
+a#edit-delete {
+  @include button(
+    $whiteFont,
+    "inherit",
+    "inherit",
+    "delete",
+    "delete-white"
+  );
+}
+a#edit-cancel,
+input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"] {
+  @include button(
+    $whiteFont,
+    $cancelBtn,
+    $cancelBtnHover,
+    "cancel",
+    "cancel-white"
+  );
+}
+input#edit-submit,
+input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"] {
+  @include button(
+    $whiteFont,
+    $saveBtn,
+    $saveBtnHover,
+    "save",
+    "save-white"
+  );
+}
+
+input[id*="edit-field-address"][type="submit"],
+input[id*="field-hotel-rooms-hotel-rooms-add-more"],
+input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"],
+input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"] {
+  @include button(
+    $whiteFont,
+    $addParBtn,
+    $addParBtnHover,
+    "add",
+    "add-white"
+  );
+  margin-top: 25px;
+}
+
+input[id*="field-contact"][type="submit"] {
+  @include button(
+    $whiteFont,
+    $addParBtn,
+    $addParBtnHover,
+    "contact",
+    "contact-white"
+  );
+}
+
+input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"] {
+  @include button(
+    $whiteFont,
+    $saveBtn,
+    $saveBtnHover,
+    "save",
+    "save-white"
+  );
+}
+input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"] {
+  @include button(
+    $whiteFont,
+    $cancelBtn,
+    $cancelBtnHover,
+    "cancel",
+    "cancel-white"
+  );
+}
+
+input[id*="edit-field-address-entities-0-actions-ief-entity-edit"] {
+  @include button($white, $main, $brown, "edit", "edit-white");
+}
+input[id*="edit-field-address-entities-0-actions-ief-entity-remove"] {
+  @include button(
+    $whiteFont,
+    $delBtn,
+    $delBtnHover,
+    "delete",
+    "delete-white"
+  );
+}
+
+/* Buttons upon delete address in Hotel */
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"] {
+  @include button(
+    $whiteFont,
+    $cancelBtn,
+    $cancelBtnHover,
+    "cancel",
+    "cancel-white"
+  );
+}
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"] {
+  @include button(
+    $whiteFont,
+    $delBtn,
+    $delBtnHover,
+    "delete",
+    "delete-white"
+  );
+}
+/* Buttons upon edit address in Hotel */
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"] {
+  @include button(
+    $whiteFont,
+    $saveBtn,
+    $saveBtnHover,
+    "save",
+    "save-white"
+  );
+}
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"] {
+  @include button(
+    $whiteFont,
+    $delBtn,
+    $delBtnHover,
+    "delete",
+    "delete-white"
+  );
+}
+
+/* region field ER buttons */
+input[id*="-actions-ief-add"] {
+  @include button(
+      $white,
+      $saveBtn,
+      $saveBtnHover ,
+      "add",
+      "add-white",
+      "add-white"
+  )
+}
+input[id*="-actions-ief-add-existing"] {
+  @include button(
+      $white,
+      $addParBtn,
+      $addParBtnHover,
+      "region",
+      "region-white",
+      "region-white"
+  )
+}
+input[id*="-actions-ief-add-cancel"],
+input[id*="-actions-ief-reference-cancel"],
+input[id*="-form-actions-ief-edit-cancel"],
+input[id*="-form-actions-ief-remove-cancel"],
+input[id*="-actions-remove-button"] {
+  @include button(
+      $white,
+      $cancelBtn,
+      $cancelBtnHover,
+      "cancel",
+      "cancel-white",
+      "cancel-white"
+  )
+}
+input[id*="-actions-ief-reference-save"],
+input[id*="-form-actions-ief-edit-save"]{
+  @include button(
+      $white,
+      $saveBtn,
+      $saveBtnHover,
+      "save",
+      "save-white",
+      "save-white"
+  )
+}
+input[id*="-actions-ief-entity-edit"] {
+  @include button(
+      $white,
+      $saveBtn,
+      $saveBtnHover,
+      "edit",
+      "edit-white",
+      "edit-white"
+  )
+}
+input[id*="-actions-ief-entity-duplicate--"] {
+  @include button(
+      $white,
+      $addParBtn,
+      $addParBtnHover,
+      "copy",
+      "copy-white",
+      "copy-white"
+  )
+}
+
+
+input[id*="-actions-ief-entity-remove"],
+input[id*="-form-actions-ief-remove-confirm"]{
+  @include button(
+      $white,
+      $delBtn,
+      $delBtnHover,
+      "delete",
+      "delete-white",
+      "delete-white"
+  )
+}
+
+input.cancel.button{
+  @include button(
+      $white,
+      $delBtn,
+      $delBtnHover,
+      "delete",
+      "delete-white",
+  )
+}
+
+input.field-add-more-submit {
+  @include button(
+      $white,
+      $saveBtn,
+      $saveBtnHover ,
+      "add",
+      "add-white",
+  )
+}
+
 /* Overview table edit buttons */
 .tbl-action-btn i {
   font-size: 16px;
@@ -26,31 +252,29 @@ form.node-form {
     display: none;
   }
   input#edit-preview {
-    @include button($white, $green, $green-light, "view", "eye-white");
+    @include button($white, $green, $green-light, "view", "view-white");
   }
   input#edit-submit {
-    @include button($white, $main, $brown, "edit", "pen-white");
+    @include button($white, $main, $brown, "edit", "edit-white");
   }
 
   /* Entity Reference forms buttons */
   fieldset {
     input.add-new-btn-er {
-      @include button_er(
+      @include button(
         $white,
           $saveBtn,
-        $main,
           $saveBtnHover,
         "add",
-        "plus-white",
-        "plus-orange"
+        "add-white",
+        "add-orange"
       );
     }
 
     input.add-existing-btn-er {
-      @include button_er(
+      @include button(
         $white,
           $saveBtn,
-        $main,
           $saveBtnHover,
         "list",
         "list-white",

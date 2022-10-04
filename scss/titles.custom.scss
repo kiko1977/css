@@ -37,7 +37,7 @@ div#uikit-page-title {
 /* specific page titles */
 
 body.overviewaccommodation_types h1.uk-article-title {
-  @include pageTitleIcons("accom-type", "acom-blue");
+  @include pageTitleIcons("accom-type", "accom-type-blue");
 }
 body.overviewclients h1.uk-article-title {
   @include pageTitleIcons("customers", "customers-blue");
@@ -45,11 +45,11 @@ body.overviewclients h1.uk-article-title {
 }
 
 body.overviewcountries h1.uk-article-title {
-  @include pageTitleIcons("countries", "country-blue");
+  @include pageTitleIcons("country", "country-blue");
 }
 
 body.overviewlanguages h1.uk-article-title {
-  @include pageTitleIcons("languages", "language-blue");
+  @include pageTitleIcons("language", "language-blue");
   background-position: 0px 5px;
 }
 
@@ -59,7 +59,7 @@ body.overviewroom_types h1.uk-article-title {
 }
 
 body.overviewhotels h1.uk-article-title {
-  @include pageTitleIcons("hotels", "hotel-blue");
+  @include pageTitleIcons("hotel", "hotel-blue");
   background-position: 0px 5px;
 }
 
@@ -69,12 +69,12 @@ body.overviewregions h1.uk-article-title {
 }
 
 body.overviewdestinations h1.uk-article-title {
-  @include pageTitleIcons("destinations", "destination-blue");
+  @include pageTitleIcons("destination", "destination-blue");
   background-position: 0px 4px;
 }
 
 body.overviewmarkets h1.uk-article-title {
-  @include pageTitleIcons("markets", "market-blue");
+  @include pageTitleIcons("market", "market-blue");
   background-position: 0px 4px;
 }
 
@@ -91,7 +91,7 @@ body.overviewcustomers h1.uk-article-title {
 }
 
 body.overviewtrip_statuses h1.uk-article-title {
-  @include pageTitleIcons("statuses", "status-blue");
+  @include pageTitleIcons("status", "status-blue");
 }
 
 body.overviewovernight_tax h1.uk-article-title {

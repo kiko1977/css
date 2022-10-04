@@ -33,6 +33,419 @@ a.add-btn i {
 a.add-btn:hover i {
   color: #ed9b24;
 }
+a#edit-delete {
+  color: #fafafa;
+  background-color: "inherit";
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+a#edit-delete:hover {
+  background-color: "inherit";
+}
+a#edit-cancel, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"] {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+a#edit-cancel:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"]:hover {
+  background-color: #efbe4c;
+}
+input#edit-submit, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"] {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input#edit-submit:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"]:hover {
+  background-color: #34c494;
+}
+input[id*="edit-field-address"][type="submit"], input[id*="field-hotel-rooms-hotel-rooms-add-more"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"] {
+  color: #fafafa;
+  background-color: #1f57b8;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+input[id*="edit-field-address"][type="submit"]:hover, input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover {
+  background-color: #1e52af;
+}
+input[id*="field-contact"][type="submit"] {
+  color: #fafafa;
+  background-color: #1f57b8;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/contact/contact-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="field-contact"][type="submit"]:hover {
+  background-color: #1e52af;
+}
+input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"] {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"]:hover {
+  background-color: #34c494;
+}
+input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"] {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"]:hover {
+  background-color: #efbe4c;
+}
+input[id*="edit-field-address-entities-0-actions-ief-entity-edit"] {
+  color: #e2f2f2;
+  background-color: #ed9b24;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-entities-0-actions-ief-entity-edit"]:hover {
+  background-color: #a67f19;
+}
+input[id*="edit-field-address-entities-0-actions-ief-entity-remove"] {
+  color: #fafafa;
+  background-color: #e11d48;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-entities-0-actions-ief-entity-remove"]:hover {
+  background-color: #ca1a41;
+}
+/* Buttons upon delete address in Hotel */
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"] {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"]:hover {
+  background-color: #efbe4c;
+}
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"] {
+  color: #fafafa;
+  background-color: #e11d48;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"]:hover {
+  background-color: #ca1a41;
+}
+/* Buttons upon edit address in Hotel */
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"] {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"]:hover {
+  background-color: #34c494;
+}
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"] {
+  color: #fafafa;
+  background-color: #e11d48;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"]:hover {
+  background-color: #ca1a41;
+}
+/* region field ER buttons */
+input[id*="-actions-ief-add"] {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add"]:hover {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-add-existing"] {
+  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #1f57b8;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add-existing"]:hover {
+  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
+  color: #e2f2f2;
+  background-color: #1e52af;
+}
+input[id*="-actions-ief-add-cancel"], input[id*="-actions-ief-reference-cancel"], input[id*="-form-actions-ief-edit-cancel"], input[id*="-form-actions-ief-remove-cancel"], input[id*="-actions-remove-button"] {
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #ecb32c;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-add-cancel"]:hover, input[id*="-actions-ief-reference-cancel"]:hover, input[id*="-form-actions-ief-edit-cancel"]:hover, input[id*="-form-actions-ief-remove-cancel"]:hover, input[id*="-actions-remove-button"]:hover {
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  color: #e2f2f2;
+  background-color: #efbe4c;
+}
+input[id*="-actions-ief-reference-save"], input[id*="-form-actions-ief-edit-save"] {
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-reference-save"]:hover, input[id*="-form-actions-ief-edit-save"]:hover {
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-entity-edit"] {
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-edit"]:hover {
+  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
+input[id*="-actions-ief-entity-duplicate--"] {
+  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #1f57b8;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-duplicate--"]:hover {
+  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
+  color: #e2f2f2;
+  background-color: #1e52af;
+}
+input[id*="-actions-ief-entity-remove"], input[id*="-form-actions-ief-remove-confirm"] {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #e11d48;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input[id*="-actions-ief-entity-remove"]:hover, input[id*="-form-actions-ief-remove-confirm"]:hover {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  color: #e2f2f2;
+  background-color: #ca1a41;
+}
+input.cancel.button {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #e11d48;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input.cancel.button:hover {
+  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
+  color: #e2f2f2;
+  background-color: #ca1a41;
+}
+input.field-add-more-submit {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  padding-left: 25px;
+  background-color: #0ea271;
+  padding-right: 10px;
+  font-size: 13px;
+  color: #e2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+input.field-add-more-submit:hover {
+  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
+  color: #e2f2f2;
+  background-color: #34c494;
+}
 /* Overview table edit buttons */
 .tbl-action-btn i {
   font-size: 16px;
@@ -791,102 +1204,6 @@ body[class*="nodeadd"] main#page--content input[type="number"]:focus-within, bod
 body[class*="nodeadd"] main#page--content .field-suffix, body[class*="edit"] main#page--content .field-suffix {
   font-size: 18px;
   margin-left: 10px;
-}
-body[class*="nodeadd"] main#page--content a#edit-delete, body[class*="edit"] main#page--content a#edit-delete {
-  color: #fafafa;
-  background-color: "inherit";
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content a#edit-delete:hover, body[class*="edit"] main#page--content a#edit-delete:hover {
-  background-color: "inherit";
-}
-body[class*="nodeadd"] main#page--content a#edit-cancel, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"], body[class*="edit"] main#page--content a#edit-cancel, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"] {
-  color: #fafafa;
-  background-color: #ecb32c;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content a#edit-cancel:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"]:hover, body[class*="edit"] main#page--content a#edit-cancel:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"]:hover {
-  background-color: #efbe4c;
-}
-body[class*="nodeadd"] main#page--content input#edit-submit, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"], body[class*="edit"] main#page--content input#edit-submit, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"] {
-  color: #fafafa;
-  background-color: #0ea271;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content input#edit-submit:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"]:hover, body[class*="edit"] main#page--content input#edit-submit:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"]:hover {
-  background-color: #34c494;
-}
-body[class*="nodeadd"] main#page--content input[id*="edit-field-address"][type="submit"], body[class*="nodeadd"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"], body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"], body[class*="edit"] main#page--content input[id*="edit-field-address"][type="submit"], body[class*="edit"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"], body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"] {
-  color: #fafafa;
-  background-color: #1f57b8;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-  margin-top: 25px;
-}
-body[class*="nodeadd"] main#page--content input[id*="edit-field-address"][type="submit"]:hover, body[class*="nodeadd"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, body[class*="nodeadd"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-address"][type="submit"]:hover, body[class*="edit"] main#page--content input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, body[class*="edit"] main#page--content input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover {
-  background-color: #1e52af;
-}
-body[class*="nodeadd"] main#page--content input[id*="field-contact"][type="submit"], body[class*="edit"] main#page--content input[id*="field-contact"][type="submit"] {
-  color: #fafafa;
-  background-color: #1f57b8;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/contact/contact-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content input[id*="field-contact"][type="submit"]:hover, body[class*="edit"] main#page--content input[id*="field-contact"][type="submit"]:hover {
-  background-color: #1e52af;
 }
 body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodeadd"] main#page--content #uikit-local-tasks, body[class*="edit"] main#page--content #edit-path-wrapper, body[class*="edit"] main#page--content #uikit-local-tasks {
   display: none;
@@ -2423,44 +2740,6 @@ body[class*="nodeadd"] main#page--content fieldset#hotel-line-details {
 body[class*="nodeadd"] main#page--content fieldset#hotel-line-details legend.uk-legend {
   display: none;
 }
-body[class*="nodeadd"] main#page--content fieldset#hotel-line-details input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"] {
-  color: #fafafa;
-  background-color: #0ea271;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content fieldset#hotel-line-details input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"]:hover {
-  background-color: #34c494;
-}
-body[class*="nodeadd"] main#page--content fieldset#hotel-line-details input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"] {
-  color: #fafafa;
-  background-color: #ecb32c;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content fieldset#hotel-line-details input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"]:hover {
-  background-color: #efbe4c;
-}
 body[class*="nodeadd"] main#page--content fieldset#hotel-line-details fieldset[id*="address-wrapper"] {
   width: 75%;
   /* first line address */
@@ -2532,125 +2811,9 @@ body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field
 }
 body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td {
   border: 0 solid transparent !important;
-  /* Buttons upon delete address in Hotel */
-  /* Buttons upon edit address in Hotel */
 }
 body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td div.ief-entity-operations {
   text-align: -webkit-right;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td div.ief-entity-operations input[id*="edit-field-address-entities-0-actions-ief-entity-edit"] {
-  color: #e2f2f2;
-  background-color: #ed9b24;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td div.ief-entity-operations input[id*="edit-field-address-entities-0-actions-ief-entity-edit"]:hover {
-  background-color: #a67f19;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td div.ief-entity-operations input[id*="edit-field-address-entities-0-actions-ief-entity-remove"] {
-  color: #fafafa;
-  background-color: #e11d48;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td div.ief-entity-operations input[id*="edit-field-address-entities-0-actions-ief-entity-remove"]:hover {
-  background-color: #ca1a41;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"] {
-  color: #fafafa;
-  background-color: #ecb32c;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"]:hover {
-  background-color: #efbe4c;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"] {
-  color: #fafafa;
-  background-color: #e11d48;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"]:hover {
-  background-color: #ca1a41;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"] {
-  color: #fafafa;
-  background-color: #0ea271;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"]:hover {
-  background-color: #34c494;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"] {
-  color: #fafafa;
-  background-color: #e11d48;
-  border-radius: 5px;
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  text-transform: none;
-  font-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 10px;
-  background-size: 15px;
-  padding-left: 35px;
-  padding-right: 15px;
-  border: 0;
-  display: inline-block;
-  margin-left: 5px;
-}
-body[class*="nodeadd"] main#page--content table[id*="ief-entity-table-edit-field-address-entities"] tr td input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"]:hover {
-  background-color: #ca1a41;
 }
 @font-face {
   font-family: "Inter";
@@ -2837,133 +3000,6 @@ fieldset.ief-form.ief-form-bottom {
 fieldset.ief-form.ief-form-bottom legend {
   display: none !important;
 }
-/* region field ER buttons */
-input[id*="-actions-ief-add"] {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add"]:hover {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-add-existing"] {
-  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #1f57b8;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add-existing"]:hover {
-  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
-  color: #e2f2f2;
-  background-color: #1e52af;
-}
-input[id*="-actions-ief-add-cancel"], input[id*="-actions-ief-reference-cancel"], input[id*="-form-actions-ief-edit-cancel"], input[id*="-form-actions-ief-remove-cancel"], input[id*="-actions-remove-button"] {
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #ecb32c;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add-cancel"]:hover, input[id*="-actions-ief-reference-cancel"]:hover, input[id*="-form-actions-ief-edit-cancel"]:hover, input[id*="-form-actions-ief-remove-cancel"]:hover, input[id*="-actions-remove-button"]:hover {
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  color: #e2f2f2;
-  background-color: #efbe4c;
-}
-input[id*="-actions-ief-reference-save"], input[id*="-form-actions-ief-edit-save"] {
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-reference-save"]:hover, input[id*="-form-actions-ief-edit-save"]:hover {
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-entity-edit"] {
-  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-edit"]:hover {
-  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-entity-duplicate--"] {
-  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #1f57b8;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-duplicate--"]:hover {
-  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
-  color: #e2f2f2;
-  background-color: #1e52af;
-}
-input[id*="-actions-ief-entity-remove"], input[id*="-form-actions-ief-remove-confirm"] {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #e11d48;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-remove"]:hover, input[id*="-form-actions-ief-remove-confirm"]:hover {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  color: #e2f2f2;
-  background-color: #ca1a41;
-}
 div[class*="-form-entities-0-form-delete"] {
   display: none;
 }
@@ -3093,47 +3129,11 @@ body main#page--content form.node-form table[id*="field-rates-list-fc-values"] t
   float: right;
   margin-top: 30px !important;
 }
-body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #e11d48;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button:hover {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  color: #e2f2f2;
-  background-color: #ca1a41;
-}
 body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) label {
   display: none;
 }
 body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) div.form-actions {
   margin-top: 0 !important;
-}
-input.field-add-more-submit {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input.field-add-more-submit:hover {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
 }
 /* View form */
 fieldset.right-side-fieldset div.fieldset-wrapper div.uk-margin {

@@ -28,133 +28,6 @@ fieldset.ief-form.ief-form-bottom {
 fieldset.ief-form.ief-form-bottom legend {
   display: none !important;
 }
-/* region field ER buttons */
-input[id*="-actions-ief-add"] {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add"]:hover {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-add-existing"] {
-  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #1f57b8;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add-existing"]:hover {
-  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
-  color: #e2f2f2;
-  background-color: #1e52af;
-}
-input[id*="-actions-ief-add-cancel"], input[id*="-actions-ief-reference-cancel"], input[id*="-form-actions-ief-edit-cancel"], input[id*="-form-actions-ief-remove-cancel"], input[id*="-actions-remove-button"] {
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #ecb32c;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-add-cancel"]:hover, input[id*="-actions-ief-reference-cancel"]:hover, input[id*="-form-actions-ief-edit-cancel"]:hover, input[id*="-form-actions-ief-remove-cancel"]:hover, input[id*="-actions-remove-button"]:hover {
-  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
-  color: #e2f2f2;
-  background-color: #efbe4c;
-}
-input[id*="-actions-ief-reference-save"], input[id*="-form-actions-ief-edit-save"] {
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-reference-save"]:hover, input[id*="-form-actions-ief-edit-save"]:hover {
-  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-entity-edit"] {
-  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-edit"]:hover {
-  background-image: url("/sites/default/files/custom/svg/edit/pen-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
-}
-input[id*="-actions-ief-entity-duplicate--"] {
-  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #1f57b8;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-duplicate--"]:hover {
-  background-image: url("/sites/default/files/custom/svg/copy/copy-white.svg");
-  color: #e2f2f2;
-  background-color: #1e52af;
-}
-input[id*="-actions-ief-entity-remove"], input[id*="-form-actions-ief-remove-confirm"] {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #e11d48;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input[id*="-actions-ief-entity-remove"]:hover, input[id*="-form-actions-ief-remove-confirm"]:hover {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  color: #e2f2f2;
-  background-color: #ca1a41;
-}
 div[class*="-form-entities-0-form-delete"] {
   display: none;
 }
@@ -284,47 +157,11 @@ body main#page--content form.node-form table[id*="field-rates-list-fc-values"] t
   float: right;
   margin-top: 30px !important;
 }
-body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #e11d48;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody div.form-actions input.cancel.button:hover {
-  background-image: url("/sites/default/files/custom/svg/delete/trash-white.svg");
-  color: #e2f2f2;
-  background-color: #ca1a41;
-}
 body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) label {
   display: none;
 }
 body main#page--content form.node-form table[id*="field-rates-list-fc-values"] tbody tr:not(:first-child) div.form-actions {
   margin-top: 0 !important;
-}
-input.field-add-more-submit {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: #0ea271;
-  padding-right: 10px;
-  font-size: 13px;
-  color: #e2f2f2;
-  text-transform: capitalize;
-  border-radius: 5px;
-}
-input.field-add-more-submit:hover {
-  background-image: url("/sites/default/files/custom/svg/add/plus-white.svg");
-  color: #e2f2f2;
-  background-color: #34c494;
 }
 /* View form */
 fieldset.right-side-fieldset div.fieldset-wrapper div.uk-margin {

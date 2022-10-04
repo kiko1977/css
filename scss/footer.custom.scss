@@ -34,7 +34,7 @@ footer {
         font-family: $font-family-title;
         font-size: 20px;
         margin-bottom: 10px !important;
-        background-image: url(/sites/default/files/custom/svg/data_support/table-blue.svg);
+        background-image: url(/sites/default/files/custom/svg/data_support/data_support-blue.svg);
         background-repeat: no-repeat;
         background-position: 0px;
         background-size: 19px;
@@ -84,7 +84,7 @@ footer {
     }
   }
   #accommodation-types {
-    @include backgroundBottomButtons("accom-type", "acom-orange", "acom-white");
+    @include backgroundBottomButtons("accom-type", "accom-type-orange", "accom-type-white");
   }
   #clients {
     @include backgroundBottomButtons(
@@ -114,7 +114,7 @@ footer {
   }
 
   #hotels {
-    @include backgroundBottomButtons("hotels", "hotel-orange", "hotel-white");
+    @include backgroundBottomButtons("hotel", "hotel-orange", "hotel-white");
   }
 
   #regions {
@@ -131,7 +131,7 @@ footer {
 
   #markets {
     @include backgroundBottomButtons(
-      "markets",
+      "market",
       "market-orange",
       "market-white"
     );

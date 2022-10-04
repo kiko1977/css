@@ -87,12 +87,12 @@ form.node-form {
     }
 
     li:first-child a {
-      background-image: url(/sites/default/files/custom/svg/data_main/table-grey.svg);
+      background-image: url(/sites/default/files/custom/svg/data_main/data_main-grey.svg);
     }
 
     li:first-child.selected a,
     li:first-child a:hover {
-      background-image: url(/sites/default/files/custom/svg/data_main/table-orange.svg);
+      background-image: url(/sites/default/files/custom/svg/data_main/data_main-orange.svg);
     }
 
     li:nth-child(2) a {
@@ -105,12 +105,12 @@ form.node-form {
     }
 
     li:nth-child(3) a {
-      background-image: url(/sites/default/files/custom/svg/add/plus-grey.svg);
+      background-image: url(/sites/default/files/custom/svg/add/add-grey.svg);
     }
 
     li:nth-child(3).selected a,
     li:nth-child(3) a:hover {
-      background-image: url(/sites/default/files/custom/svg/add/plus-orange.svg);
+      background-image: url(/sites/default/files/custom/svg/add/add-orange.svg);
     }
 
     li:nth-child(4) a {
@@ -171,12 +171,12 @@ form.node-form {
     }
 
     li:first-child a {
-      background-image: url(/sites/default/files/custom/svg/hotels/hotel-grey.svg);
+      background-image: url(/sites/default/files/custom/svg/hotel/hotel-grey.svg);
     }
 
     li:first-child.selected a,
     li:first-child a:hover {
-      background-image: url(/sites/default/files/custom/svg/hotels/hotel-orange.svg);
+      background-image: url(/sites/default/files/custom/svg/hotel/hotel-orange.svg);
     }
 
     li:nth-child(2) a {
@@ -248,59 +248,7 @@ body[class*="edit"] {
       margin-left: 10px;
     }
 
-    a#edit-delete {
-      @include button(
-        $whiteFont,
-        "inherit",
-        "inherit",
-        "delete",
-        "trash-white"
-      );
-    }
-    a#edit-cancel,
-    input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-cancel"] {
-      @include button(
-        $whiteFont,
-        $cancelBtn,
-        $cancelBtnHover,
-        "cancel",
-        "cancel-white"
-      );
-    }
-    input#edit-submit,
-    input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-actions-ief-add-save"] {
-      @include button(
-        $whiteFont,
-        $saveBtn,
-        $saveBtnHover,
-        "save",
-        "save-white"
-      );
-    }
-
-    input[id*="edit-field-address"][type="submit"],
-    input[id*="field-hotel-rooms-hotel-rooms-add-more"],
-    input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"],
-    input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"] {
-      @include button(
-        $whiteFont,
-        $addParBtn,
-        $addParBtnHover,
-        "add",
-        "plus-white"
-      );
-      margin-top: 25px;
-    }
-
-    input[id*="field-contact"][type="submit"] {
-      @include button(
-        $whiteFont,
-        $addParBtn,
-        $addParBtnHover,
-        "contact",
-        "contact-white"
-      );
-    }
+    
 
     #edit-path-wrapper,
     #uikit-local-tasks {
@@ -332,7 +280,7 @@ body[class*="edit"] {
 body[class*="edit"],
 body[class*="nodeadd"] {
   h1.uk-article-title {
-    @include pageTitleIcons("edit", "pen-blue");
+    @include pageTitleIcons("edit", "edit-blue");
     color: $blue-menu;
     font-weight: bold;
     em {
@@ -352,7 +300,7 @@ body[class*="nodeadd"] {
 }
 body.nodeaddcountries {
   h1.uk-article-title {
-    @include pageTitleIcons("countries", "country-blue");
+    @include pageTitleIcons("country", "country-blue");
   }
   //form {
   //  .field--name-field-country-short {
@@ -384,7 +332,7 @@ body.nodeaddcountries {
 
 body.nodeaddroom_types {
   h1.uk-article-title {
-    @include pageTitleIcons("accom-type", "acom-blue");
+    @include pageTitleIcons("accom-type", "accom-type-blue");
   }
 }
 
@@ -403,12 +351,12 @@ body.nodeaddcustomer {
 
 body.nodeadddestinations {
   h1.uk-article-title {
-    @include pageTitleIcons("destinations", "destination-blue");
+    @include pageTitleIcons("destination", "destination-blue");
   }
 }
 body.nodeaddfile_status {
   h1.uk-article-title {
-    @include pageTitleIcons("statuses", "status-blue");
+    @include pageTitleIcons("status", "status-blue");
   }
 }
 body.nodeaddfile_type {
@@ -425,14 +373,14 @@ body.nodeaddinvoicing_status {
 }
 body.nodeaddlanguages {
   h1.uk-article-title {
-    @include pageTitleIcons("languages", "language-blue");
+    @include pageTitleIcons("language", "language-blue");
     background-position: 0 5px;
   }
 }
 
 body.nodeaddmarket {
   h1.uk-article-title {
-    @include pageTitleIcons("markets", "market-blue");
+    @include pageTitleIcons("market", "market-blue");
   }
 }
 
@@ -465,7 +413,7 @@ body[class$="9"] {
     padding: 0 2%;
   }
   h1.uk-article-title {
-    @include pageTitleIcons("view", "eye-blue");
+    @include pageTitleIcons("view", "view-blue");
   }
   article.contextual-region {
     .uk-form-wrapper {

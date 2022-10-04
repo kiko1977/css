@@ -14,24 +14,6 @@ body[class*="nodeadd"] main#page--content {
     legend.uk-legend {
       display: none;
     }
-    input[id*="edit-field-address-form-0-actions-ief-add-save"][type="submit"] {
-      @include button(
-        $whiteFont,
-        $saveBtn,
-        $saveBtnHover,
-        "save",
-        "save-white"
-      );
-    }
-    input[id*="edit-field-address-form-0-actions-ief-add-cancel"][type="submit"] {
-      @include button(
-        $whiteFont,
-        $cancelBtn,
-        $cancelBtnHover,
-        "cancel",
-        "cancel-white"
-      );
-    }
     /* address wrapper */
     fieldset[id*="address-wrapper"] {
       width: 75%;
@@ -78,57 +60,9 @@ body[class*="nodeadd"] main#page--content {
         border: 0 solid transparent !important;
         div.ief-entity-operations {
           text-align: -webkit-right;
-          input[id*="edit-field-address-entities-0-actions-ief-entity-edit"] {
-            @include button($white, $main, $brown, "edit", "pen-white");
-          }
-          input[id*="edit-field-address-entities-0-actions-ief-entity-remove"] {
-            @include button(
-              $whiteFont,
-              $delBtn,
-              $delBtnHover,
-              "delete",
-              "trash-white"
-            );
-          }
+          
         }
-        /* Buttons upon delete address in Hotel */
-        input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-cancel"] {
-          @include button(
-            $whiteFont,
-            $cancelBtn,
-            $cancelBtnHover,
-            "cancel",
-            "cancel-white"
-          );
-        }
-        input[id*="edit-field-address-form-entities-0-form-actions-ief-remove-confirm"] {
-          @include button(
-            $whiteFont,
-            $delBtn,
-            $delBtnHover,
-            "delete",
-            "trash-white"
-          );
-        }
-        /* Buttons upon edit address in Hotel */
-        input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-save"] {
-          @include button(
-            $whiteFont,
-            $saveBtn,
-            $saveBtnHover,
-            "save",
-            "save-white"
-          );
-        }
-        input[id*="edit-field-address-form-inline-entity-form-entities-0-form-actions-ief-edit-cancel"] {
-          @include button(
-            $whiteFont,
-            $delBtn,
-            $delBtnHover,
-            "delete",
-            "trash-white"
-          );
-        }
+        
       }
     }
   }

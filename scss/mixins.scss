@@ -21,31 +21,8 @@
   }
 }
 
-@mixin button_er(
-  $color,
-  $bg-color,
-  $color-hover,
-  $bg-color-hover,
-  $svgFolder,
-  $bg-image,
-  $bg-image-hover
-) {
-  background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
-  background-repeat: no-repeat;
-  background-position: 5px;
-  background-size: 15px;
-  padding-left: 25px;
-  background-color: $bg-color;
-  padding-right: 10px;
-  font-size: 13px;
-  color: $color;
-  text-transform: capitalize;
-  border-radius: 5px;
-  &:hover {
-    background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image-hover + ".svg");
-    color: $color-hover;
-    background-color: $bg-color-hover;
-  }
+@mixin deleteButton() {
+  @include button()
 }
 
 @mixin verticalMarginZero() {
@@ -139,7 +116,7 @@
 
 @mixin searchbox() {
   width: 40%;
-  background-image: url(/sites/default/files/custom/svg/search/glass-grey.svg);
+  background-image: url(/sites/default/files/custom/svg/search/search-grey.svg);
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 15px;
