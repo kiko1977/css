@@ -249,6 +249,402 @@ form.node-form a#edit-delete {
 /* font color */
 /* Buttons */
 /* FONTS */
+/* forms */
+body[class*="nodeadd"] main#page--content, body[class*="edit"] main#page--content {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1.5%;
+  margin-top: 35px;
+}
+body[class*="nodeadd"] main#page--content h1.uk-article-title, body[class*="edit"] main#page--content h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
+}
+body[class*="nodeadd"] main#page--content h1.uk-article-title em, body[class*="edit"] main#page--content h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+body[class*="nodeadd"] main#page--content label.uk-form-label, body[class*="nodeadd"] main#page--content div.fieldset-wrapper h4, body[class*="edit"] main#page--content label.uk-form-label, body[class*="edit"] main#page--content div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] main#page--content input[type="text"], body[class*="nodeadd"] main#page--content textarea, body[class*="nodeadd"] main#page--content input[type="tel"], body[class*="nodeadd"] main#page--content input[type="date"], body[class*="nodeadd"] main#page--content input[type="email"], body[class*="nodeadd"] main#page--content select, body[class*="nodeadd"] main#page--content div.form-select, body[class*="edit"] main#page--content input[type="text"], body[class*="edit"] main#page--content textarea, body[class*="edit"] main#page--content input[type="tel"], body[class*="edit"] main#page--content input[type="date"], body[class*="edit"] main#page--content input[type="email"], body[class*="edit"] main#page--content select, body[class*="edit"] main#page--content div.form-select {
+  width: 90% !important;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+body[class*="nodeadd"] main#page--content input[type="text"]:focus-within, body[class*="nodeadd"] main#page--content textarea:focus-within, body[class*="nodeadd"] main#page--content input[type="tel"]:focus-within, body[class*="nodeadd"] main#page--content input[type="date"]:focus-within, body[class*="nodeadd"] main#page--content input[type="email"]:focus-within, body[class*="nodeadd"] main#page--content select:focus-within, body[class*="nodeadd"] main#page--content div.form-select:focus-within, body[class*="edit"] main#page--content input[type="text"]:focus-within, body[class*="edit"] main#page--content textarea:focus-within, body[class*="edit"] main#page--content input[type="tel"]:focus-within, body[class*="edit"] main#page--content input[type="date"]:focus-within, body[class*="edit"] main#page--content input[type="email"]:focus-within, body[class*="edit"] main#page--content select:focus-within, body[class*="edit"] main#page--content div.form-select:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+body[class*="nodeadd"] main#page--content input[type="number"], body[class*="edit"] main#page--content input[type="number"] {
+  width: 10% !important;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+body[class*="nodeadd"] main#page--content input[type="number"]:focus-within, body[class*="edit"] main#page--content input[type="number"]:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+body[class*="nodeadd"] main#page--content .field-suffix, body[class*="edit"] main#page--content .field-suffix {
+  font-size: 15px;
+  margin-left: 5px;
+}
+body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodeadd"] main#page--content #uikit-local-tasks, body[class*="edit"] main#page--content #edit-path-wrapper, body[class*="edit"] main#page--content #uikit-local-tasks {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions, body[class*="edit"] main#page--content div#edit-actions {
+  text-align: right;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+body[class*="nodeadd"] main#page--content div.uk-form-row, body[class*="edit"] main#page--content div.uk-form-row {
+  margin-bottom: 10px;
+}
+body[class*="nodeadd"] main#page--content div.uk-form-row div.js-form-item, body[class*="edit"] main#page--content div.uk-form-row div.js-form-item {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] main#page--content table.field-multiple-table thead, body[class*="edit"] main#page--content table.field-multiple-table thead {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper, body[class*="edit"] main#page--content div.paragraphs-add-wrapper {
+  color: transparent;
+}
+body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper em.placeholder, body[class*="edit"] main#page--content div.paragraphs-add-wrapper em.placeholder {
+  color: transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset, body[class*="edit"] main#page--content fieldset.single-line-fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset > legend:first-child {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"] {
+  width: 50%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+  padding-left: 0;
+}
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"] {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 5px;
+}
+body[class*="nodeadd"] main#page--content div.field--type-field-collection > div > fieldset, body[class*="edit"] main#page--content div.field--type-field-collection > div > fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content div.field--type-field-collection > div > fieldset > legend:first-child, body[class*="edit"] main#page--content div.field--type-field-collection > div > fieldset > legend:first-child {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset {
+  width: 50%;
+}
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.left-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.left-fieldset {
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.right-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.right-fieldset {
+  float: right;
+}
+body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
+  width: 20% !important;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* page header zone */
+header#page--header {
+  background-color: #1f2937;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 10001;
+  top: 0px;
+  /* main menu items */
+  /* right menu items */
+}
+header#page--header #page--navbar {
+  width: 75%;
+  float: left;
+  display: inline-flex;
+}
+header#page--header .right-nav {
+  width: 20%;
+  height: 35px;
+  float: right;
+  display: inline-flex;
+}
+header#page--header .uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: #1f2937 !important;
+}
+header#page--header .uk-navbar-left {
+  display: inline-flex;
+  width: 90%;
+}
+header#page--header .uk-navbar-left #mainnavigation {
+  display: block;
+  float: left;
+}
+header#page--header .uk-navbar-left #useraccountmenu {
+  display: block;
+  float: right;
+}
+header#page--header .uk-navbar-left .uk-hidden\@m {
+  display: inline-flex !important;
+  width: 10%;
+}
+header#page--header .uk-navbar-left .uk-navbar-item {
+  display: inline-flex;
+  width: 85%;
+}
+header#page--header #menu__toggle {
+  opacity: 0;
+}
+header#page--header #menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+header#page--header .menu__btn {
+  position: fixed;
+  top: 9px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+header#page--header .menu__btn i {
+  font-size: 20px;
+  color: #e2f2f2;
+}
+header#page--header .menu__btn i.close-menu {
+  display: none;
+}
+header#page--header .menu__btn {
+  z-index: 1000;
+}
+header#page--header .menu__btn > span, header#page--header .menu__btn > span::before, header#page--header .menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #e2f2f2;
+  transition-duration: 0.25s;
+}
+header#page--header .menu__btn span::before {
+  top: -8px;
+}
+header#page--header .menu__btn > span::after {
+  top: 8px;
+}
+header#page--header .menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 35px 0;
+  list-style: none;
+  background-color: #1f2937;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.25s;
+}
+header#page--header .menu__box li {
+  display: block;
+  padding: 6px 24px;
+  color: #e2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+header#page--header .menu__box li li {
+  background-color: #cfd8dc;
+  height: 45px;
+}
+header#page--header .menu__box li li a {
+  min-height: 45px;
+  color: #e2f2f2;
+}
+header#page--header .uk-navbar-nav.menu__box {
+  z-index: 999;
+}
+header#page--header [class*="uk-navbar-dropdown-bottom"] {
+  margin-top: 0px;
+  padding: 0px;
+}
+header#page--header li .uk-navbar-dropdown #menu__toggle {
+  display: none;
+}
+header#page--header li .uk-navbar-dropdown .uk-navbar-dropdown-nav li {
+  background-color: #cfd8dc;
+  height: 25px;
+}
+header#page--header li .uk-navbar-dropdown .uk-navbar-dropdown-nav li a {
+  min-height: 25px;
+  background-image: none !important;
+}
+header#page--header #uikit-main-menu-offcanvas {
+  height: 35px;
+}
+header#page--header .uk-navbar-nav.menu__box li a {
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 15px;
+  min-height: 60px;
+  color: #e2f2f2 !important;
+}
+header#page--header .uk-navbar-nav.menu__box li:first-child a {
+  background-image: url(/sites/default/files/custom/svg/home/home-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(2) a {
+  background-image: url(/sites/default/files/custom/svg/trip/trip-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(3) a {
+  background-image: url(/sites/default/files/custom/svg/add/add-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(4) a {
+  background-image: url(/sites/default/files/custom/svg/calendar/calendar-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(5) a {
+  background-image: url(/sites/default/files/custom/svg/data_main/data_main-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(6) a {
+  background-image: url(/sites/default/files/custom/svg/data_support/data_support-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(7) a {
+  background-image: url(/sites/default/files/custom/svg/user/user-white.svg);
+}
+header#page--header .uk-navbar-nav.menu__box li:nth-child(8) a {
+  background-image: url(/sites/default/files/custom/svg/logout/logout-white.svg);
+}
+header#page--header #region--navbar_right #right-side-menu {
+  left: 170%;
+}
+header#page--header #region--navbar_right #right-side-menu a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header#page--header #region--navbar_right #right-side-menu a i {
+  font-size: 20px;
+  color: #e2f2f2;
+}
+header#page--header #region--navbar_right #right-side-menu .uk-margin {
+  margin-top: 5px !important;
+  position: relative;
+  left: -55%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
 @font-face {
   font-family: "Inter";
   src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
@@ -277,15 +673,41 @@ form.node-form.node-supplier-form, form.node-form.node-supplier-edit-form {
   margin-left: 0;
   margin-right: 0;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li, form.node-form.node-supplier-form ul.vertical-tabs__menu li, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li {
-  margin-bottom: 0 !important;
-  margin-top: 10px !important;
+form.node-form.node-supplier-form ul.horizontal-tabs-list, form.node-form.node-supplier-form ul.vertical-tabs__menu, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu {
+  border-top-left-radius: 6px;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-form ul.vertical-tabs__menu li a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a {
+  height: 100px;
+  line-height: 100px;
+  color: #808080;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 90% 35px;
+  background-size: 7.5%;
+  font-size: 1.15em;
+  font-family: "Inter_Semi_Bold";
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a:hover {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #ed9b24;
+  text-decoration: none;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a strong.vertical-tabs__menu-item-title {
+  text-decoration: none;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.horizontal-tabs-list li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li.selected a strong.vertical-tabs__menu-item-title {
+  color: #ed9b24;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a {
   background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
   padding-right: 50px;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a:hover {
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.is-selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.is-selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.is-selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.is-selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a:hover {
   background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
   padding-right: 50px;
 }
@@ -293,50 +715,25 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a
   background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
   padding-right: 50px;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child) a:hover {
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).is-selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).is-selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).is-selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).is-selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child) a:hover {
   background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
   padding-right: 50px;
 }
 .vertical-tabs {
-  border: 0px solid transparent;
-  border-radius: 6px;
+  margin-left: 20em;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  width: 81%;
 }
 .vertical-tabs .vertical-tabs__menu {
-  border-bottom: 0px solid transparent;
-  background-color: transparent;
+  width: 20em;
+  margin-left: -20em;
 }
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item {
-  background-color: #fff;
-  width: 100%;
-  height: 60px;
-  line-height: 40px;
-  margin: 1% 5%;
-  border-right: 0px solid transparent;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item a {
-  color: #808080;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 90% 20px;
-  background-size: 20px;
-  min-height: 60px;
-  font-size: 15px;
-  font-family: "Inter_Semi_Bold";
-  line-height: 60px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item a:hover {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  color: #ed9b24;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a strong.vertical-tabs__menu-item-title {
-  color: #ed9b24;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+.vertical-tabs .vertical-tabs__menu li {
+  height: 100px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .horizontal-tabs {
   border: 0px solid transparent;
@@ -345,8 +742,20 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   /* fieldset region in form */
 }
 .horizontal-tabs .horizontal-tabs-list {
+  border-top: 0px solid transparent;
   border-bottom: 0px solid transparent;
   background-color: transparent;
+}
+.horizontal-tabs .horizontal-tabs-list li {
+  margin-bottom: 0 !important;
+  margin-top: 10px !important;
+}
+.horizontal-tabs .horizontal-tabs-list li a {
+  background-position: 90% 20px;
+  background-size: 20px;
+  min-height: 60px;
+  font-size: 16px;
+  line-height: 60px;
 }
 .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button {
   background-color: #fff;
@@ -356,29 +765,6 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   border-right: 0px solid transparent;
   border-radius: 6px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a {
-  color: #808080;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 90% 20px;
-  background-size: 20px;
-  min-height: 60px;
-  font-size: 15px;
-  font-family: "Inter_Semi_Bold";
-  line-height: 60px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a:hover {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  color: #ed9b24;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button.selected a {
-  color: #ed9b24;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
 }
 .horizontal-tabs .horizontal-tabs-panes {
   background-color: #fff;

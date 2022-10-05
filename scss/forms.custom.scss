@@ -1,0 +1,148 @@
+@import "variables";
+@import "mixins";
+
+/* forms */
+body[class*="nodeadd"],
+body[class*="edit"] {
+    main#page--content {
+        @include shadowedWhiteBg();
+        width: 95%;
+        margin-left: auto;
+        margin-right: 1.5%;
+        margin-top: 35px;
+        h1.uk-article-title {
+            @include pageTitleIcons("edit", "edit-blue");
+
+            em {
+                color: $font-black;
+                font-weight: normal;
+                display: inline-block;
+            }
+        }
+        label.uk-form-label,
+        div.fieldset-wrapper h4 {
+            @include labelBlack();
+        }
+        input[type="text"],
+        textarea,
+        input[type="tel"],
+        input[type="date"],
+        input[type="email"],
+        select,
+        div.form-select {
+            @include inputField(90%, 5px 10px, 35px);
+        }
+
+        input[type="number"] {
+            @include inputField(10%, 5px 10px, 35px);
+        }
+        .field-suffix {
+            @include fieldSuffix();
+        }
+
+        #edit-path-wrapper,
+        #uikit-local-tasks {
+            display: none;
+        }
+        div#edit-actions {
+            text-align: right;
+            margin-top: 20px !important;
+            margin-bottom: 20px;
+        }
+        div.uk-form-row {
+            margin-bottom: 10px;
+            div.js-form-item {
+                margin-bottom: 0;
+            }
+        }
+        table.field-multiple-table thead {
+            display: none;
+        }
+
+        div.paragraphs-add-wrapper {
+            color: transparent;
+            em.placeholder {
+                color: transparent;
+            }
+        }
+        fieldset.multiple-line-fieldset,
+        fieldset.single-line-fieldset {
+            @include noBorder();
+            margin: 0;
+            padding: 0;
+            > legend:first-child {
+                display: none;
+            }
+            fieldset.main-line-fieldset {
+                @include noBorder();
+                margin: 0;
+                padding: 0;
+                > legend:first-child {
+                    display: none;
+                }
+                fieldset[id*="edit-field-"] {
+                    > div.fieldset-wrapper {
+                        div[class*="field--name-field-"] {
+                            width: 50%;
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+        div.field--type-entity-reference {
+            > div[id*="inline-entity-form"] {
+                > fieldset {
+                    @include noBorder();
+                    margin: 0;
+                    padding: 0;
+                    > legend:first-child {
+                        @include labelBlack();
+                        padding-left: 0;
+                    }
+                    > div.fieldset-wrapper {
+                        > div.uk-form-row {
+                            input[id*="actions-ief-add"] {
+                                margin-top: 5px;
+                                margin-left: 0;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div.field--type-field-collection {
+            > div {
+                > fieldset {
+                    @include noBorder();
+                    margin: 0;
+                    padding: 0;
+                    > legend:first-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+        fieldset.half-size-fieldset {
+            width: 50%;
+            &.left-fieldset {
+                float: left;
+            }
+            &.right-fieldset {
+                float: right;
+            }
+        }
+    }
+}
+body[class*="edit"],
+body[class*="nodeadd"] {
+    form.node-form {
+        div.uk-form-controls {
+            input#edit-field-country-short-0-value,
+            input#edit-field-country-code-0-value {
+                width: 20% !important;
+            }
+        }
+    }
+}

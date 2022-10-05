@@ -230,13 +230,15 @@
 }
 
 @mixin pageTitleIcons($svgFolder, $bg-image) {
-  //border-bottom-left-radius: 2em !important;
-  //border-top-left-radius: 2em !important;
   background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
   background-repeat: no-repeat;
   background-position: 0px 2px;
   background-size: 25px;
-  padding-left: 35px;
+  color: $blue-menu;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
 }
 
 @mixin addressParagraphFields($width) {
@@ -253,4 +255,8 @@
 @mixin fieldSuffix() {
   font-size: 15px;
   margin-left: 5px;
+}
+
+@mixin noBorder() {
+  border: 0px solid transparent;
 }

@@ -26,15 +26,41 @@ form.node-form.node-supplier-form, form.node-form.node-supplier-edit-form {
   margin-left: 0;
   margin-right: 0;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li, form.node-form.node-supplier-form ul.vertical-tabs__menu li, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li {
-  margin-bottom: 0 !important;
-  margin-top: 10px !important;
+form.node-form.node-supplier-form ul.horizontal-tabs-list, form.node-form.node-supplier-form ul.vertical-tabs__menu, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu {
+  border-top-left-radius: 6px;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-form ul.vertical-tabs__menu li a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a {
+  height: 100px;
+  line-height: 100px;
+  color: #808080;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 90% 35px;
+  background-size: 7.5%;
+  font-size: 1.15em;
+  font-family: "Inter_Semi_Bold";
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a:hover {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #ed9b24;
+  text-decoration: none;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a strong.vertical-tabs__menu-item-title {
+  text-decoration: none;
+}
+form.node-form.node-supplier-form ul.horizontal-tabs-list li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.horizontal-tabs-list li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-form ul.vertical-tabs__menu li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li.selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li.is-selected a strong.vertical-tabs__menu-item-title, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li.selected a strong.vertical-tabs__menu-item-title {
+  color: #ed9b24;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a {
   background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
   padding-right: 50px;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a:hover {
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child.is-selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child.is-selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:first-child a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child.is-selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:first-child a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child.is-selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:first-child a:hover {
   background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
   padding-right: 50px;
 }
@@ -42,50 +68,25 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a
   background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
   padding-right: 50px;
 }
-form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child) a:hover {
+form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).is-selected a, form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child).is-selected a, form.node-form.node-supplier-form ul.vertical-tabs__menu li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child).is-selected a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li:not(:first-child) a:hover, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child).is-selected a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li:not(:first-child) a:hover {
   background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
   padding-right: 50px;
 }
 .vertical-tabs {
-  border: 0px solid transparent;
-  border-radius: 6px;
+  margin-left: 20em;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  width: 81%;
 }
 .vertical-tabs .vertical-tabs__menu {
-  border-bottom: 0px solid transparent;
-  background-color: transparent;
+  width: 20em;
+  margin-left: -20em;
 }
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item {
-  background-color: #fff;
-  width: 100%;
-  height: 60px;
-  line-height: 40px;
-  margin: 1% 5%;
-  border-right: 0px solid transparent;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item a {
-  color: #808080;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 90% 20px;
-  background-size: 20px;
-  min-height: 60px;
-  font-size: 15px;
-  font-family: "Inter_Semi_Bold";
-  line-height: 60px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item a:hover {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  color: #ed9b24;
-}
-.vertical-tabs .vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a strong.vertical-tabs__menu-item-title {
-  color: #ed9b24;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+.vertical-tabs .vertical-tabs__menu li {
+  height: 100px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .horizontal-tabs {
   border: 0px solid transparent;
@@ -94,8 +95,20 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   /* fieldset region in form */
 }
 .horizontal-tabs .horizontal-tabs-list {
+  border-top: 0px solid transparent;
   border-bottom: 0px solid transparent;
   background-color: transparent;
+}
+.horizontal-tabs .horizontal-tabs-list li {
+  margin-bottom: 0 !important;
+  margin-top: 10px !important;
+}
+.horizontal-tabs .horizontal-tabs-list li a {
+  background-position: 90% 20px;
+  background-size: 20px;
+  min-height: 60px;
+  font-size: 16px;
+  line-height: 60px;
 }
 .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button {
   background-color: #fff;
@@ -105,29 +118,6 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   border-right: 0px solid transparent;
   border-radius: 6px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a {
-  color: #808080;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 90% 20px;
-  background-size: 20px;
-  min-height: 60px;
-  font-size: 15px;
-  font-family: "Inter_Semi_Bold";
-  line-height: 60px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a:hover {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  color: #ed9b24;
-}
-.horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button.selected a {
-  color: #ed9b24;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
 }
 .horizontal-tabs .horizontal-tabs-panes {
   background-color: #fff;

@@ -22,166 +22,6 @@
 /* font color */
 /* Buttons */
 /* FONTS */
-/* Form general */
-form.node-form {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  border-radius: 0.5rem;
-  width: 96%;
-  margin-left: 2%;
-  margin-right: 2%;
-  /* hide form's vertical tab */
-  /* form's bottom buttons zone */
-  /* trip form modifications */
-  /* hotel form modifications */
-  /* general form fieldsets */
-}
-form.node-form .js-form-type-vertical-tabs {
-  display: none;
-}
-form.node-form #edit-actions {
-  margin-left: 1%;
-  margin-top: 10px !important;
-}
-form.node-form .horizontal-tabs {
-  border: 0px solid transparent;
-  border-radius: 6px;
-  /* forms tabs list */
-  /* fieldset region in form */
-}
-form.node-form .horizontal-tabs .horizontal-tabs-list {
-  border-bottom: 0px solid transparent;
-  background-color: transparent;
-}
-form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button {
-  background-color: #fff;
-  height: 60px;
-  line-height: 40px;
-  margin: 1% 20px;
-  border-right: 0px solid transparent;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a {
-  color: #808080;
-  text-align: left;
-  background-repeat: no-repeat;
-  background-position: 90% 20px;
-  background-size: 20px;
-  min-height: 60px;
-  font-size: 16px;
-  font-family: "Inter_Semi_Bold";
-  line-height: 60px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button a:hover {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  color: #ed9b24;
-}
-form.node-form .horizontal-tabs .horizontal-tabs-list li.horizontal-tab-button.selected a {
-  color: #ed9b24;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}
-form.node-form .horizontal-tabs .horizontal-tabs-panes {
-  background-color: #fff;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 6px;
-}
-form.node-form.node-main-form {
-  /* trip form tabs */
-}
-form.node-form.node-main-form li.horizontal-tab-button {
-  width: calc((100% - 320px) / 8);
-}
-form.node-form.node-main-form li:first-child a {
-  background-image: url(/sites/default/files/custom/svg/data_main/data_main-grey.svg);
-}
-form.node-form.node-main-form li:first-child.selected a, form.node-form.node-main-form li:first-child a:hover {
-  background-image: url(/sites/default/files/custom/svg/data_main/data_main-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(2) a {
-  background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(2).selected a, form.node-form.node-main-form li:nth-child(2) a:hover {
-  background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(3) a {
-  background-image: url(/sites/default/files/custom/svg/add/add-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(3).selected a, form.node-form.node-main-form li:nth-child(3) a:hover {
-  background-image: url(/sites/default/files/custom/svg/add/add-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(4) a {
-  background-image: url(/sites/default/files/custom/svg/plane/plane-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(4).selected a, form.node-form.node-main-form li:nth-child(4) a:hover {
-  background-image: url(/sites/default/files/custom/svg/plane/plane-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(5) a {
-  background-image: url(/sites/default/files/custom/svg/bed/bed-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(5).selected a, form.node-form.node-main-form li:nth-child(5) a:hover {
-  background-image: url(/sites/default/files/custom/svg/bed/bed-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(6) a {
-  background-image: url(/sites/default/files/custom/svg/list/list-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(6).selected a, form.node-form.node-main-form li:nth-child(6) a:hover {
-  background-image: url(/sites/default/files/custom/svg/list/list-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(7) a {
-  background-image: url(/sites/default/files/custom/svg/file/file-grey.svg);
-  background-size: 16px;
-}
-form.node-form.node-main-form li:nth-child(7).selected a, form.node-form.node-main-form li:nth-child(7) a:hover {
-  background-image: url(/sites/default/files/custom/svg/file/file-orange.svg);
-}
-form.node-form.node-main-form li:nth-child(8) a {
-  background-image: url(/sites/default/files/custom/svg/money/money-grey.svg);
-}
-form.node-form.node-main-form li:nth-child(8).selected a, form.node-form.node-main-form li:nth-child(8) a:hover {
-  background-image: url(/sites/default/files/custom/svg/money/money-orange.svg);
-}
-form.node-form.node-main-form label[value="edit-field-trip-duration-0-end-value-date"] {
-  display: none;
-}
-form.node-form.node-hotel-form li.horizontal-tab-button {
-  width: calc((100% - 160px) / 4);
-}
-form.node-form.node-hotel-form li:first-child a {
-  background-image: url(/sites/default/files/custom/svg/hotel/hotel-grey.svg);
-}
-form.node-form.node-hotel-form li:first-child.selected a, form.node-form.node-hotel-form li:first-child a:hover {
-  background-image: url(/sites/default/files/custom/svg/hotel/hotel-orange.svg);
-}
-form.node-form.node-hotel-form li:nth-child(2) a {
-  background-image: url(/sites/default/files/custom/svg/bed/bed-grey.svg);
-}
-form.node-form.node-hotel-form li:nth-child(2).selected a, form.node-form.node-hotel-form li:nth-child(2) a:hover {
-  background-image: url(/sites/default/files/custom/svg/bed/bed-orange.svg);
-}
-form.node-form.node-hotel-form li:nth-child(3) a {
-  background-image: url(/sites/default/files/custom/svg/contact/contact-grey.svg);
-}
-form.node-form.node-hotel-form li:nth-child(3).selected a, form.node-form.node-hotel-form li:nth-child(3) a:hover {
-  background-image: url(/sites/default/files/custom/svg/contact/contact-orange.svg);
-}
-form.node-form.node-hotel-form li:nth-child(4) a {
-  background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
-}
-form.node-form.node-hotel-form li:nth-child(4).selected a, form.node-form.node-hotel-form li:nth-child(4) a:hover {
-  background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
-}
-form.node-form fieldset.main-line-fieldset {
-  width: 100%;
-}
 /* forms */
 body[class*="nodeadd"] main#page--content, body[class*="edit"] main#page--content {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
@@ -194,13 +34,26 @@ body[class*="nodeadd"] main#page--content, body[class*="edit"] main#page--conten
   background-clip: border-box;
   border-radius: 0.5rem;
   margin: 1% 1%;
-  width: 90%;
+  width: 95%;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  margin-right: 1.5%;
+  margin-top: 35px;
 }
 body[class*="nodeadd"] main#page--content h1.uk-article-title, body[class*="edit"] main#page--content h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
   padding-left: 2%;
+  margin-top: 25px !important;
+}
+body[class*="nodeadd"] main#page--content h1.uk-article-title em, body[class*="edit"] main#page--content h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
 }
 body[class*="nodeadd"] main#page--content label.uk-form-label, body[class*="nodeadd"] main#page--content div.fieldset-wrapper h4, body[class*="edit"] main#page--content label.uk-form-label, body[class*="edit"] main#page--content div.fieldset-wrapper h4 {
   font-size: 15px;
@@ -210,7 +63,7 @@ body[class*="nodeadd"] main#page--content label.uk-form-label, body[class*="node
   padding-right: 5px;
 }
 body[class*="nodeadd"] main#page--content input[type="text"], body[class*="nodeadd"] main#page--content textarea, body[class*="nodeadd"] main#page--content input[type="tel"], body[class*="nodeadd"] main#page--content input[type="date"], body[class*="nodeadd"] main#page--content input[type="email"], body[class*="nodeadd"] main#page--content select, body[class*="nodeadd"] main#page--content div.form-select, body[class*="edit"] main#page--content input[type="text"], body[class*="edit"] main#page--content textarea, body[class*="edit"] main#page--content input[type="tel"], body[class*="edit"] main#page--content input[type="date"], body[class*="edit"] main#page--content input[type="email"], body[class*="edit"] main#page--content select, body[class*="edit"] main#page--content div.form-select {
-  width: 75% !important;
+  width: 90% !important;
   padding: 5px 10px !important;
   opacity: 0.75 !important;
   border-radius: 0.5rem !important;
@@ -248,8 +101,8 @@ body[class*="nodeadd"] main#page--content input[type="number"]:focus-within, bod
   transition-timing-function: linear;
 }
 body[class*="nodeadd"] main#page--content .field-suffix, body[class*="edit"] main#page--content .field-suffix {
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 15px;
+  margin-left: 5px;
 }
 body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodeadd"] main#page--content #uikit-local-tasks, body[class*="edit"] main#page--content #edit-path-wrapper, body[class*="edit"] main#page--content #uikit-local-tasks {
   display: none;
@@ -260,7 +113,7 @@ body[class*="nodeadd"] main#page--content div#edit-actions, body[class*="edit"] 
   margin-bottom: 20px;
 }
 body[class*="nodeadd"] main#page--content div.uk-form-row, body[class*="edit"] main#page--content div.uk-form-row {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 body[class*="nodeadd"] main#page--content div.uk-form-row div.js-form-item, body[class*="edit"] main#page--content div.uk-form-row div.js-form-item {
   margin-bottom: 0;
@@ -274,225 +127,61 @@ body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper, body[class
 body[class*="nodeadd"] main#page--content div.paragraphs-add-wrapper em.placeholder, body[class*="edit"] main#page--content div.paragraphs-add-wrapper em.placeholder {
   color: transparent;
 }
-body[class*="edit"] h1.uk-article-title, body[class*="nodeadd"] h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-  color: #1f2937;
-  font-weight: bold;
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset, body[class*="edit"] main#page--content fieldset.single-line-fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
 }
-body[class*="edit"] h1.uk-article-title em, body[class*="nodeadd"] h1.uk-article-title em {
-  color: #1f2937;
-  font-weight: normal;
-  display: inline-block;
-}
-body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
-  width: 20% !important;
-}
-body.nodeaddcountries h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/country/country-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-.chosen-container-single .chosen-single {
-  background: transparent !important;
-  border: 0 solid transparent !important;
-  box-shadow: unset !important;
-}
-.chosen-container-single .chosen-single div {
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset > legend:first-child {
   display: none;
 }
-.chosen-container-active .chosen-single {
-  background: transparent !important;
-  border: 0 solid transparent !important;
-  box-shadow: unset !important;
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
 }
-body.nodeaddroom_types h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddclients h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/customers/customers-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-  background-position: 0 5px;
-}
-body.nodeaddcustomer h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/bus/bus-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeadddestinations h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/destination/destination-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddfile_status h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/status/status-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddfile_type h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-  background-position: 0 5px;
-}
-body.nodeaddinvoicing_status h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/money/money-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddlanguages h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/language/language-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-  background-position: 0 5px;
-}
-body.nodeaddmarket h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/market/market-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddovernight_tax h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/overnight/overnight-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body.nodeaddservices h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/temple/temple-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body[class$="0"] ul.uk-tab, body[class$="1"] ul.uk-tab, body[class$="2"] ul.uk-tab, body[class$="3"] ul.uk-tab, body[class$="4"] ul.uk-tab, body[class$="5"] ul.uk-tab, body[class$="6"] ul.uk-tab, body[class$="7"] ul.uk-tab, body[class$="8"] ul.uk-tab, body[class$="9"] ul.uk-tab {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2%;
-}
-body[class$="0"] h1.uk-article-title, body[class$="1"] h1.uk-article-title, body[class$="2"] h1.uk-article-title, body[class$="3"] h1.uk-article-title, body[class$="4"] h1.uk-article-title, body[class$="5"] h1.uk-article-title, body[class$="6"] h1.uk-article-title, body[class$="7"] h1.uk-article-title, body[class$="8"] h1.uk-article-title, body[class$="9"] h1.uk-article-title {
-  background-image: url("/sites/default/files/custom/svg/view/view-blue.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-  background-size: 25px;
-  padding-left: 35px;
-}
-body[class$="0"] article.contextual-region, body[class$="1"] article.contextual-region, body[class$="2"] article.contextual-region, body[class$="3"] article.contextual-region, body[class$="4"] article.contextual-region, body[class$="5"] article.contextual-region, body[class$="6"] article.contextual-region, body[class$="7"] article.contextual-region, body[class$="8"] article.contextual-region, body[class$="9"] article.contextual-region {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-  transition: all 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border-radius: 0.5rem;
-  margin: 1% 1%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  padding: 2%;
-}
-body[class$="0"] article.contextual-region .uk-form-wrapper, body[class$="1"] article.contextual-region .uk-form-wrapper, body[class$="2"] article.contextual-region .uk-form-wrapper, body[class$="3"] article.contextual-region .uk-form-wrapper, body[class$="4"] article.contextual-region .uk-form-wrapper, body[class$="5"] article.contextual-region .uk-form-wrapper, body[class$="6"] article.contextual-region .uk-form-wrapper, body[class$="7"] article.contextual-region .uk-form-wrapper, body[class$="8"] article.contextual-region .uk-form-wrapper, body[class$="9"] article.contextual-region .uk-form-wrapper {
-  border-bottom: 1px solid #ed9b24;
-  margin-bottom: 10px;
-}
-body[class$="0"] article.contextual-region article.contextual-region, body[class$="1"] article.contextual-region article.contextual-region, body[class$="2"] article.contextual-region article.contextual-region, body[class$="3"] article.contextual-region article.contextual-region, body[class$="4"] article.contextual-region article.contextual-region, body[class$="5"] article.contextual-region article.contextual-region, body[class$="6"] article.contextual-region article.contextual-region, body[class$="7"] article.contextual-region article.contextual-region, body[class$="8"] article.contextual-region article.contextual-region, body[class$="9"] article.contextual-region article.contextual-region {
-  box-shadow: unset !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  width: 100% !important;
-}
-body[class$="0"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="1"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="2"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="3"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="4"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="5"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="6"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="7"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="8"] article.contextual-region article.contextual-region h2.uk-text-lead, body[class$="9"] article.contextual-region article.contextual-region h2.uk-text-lead {
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child {
   display: none;
 }
-body[class$="0"] article.contextual-region .uk-form-label, body[class$="1"] article.contextual-region .uk-form-label, body[class$="2"] article.contextual-region .uk-form-label, body[class$="3"] article.contextual-region .uk-form-label, body[class$="4"] article.contextual-region .uk-form-label, body[class$="5"] article.contextual-region .uk-form-label, body[class$="6"] article.contextual-region .uk-form-label, body[class$="7"] article.contextual-region .uk-form-label, body[class$="8"] article.contextual-region .uk-form-label, body[class$="9"] article.contextual-region .uk-form-label {
-  font-size: 14px;
-  background-color: transparent;
-  color: #808080;
-  font-weight: 500;
-  padding-right: 5px;
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"] {
+  width: 50%;
+  float: left;
 }
-body[class$="0"] article.contextual-region .uk-form-value, body[class$="1"] article.contextual-region .uk-form-value, body[class$="2"] article.contextual-region .uk-form-value, body[class$="3"] article.contextual-region .uk-form-value, body[class$="4"] article.contextual-region .uk-form-value, body[class$="5"] article.contextual-region .uk-form-value, body[class$="6"] article.contextual-region .uk-form-value, body[class$="7"] article.contextual-region .uk-form-value, body[class$="8"] article.contextual-region .uk-form-value, body[class$="9"] article.contextual-region .uk-form-value {
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child {
   font-size: 15px;
   background-color: transparent;
   color: #1f2937;
   font-weight: 500;
   padding-right: 5px;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+  padding-left: 0;
 }
-fieldset[id*="edit-field-addres"] legend {
-  padding: 0 !important;
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"] {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 5px;
 }
-fieldset[id*="edit-field-addres"] legend span.fieldset-legend {
-  display: block !important;
-  font-size: 18px;
-  background-color: transparent;
-  color: #1f2937;
-  font-weight: 500;
-  padding-right: 5px;
+body[class*="nodeadd"] main#page--content div.field--type-field-collection > div > fieldset, body[class*="edit"] main#page--content div.field--type-field-collection > div > fieldset {
+  border: 0px solid transparent;
+  margin: 0;
+  padding: 0;
 }
-fieldset[id*="edit-field-addres"] input[id*="edit-field-address-actions-ief-add"] {
-  background-image: url(/sites/default/files/custom/svg/address/address-white.svg);
-  margin-left: 0 !important;
-  position: relative;
-  top: -20px;
-}
-fieldset[id*="edit-field-addres"] fieldset {
-  padding-top: 0 !important;
-}
-fieldset[id*="edit-field-addres"] fieldset span.fieldset-legend {
-  display: none !important;
-}
-fieldset[id*="edit-field-addres"] fieldset label.uk-form-label, fieldset[id*="edit-field-addres"] fieldset div.fieldset-wrapper h4 {
-  width: 100%;
-  float: unset;
-}
-fieldset[id*="edit-field-addres"] fieldset div.uk-form-controls {
-  width: 100%;
-  float: unset;
-}
-fieldset[id*="edit-field-addres"] fieldset div.uk-form-controls input {
-  background: transparent;
-  background-image: none;
-}
-p.uk-text-meta.uk-margin-small-top {
+body[class*="nodeadd"] main#page--content div.field--type-field-collection > div > fieldset > legend:first-child, body[class*="edit"] main#page--content div.field--type-field-collection > div > fieldset > legend:first-child {
   display: none;
 }
-div[class*="js-form-item-field-contact-details"] {
-  display: inline-block !important;
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset {
+  width: 50%;
 }
-div[id*="edit-field-contact-details"] div.paragraphs-dropbutton-wrapper.paragraphs-add-wrapper {
-  position: relative;
-  right: -400px;
-  top: 60px;
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.left-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.left-fieldset {
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.right-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.right-fieldset {
+  float: right;
+}
+body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
+  width: 20% !important;
 }

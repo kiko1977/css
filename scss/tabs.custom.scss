@@ -8,9 +8,39 @@ form.node-form.node-supplier-edit-form {
 
     ul.horizontal-tabs-list,
     ul.vertical-tabs__menu {
+        border-top-left-radius: 6px;
         li {
-            margin-bottom: 0 !important;
-            margin-top: 10px !important;
+            a {
+                height: 100px;
+                line-height: 100px;
+                color: $grey;
+                text-align: left;
+                background-repeat: no-repeat;
+                background-position: 90% 35px;
+                background-size: 7.5%;
+                font-size: 1.15em;
+                font-family: $font-family-title;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+
+                &:hover {
+                    padding-top: 0px !important;
+                    padding-bottom: 0px !important;
+                    color: $orange;
+                    text-decoration: none;
+                }
+                strong.vertical-tabs__menu-item-title {
+                    text-decoration: none;
+                }
+            }
+            &.is-selected,
+            &.selected {
+                a strong.vertical-tabs__menu-item-title {
+                    color: $orange;
+                    padding-top: 0px !important;
+                    padding-bottom: 0px !important;
+                }
+            }
         }
 
         li:first-child a {
@@ -19,6 +49,7 @@ form.node-form.node-supplier-edit-form {
         }
 
         li:first-child.selected a,
+        li:first-child.is-selected a,
         li:first-child a:hover {
             background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
             padding-right: 50px;
@@ -30,6 +61,7 @@ form.node-form.node-supplier-edit-form {
         }
 
         li:not(:first-child).selected a,
+        li:not(:first-child).is-selected a,
         li:not(:first-child) a:hover {
             background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
             padding-right: 50px;
@@ -38,47 +70,18 @@ form.node-form.node-supplier-edit-form {
 }
 
 .vertical-tabs {
-    border: 0px solid transparent;
-    border-radius: 6px;
+    margin-left: 20em;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 81%;
     .vertical-tabs__menu {
-        border-bottom: 0px solid transparent;
-        background-color: transparent;
-        li.vertical-tabs__menu-item {
-            background-color: #fff;
-            width: 100%;
-            height: 60px;
-            line-height: 40px;
-            margin: 1% 5%;
-            border-right: 0px solid transparent;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-            a {
-                color: $grey;
-                text-align: left;
-                background-repeat: no-repeat;
-                background-position: 90% 20px;
-                background-size: 20px;
-                min-height: 60px;
-                font-size: 15px;
-                font-family: $font-family-title;
-                line-height: 60px;
-                padding-top: 0px !important;
-                padding-bottom: 0px !important;
-
-                &:hover {
-                    padding-top: 0px !important;
-                    padding-bottom: 0px !important;
-                    color: $orange;
-                }
-            }
-
-            &.is-selected {
-                a strong.vertical-tabs__menu-item-title {
-                    color: $orange;
-                    padding-top: 0px !important;
-                    padding-bottom: 0px !important;
-                }
-            }
+        width: 20em;
+        margin-left: -20em;
+        li {
+            height: 100px;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
         }
     }
 }
@@ -88,42 +91,27 @@ form.node-form.node-supplier-edit-form {
     border-radius: 6px;
     /* forms tabs list */
     .horizontal-tabs-list {
+        border-top: 0px solid transparent;
         border-bottom: 0px solid transparent;
         background-color: transparent;
-        li.horizontal-tab-button {
-            background-color: #fff;
-            height: 60px;
-            line-height: 40px;
-            margin: 1% 2%;
-            border-right: 0px solid transparent;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+        li {
+            margin-bottom: 0 !important;
+            margin-top: 10px !important;
             a {
-                color: $grey;
-                text-align: left;
-                background-repeat: no-repeat;
                 background-position: 90% 20px;
                 background-size: 20px;
                 min-height: 60px;
-                font-size: 15px;
-                font-family: $font-family-title;
+                font-size: 16px;
                 line-height: 60px;
-                padding-top: 0px !important;
-                padding-bottom: 0px !important;
-
-                &:hover {
-                    padding-top: 0px !important;
-                    padding-bottom: 0px !important;
-                    color: $orange;
-                }
             }
-
-            &.selected {
-                a {
-                    color: $orange;
-                    padding-top: 0px !important;
-                    padding-bottom: 0px !important;
-                }
+            &.horizontal-tab-button {
+                background-color: #fff;
+                height: 60px;
+                line-height: 40px;
+                margin: 1% 2%;
+                border-right: 0px solid transparent;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
             }
         }
     }

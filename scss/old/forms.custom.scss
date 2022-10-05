@@ -1,6 +1,3 @@
-@import "variables";
-@import "mixins";
-
 /* Form general */
 
 form.node-form {
@@ -160,87 +157,6 @@ form.node-form {
   }
 }
 
-/* forms */
-body[class*="nodeadd"],
-body[class*="edit"] {
-  main#page--content {
-    @include shadowedWhiteBg();
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    h1.uk-article-title {
-      padding-left: 2%;
-    }
-    label.uk-form-label,
-    div.fieldset-wrapper h4 {
-      @include labelBlack();
-    }
-    input[type="text"],
-    textarea,
-    input[type="tel"],
-    input[type="date"],
-    input[type="email"],
-    select,
-    div.form-select {
-      @include inputField(75%, 5px 10px, 35px);
-    }
-
-    input[type="number"] {
-      @include inputField(10%, 5px 10px, 35px);
-    }
-    .field-suffix {
-      @include fieldSuffix();
-    }
-
-    #edit-path-wrapper,
-    #uikit-local-tasks {
-      display: none;
-    }
-    div#edit-actions {
-      text-align: right;
-      margin-top: 20px !important;
-      margin-bottom: 20px;
-    }
-    div.uk-form-row {
-      margin-bottom: 0;
-      div.js-form-item {
-        margin-bottom: 0;
-      }
-    }
-    table.field-multiple-table thead {
-      display: none;
-    }
-
-    div.paragraphs-add-wrapper {
-      color: transparent;
-      em.placeholder {
-        color: transparent;
-      }
-    }
-  }
-}
-body[class*="edit"],
-body[class*="nodeadd"] {
-  h1.uk-article-title {
-    @include pageTitleIcons("edit", "edit-blue");
-    color: $blue-menu;
-    font-weight: bold;
-    em {
-      color: $font-black;
-      font-weight: normal;
-      display: inline-block;
-    }
-  }
-  form.node-form {
-    div.uk-form-controls {
-      input#edit-field-country-short-0-value,
-      input#edit-field-country-code-0-value {
-        width: 20% !important;
-      }
-    }
-  }
-}
 body.nodeaddcountries {
   h1.uk-article-title {
     @include pageTitleIcons("country", "country-blue");

@@ -3,7 +3,10 @@
 
 /* tabs */
 
-
+form.node-form.node-supplier-form,
+form.node-form.node-supplier-edit-form {
+  margin-left: 0;
+  margin-right: 0;
 
   .horizontal-tabs-panes {
     margin-right: 0;
@@ -17,31 +20,28 @@
 
         legend {
           display: block;
-          padding-left:0;
+          padding-left: 0;
 
           span.fieldset-legend {
-
             @include labelBlack();
             display: unset;
           }
         }
 
-
-      div[class*='-form-entities-0-form-delete'] {
-        display: none;
+        div[class*="-form-entities-0-form-delete"] {
+          display: none;
+        }
       }
     }
-  }
     /* 2nd Tab - Specific fieldsets */
     fieldset#guide-fields {
       div#edit-field-price-wrapper,
-      div#edit-field-weekend-price-wrapper{
+      div#edit-field-weekend-price-wrapper {
         display: inline-block;
         input {
           width: 45% !important;
         }
       }
-
     }
     fieldset#various-fields {
       width: 75%;
@@ -49,7 +49,7 @@
       div#edit-field-price-per-person-wrapper {
         display: inline-block;
       }
-      div#edit-field-details-wrapper, {
+      div#edit-field-details-wrapper {
         width: 70%;
         input {
           width: 90% !important;
@@ -75,7 +75,7 @@
 }
 
 fieldset.left-side-fieldset,
-fieldset.right-side-fieldset{
+fieldset.right-side-fieldset {
   //display: inline-block;
   float: left;
   width: 45%;
@@ -84,7 +84,7 @@ fieldset.right-side-fieldset{
     width: 48.5%;
   }
   div.half-size-left {
-    margin-right:3% !important;
+    margin-right: 3% !important;
   }
   div.tel-details,
   div.email-details,
@@ -105,8 +105,8 @@ fieldset.right-side-fieldset{
   .uk-form-value {
     .field-collection-item {
       .uk-margin {
-        margin-top:0 !important;
-        margin-bottom:10px !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
       }
     }
 
@@ -125,13 +125,10 @@ fieldset.right-side-fieldset{
     }
 
     div.half-size-left {
-      margin-right:3% !important;
+      margin-right: 3% !important;
     }
-
   }
 }
 fieldset.left-side-fieldset {
   margin-right: 3% !important;
 }
-
-
