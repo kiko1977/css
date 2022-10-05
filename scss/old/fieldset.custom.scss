@@ -1,0 +1,46 @@
+@import "variables";
+@import "mixins";
+
+/* Fieldsets */
+
+form.node-form fieldset.form-wrapper {
+  border: 0px solid transparent !important;
+  display: block;
+  margin: 0px;
+  padding: 25px 0px 0px 0px;
+
+  /* fieldsets */
+
+  &.left-fieldset {
+    float: left;
+    width: 48%;
+    //@include shadowedWhiteBg();
+  }
+  &.right-fieldset {
+    float: right;
+    width: 49%;
+    //@include shadowedWhiteBg();
+  }
+  &.full-size-fieldset {
+    width: 100%;
+  }
+
+  /* field suffix */
+  .field-suffix {
+    @include fieldSuffix();
+  }
+
+  /* legend */
+  .fieldset-legend {
+    display: none;
+  }
+
+  div.uk-form-controls {
+    input,
+    select {
+      border-radius: 6px;
+      &:focus {
+        border-color: #808080;
+      }
+    }
+  }

@@ -1,7 +1,6 @@
 @import "variables";
 @import "mixins";
 
-
 fieldset.ief-form.ief-form-bottom {
   padding-top: 0;
   legend {
@@ -9,8 +8,7 @@ fieldset.ief-form.ief-form-bottom {
   }
 }
 
-
-div[class*='-form-entities-0-form-delete'] {
+div[class*="-form-entities-0-form-delete"] {
   display: none;
 }
 
@@ -59,126 +57,124 @@ table.ief-entity-table {
   margin-top: 15px !important;
 }
 
-  fieldset[id*="edit-field-contact-details-fc-"],
-  fieldset[id*="edit-field-contact-details-email-"],
-  fieldset[id*="edit-field-contact-details-fax-"]{
-    padding-top: 5px !important;
-          div {
-            &.field--name-field-tel-number-details,
-            &.field--name-field-tel-number-details {
-              width: 35%;
-              float: left;
-            }
+fieldset[id*="edit-field-contact-details-fc-"],
+fieldset[id*="edit-field-contact-details-email-"],
+fieldset[id*="edit-field-contact-details-fax-"] {
+  padding-top: 5px !important;
+  div {
+    &.field--name-field-tel-number-details,
+    &.field--name-field-tel-number-details {
+      width: 35%;
+      float: left;
+    }
 
-            &.field--name-field-telephone-number,
-            &.field--name-field-email-address {
-              width: 35%;
-              float: left;
-              margin-top: 0 !important;
-            }
-          }
+    &.field--name-field-telephone-number,
+    &.field--name-field-email-address {
+      width: 35%;
+      float: left;
+      margin-top: 0 !important;
+    }
+  }
 }
 
-  details#service-details-parent {
-    fieldset.field-group-fieldset {
-      padding-top: 5px !important;
-    }
-    fieldset.field-group-fieldset#car-rental-fields,
-    fieldset.field-group-fieldset#transportation-fields {
-      padding-top: 25px !important;
-    }
-
+details#service-details-parent {
+  fieldset.field-group-fieldset {
+    padding-top: 5px !important;
   }
+  fieldset.field-group-fieldset#car-rental-fields,
+  fieldset.field-group-fieldset#transportation-fields {
+    padding-top: 25px !important;
+  }
+}
 
 body main#page--content form.node-form table[id*="field-rates-list-fc-values"] {
-    padding-top: 0 !important;
-  margin-left:0;
+  padding-top: 0 !important;
+  margin-left: 0;
   margin-right: 0;
   width: 100%;
   margin-top: 35px !important;
-    thead {
+  thead {
+    display: block !important;
+    padding-left: 0 !important;
+    margin-bottom: 5px !important;
+    tr {
+      th {
+        background-color: transparent;
+        padding: 0;
+      }
+    }
+    h4.label {
       display: block !important;
-      padding-left:0 !important;
-      margin-bottom: 5px !important;
-      tr {
-        th{
-          background-color: transparent;
-          padding: 0;
-        }
-      }
-      h4.label {
-        display: block !important;
-        font-size: 15px !important;
-        background-color: transparent !important;
-        color: #1f2937 !important;
-        font-weight: 500 !important;
-        padding-right: 5px !important;
-        margin-bottom: 0 !important;
+      font-size: 15px !important;
+      background-color: transparent !important;
+      color: #1f2937 !important;
+      font-weight: 500 !important;
+      padding-right: 5px !important;
+      margin-bottom: 0 !important;
     }
+  }
+  tbody {
+    padding-top: 0 !important;
+    border: 1px solid $font-black !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 72.5% !important;
+    border-radius: 0.5rem !important;
+
+    div[id*="-field-supplier-wrapper"] {
+      display: none !important;
     }
-    tbody {
-      padding-top: 0 !important;
-      border: 1px solid $font-black !important;
-      padding-left: 20px !important;
-      padding-right: 20px !important;
-      width: 72.5% !important;
-      border-radius:  0.5rem !important;
+    span.field-suffix {
+      @include fieldSuffix();
+    }
+    div.field--name-field-route-from-fc,
+    div.field--name-field-route-to {
+      width: 15% !important;
+      float: left !important;
+      margin-top: 0 !important;
+      input {
+        width: 90% !important;
+      }
+    }
 
-      div[id*="-field-supplier-wrapper"] {
-        display: none !important;
+    div.field--name-field-route-category {
+      width: 15% !important;
+      float: left !important;
+      margin-top: 0 !important;
+      select {
+        width: 90% !important;
       }
-      span.field-suffix {
-        margin-left: 0 !important;
+    }
+    div.field--name-field-rate-type-fc {
+      width: 10% !important;
+      float: left !important;
+      margin-top: 0 !important;
+      select {
+        width: 90% !important;
       }
-      div.field--name-field-route-from-fc,
-      div.field--name-field-route-to{
-        width: 15% !important;
-        float:left !important;
-        margin-top: 0 !important;
-        input{
-          width: 90% !important;
-        }
+    }
+    div.field--name-field-rate-of-type-a-fc,
+    div.field--name-field-rate-of-type-b-fc,
+    div.field--name-field-rate-of-type-c-fc,
+    div.field--name-field-rate-of-type-d-fc,
+    div.field--name-field-rate-type {
+      width: 9% !important;
+      float: left !important;
+      margin-top: 0 !important;
+      input.uk-input {
+        width: 70% !important;
       }
-
-      div.field--name-field-route-category {
-        width: 15% !important;
-        float:left !important;
-        margin-top: 0 !important;
-        select{
-          width: 90% !important;
-        }
-      }
-      div.field--name-field-rate-type-fc{
-        width: 10% !important;
-        float:left !important;
-        margin-top: 0 !important;
-        select{
-          width: 90% !important;
-        }
-      }
-      div.field--name-field-rate-of-type-a-fc,
-      div.field--name-field-rate-of-type-b-fc,
-      div.field--name-field-rate-of-type-c-fc,
-      div.field--name-field-rate-of-type-d-fc,
-      div.field--name-field-rate-type  {
-        width: 9% !important;
-        float:left !important;
-        margin-top: 0 !important;
-        input.uk-input {
-          width: 70% !important;
-        }
+    }
+    div.form-actions {
+      float: right;
+      margin-top: 30px !important;
+    }
+    tr:not(:first-child) {
+      label {
+        display: none;
       }
       div.form-actions {
-        float: right;
-        margin-top: 30px !important;
-        
-      }
-      tr:not(:first-child) {
-        label {
-          display: none;
-        }
-        div.form-actions {
-          margin-top: 0 !important;
+        margin-top: 0 !important;
       }
     }
   }
@@ -248,20 +244,19 @@ fieldset.right-side-fieldset {
       margin-top: 0 !important;
     }
   }
-
 }
 details.tab {
-  padding-left:0 !important;
+  padding-left: 0 !important;
 }
 fieldset#hotel-line-rooms {
   table[id*="field-hotel-rooms-fc-values"] {
-    margin:0 !important;
+    margin: 0 !important;
     td {
       padding-top: 0 !important;
       padding-left: 0 !important;
     }
     table {
-      margin:0 !important;
+      margin: 0 !important;
       display: block;
       width: 100% !important;
       tbody {
@@ -269,7 +264,6 @@ fieldset#hotel-line-rooms {
         display: block;
         border: 0px solid transparent !important;
         tr {
-
           width: 100% !important;
           display: flex;
           border: 0 solid transparent !important;
@@ -277,7 +271,7 @@ fieldset#hotel-line-rooms {
             width: 100% !important;
             display: block;
             border: 0px solid transparent !important;
-            padding:0 !important;
+            padding: 0 !important;
             fieldset {
               padding-top: 0 !important;
             }
@@ -289,21 +283,20 @@ fieldset#hotel-line-rooms {
           label {
             display: none !important;
           }
-
         }
       }
     }
-    tbody tr{
+    tbody tr {
       div.field--name-field-room-type-fc {
         width: 18%;
-        float:left;
+        float: left;
         select {
           width: 95% !important;
         }
       }
       div.field--name-field-room-type-fieldc {
         width: 82%;
-        float:right;
+        float: right;
         margin-top: 0 !important;
       }
       div[id*="-actions"] {
@@ -331,7 +324,7 @@ fieldset#hotel-line-rooms {
         }
         h4 {
           display: none;
-      }
+        }
         div[id*="field-room-period-rate-fc-"] {
           width: 50%;
           float: left;
@@ -380,7 +373,6 @@ table#field-hotel-rooms-fc-values {
         left: 2%;
         top: 5px;
       }
-
     }
   }
 }
@@ -417,12 +409,12 @@ div.field-collection-item--name-field-hotel-rooms-fc {
       }
       .period-re-field {
         width: 40%;
-        float:left;
+        float: left;
       }
       .day-start-er,
       .day-end-er {
         width: 20%;
-        float:left;
+        float: left;
       }
       .pricday-start-ere-er {
         width: 20%;
@@ -437,5 +429,3 @@ div.field-collection-item--name-field-hotel-rooms-fc {
 //    display: none;
 //  }
 //}
-
-

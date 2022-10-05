@@ -1,21 +1,22 @@
 @import "buttons.custom";
-@import "fieldset.custom";
-@import "forms.custom";
-@import "footer.custom";
-@import "header.custom";
-@import "labels.custom";
-@import "menus.custom";
-@import "search_box.custom";
-@import "tables.custom";
-@import "titles.custom";
+// @import "fieldset.custom";
+// @import "forms.custom";
+// @import "footer.custom";
+// @import "header.custom";
+// @import "labels.custom";
+// @import "menus.custom";
+// @import "search_box.custom";
+// @import "tables.custom";
+// @import "titles.custom";
 @import "variables";
 @import "mixins";
-@import "responsive.custom";
-@import "new.custom";
-@import "rooms.custom";
-@import "hotels.custom";
-@import "suppliers.custom";
-@import "referenced_entities.custom";
+@import "tabs.custom";
+// @import "responsive.custom";
+// @import "new.custom";
+// @import "rooms.custom";
+// @import "hotels.custom";
+// @import "suppliers.custom";
+// @import "referenced_entities.custom";
 
 html {
   background-color: $main-bg;
@@ -70,4 +71,10 @@ span.cke_bottom {
 strong.error {
   color: $delBtn;
   font-style: italic;
+}
+
+/* Tables searchbox */
+
+.views-exposed-form .uk-form-controls .form-text.uk-input {
+  @include searchbox();
 }

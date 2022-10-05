@@ -3,38 +3,7 @@
 
 /* tabs */
 
-form.node-form.node-supplier-form,
-form.node-form.node-supplier-edit-form {
-  margin-left: 0;
-  margin-right: 0;
 
-  ul.horizontal-tabs-list {
-    li {
-      margin-bottom: 0 !important;
-      margin-top: 10px !important;
-    }
-
-    li:first-child a {
-      background-image: url(/sites/default/files/custom/svg/address/address-grey.svg);
-      padding-right: 50px;
-    }
-
-    li:first-child.selected a,
-    li:first-child a:hover {
-      background-image: url(/sites/default/files/custom/svg/address/address-orange.svg);
-      padding-right: 50px;
-    }
-
-    li:not(:first-child) a {
-      background-image: url(/sites/default/files/custom/svg/bus/bus-grey.svg);
-      padding-right: 50px;
-    }
-
-    li:not(:first-child).selected a, li:not(:first-child) a:hover {
-      background-image: url(/sites/default/files/custom/svg/bus/bus-orange.svg);
-      padding-right: 50px;
-    }
-  }
 
   .horizontal-tabs-panes {
     margin-right: 0;

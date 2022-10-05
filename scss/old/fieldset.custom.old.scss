@@ -1,111 +1,66 @@
-@import "variables";
-@import "mixins";
 
-/* Fieldsets */
-
-form.node-form fieldset.form-wrapper {
-
-  .field-suffix {
-    font-size: 15px !important;
-    margin-left:-5px !important;
-  }
-
-  border: 0px solid transparent !important;
-  display: block;
-  margin: 0px;
-  padding: 25px 0px 0px 0px;
-
-  .fieldset-legend {
-    display: none;
-  }
-
-  &.left-fieldset {
-    float: left;
-    width: 48%;
-    //@include shadowedWhiteBg();
-  }
-  &.right-fieldset {
-    float: right;
-    width: 49%;
-    //@include shadowedWhiteBg();
-  }
-  &.full-size-fieldset {
-    width: 100%;
-  }
-
-  div.uk-form-controls {
-    //width: 65%;
-    //float: right;
-    input,
-    select {
-      border-radius: 6px;
-      &:focus {
-        border-color: #808080;
-      }
-    }
-  }
   .main-line-fieldset {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 0px;
-    .uk-form-row {
-      width: 45%;
-      margin-top: 0px !important;
-      margin-bottom: 0px !important;
-      margin-right: 3%;
-      &.field--type-daterange {
-        width: 100%;
-        fieldset {
-          padding-top: 0px !important;
-          padding-bottom: 0px !important;
-          h4 {
-            width: 14% !important;
-            margin-top: 0px !important;
-            margin-bottom: 0px !important;
-            padding-right: 1.5%;
-          }
-          #edit-field-trip-duration-0-value,
-          #edit-field-trip-duration-0-end-value {
-            width: 29.5% !important;
+  }
+  .uk-form-row {
+    width: 45%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-right: 3%;
+    &.field--type-daterange {
+      width: 100%;
+      fieldset {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        h4 {
+          width: 14% !important;
+          margin-top: 0px !important;
+          margin-bottom: 0px !important;
+          padding-right: 1.5%;
+        }
+        #edit-field-trip-duration-0-value,
+        #edit-field-trip-duration-0-end-value {
+          width: 29.5% !important;
+          float: left;
+          .uk-form-controls {
             float: left;
-            .uk-form-controls {
-              float: left;
+            width: 100%;
+            input {
               width: 100%;
-              input {
-                width: 100%;
-              }
             }
           }
-          #edit-field-trip-duration-0-value {
-            margin-right: 7%;
-          }
+        }
+        #edit-field-trip-duration-0-value {
+          margin-right: 7%;
         }
       }
-      &:nth-child(1) {
-        float: left;
-      }
-      &:nth-child(2) {
-        float: right;
-      }
-      h4 {
+    }
+    &:nth-child(1) {
+      float: left;
+    }
+    &:nth-child(2) {
+      float: right;
+    }
+    h4 {
+      width: 30%;
+      float: left;
+      line-height: 40px;
+    }
+  }
+  .field--widget-inline-entity-form-complex {
+    fieldset {
+      padding: 0px !important;
+      legend {
+        display: block;
         width: 30%;
         float: left;
         line-height: 40px;
+        padding-right: 0px;
       }
-    }
-    .field--widget-inline-entity-form-complex {
-      fieldset {
-        padding: 0px !important;
-        legend {
-          display: block;
-          width: 30%;
-          float: left;
-          line-height: 40px;
-          padding-right: 0px;
-        }
-        .uk-form-row {
-          width: 50%;
-        }
+      .uk-form-row {
+        width: 50%;
       }
     }
   }
@@ -113,36 +68,36 @@ form.node-form fieldset.form-wrapper {
 
 /* Passenger's form fieldset */
 
-fieldset#fieldset-passengers {
-  width: 36%;
-  margin-top: 0px;
-  padding-top: 0px;
-  float: left;
-  padding-bottom: 5px;
-  .field--widget-number {
-    width: calc(100% / 3);
-    margin-right: 0%;
-    label {
-      width: 100%;
-    }
-    &#edit-field-ca-wrapper {
-      float: left;
-    }
-    &#edit-field-cb-wrapper {
-      float: right;
-    }
-    .form-type-number {
-      margin-bottom: 0px;
-      margin-right: 0%;
-      .uk-form-controls {
-        // margin-left: 2%;
-      }
-      input[type="number"] {
-        width: 70% !important;
-      }
-    }
-  }
-}
+// fieldset#fieldset-passengers {
+//   width: 36%;
+//   margin-top: 0px;
+//   padding-top: 0px;
+//   float: left;
+//   padding-bottom: 5px;
+//   .field--widget-number {
+//     width: calc(100% / 3);
+//     margin-right: 0%;
+//     label {
+//       width: 100%;
+//     }
+//     &#edit-field-ca-wrapper {
+//       float: left;
+//     }
+//     &#edit-field-cb-wrapper {
+//       float: right;
+//     }
+//     .form-type-number {
+//       margin-bottom: 0px;
+//       margin-right: 0%;
+//       .uk-form-controls {
+//         // margin-left: 2%;
+//       }
+//       input[type="number"] {
+//         width: 70% !important;
+//       }
+//     }
+//   }
+// }
 
 /* Forms specific fields */
 fieldset#main-line-1-b {
@@ -255,17 +210,6 @@ form.node-hotel-form {
     .uk-form-controls {
       width: 100% !important;
     }
-    //label {
-    //  width: 55%;
-    //  float: left;
-    //  text-align: right;
-    //  line-height: 40px;
-    //}
-
-    //div.uk-form-controls {
-    //  width: 40%;
-    //  float: right;
-    //}
   }
   #edit-field-overnight-tax-wrapper {
     width: 32%;
@@ -281,27 +225,6 @@ form.node-hotel-form {
         padding: 3% !important;
       }
     }
-    //label {
-    //  width: 37%;
-    //  float: left;
-    //  text-align: right;
-    //  line-height: 40px;
-    //}
-
-    //div.uk-form-controls {
-    //  width: 60%;
-    //  float: right;
-    //  input#edit-field-overnight-tax-0-value {
-    //    width: 30%;
-    //    float: left;
-    //  }
-    //  span.field-suffix {
-    //    width: 65%;
-    //    float: right;
-    //    font-size: 13px;
-    //    line-height: 40px;
-    //  }
-    //}
   }
   #edit-field-vat-wrapper {
     width: 32%;
@@ -318,27 +241,6 @@ form.node-hotel-form {
         padding: 3% !important;
       }
     }
-    //label {
-    //  width: 15%;
-    //  float: left;
-    //  text-align: right;
-    //  line-height: 40px;
-    //}
-    //
-    //div.uk-form-controls {
-    //  width: 78%;
-    //  float: right;
-    //  input {
-    //    width: 50%;
-    //    float: left;
-    //  }
-    //  span.field-suffix {
-    //    width: 45%;
-    //    float: right;
-    //    font-size: 13px;
-    //    line-height: 40px;
-    //  }
-    //}
   }
 }
 

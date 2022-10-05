@@ -24,61 +24,7 @@ form.node-form {
     margin-left: 1%;
     margin-top: 10px !important;
   }
-  .horizontal-tabs {
-    border: 0px solid transparent;
-    border-radius: 6px;
-    /* forms tabs list */
-    .horizontal-tabs-list {
-      border-bottom: 0px solid transparent;
-      background-color: transparent;
-      li.horizontal-tab-button {
-        background-color: #fff;
-        height: 60px;
-        line-height: 40px;
-        margin: 1% 20px;
-        border-right: 0px solid transparent;
-        border-radius: 6px;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-          0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-        a {
-          color: $grey;
-          text-align: left;
-          background-repeat: no-repeat;
-          background-position: 90% 20px;
-          background-size: 20px;
-          min-height: 60px;
-          font-size: 16px;
-          font-family: $font-family-title;
-          line-height: 60px;
-          padding-top: 0px !important;
-          padding-bottom: 0px !important;
 
-          &:hover {
-            padding-top: 0px !important;
-            padding-bottom: 0px !important;
-            color: $orange;
-          }
-        }
-
-        &.selected {
-          a {
-            color: $orange;
-            padding-top: 0px !important;
-            padding-bottom: 0px !important;
-          }
-        }
-      }
-    }
-    /* fieldset region in form */
-    .horizontal-tabs-panes {
-      //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-      //  0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-      background-color: #fff;
-      margin-left: 20px;
-      margin-right: 20px;
-      border-radius: 6px;
-    }
-  }
   /* trip form modifications */
   &.node-main-form {
     /* trip form tabs */
@@ -244,11 +190,8 @@ body[class*="edit"] {
       @include inputField(10%, 5px 10px, 35px);
     }
     .field-suffix {
-      font-size: 18px;
-      margin-left: 10px;
+      @include fieldSuffix();
     }
-
-    
 
     #edit-path-wrapper,
     #uikit-local-tasks {
