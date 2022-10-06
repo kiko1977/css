@@ -148,7 +148,7 @@
 }
 
 @mixin inputField($width, $padding, $height) {
-  width: $width !important;
+  width: $width;
   padding: $padding !important;
   opacity: 0.75 !important;
   border-radius: 0.5rem !important;

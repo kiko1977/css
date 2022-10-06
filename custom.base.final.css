@@ -290,7 +290,7 @@ body[class*="nodeadd"] main#page--content label.uk-form-label, body[class*="node
   padding-right: 5px;
 }
 body[class*="nodeadd"] main#page--content input[type="text"], body[class*="nodeadd"] main#page--content textarea, body[class*="nodeadd"] main#page--content input[type="tel"], body[class*="nodeadd"] main#page--content input[type="date"], body[class*="nodeadd"] main#page--content input[type="email"], body[class*="nodeadd"] main#page--content select, body[class*="nodeadd"] main#page--content div.form-select, body[class*="edit"] main#page--content input[type="text"], body[class*="edit"] main#page--content textarea, body[class*="edit"] main#page--content input[type="tel"], body[class*="edit"] main#page--content input[type="date"], body[class*="edit"] main#page--content input[type="email"], body[class*="edit"] main#page--content select, body[class*="edit"] main#page--content div.form-select {
-  width: 90% !important;
+  width: 90%;
   padding: 5px 10px !important;
   opacity: 0.75 !important;
   border-radius: 0.5rem !important;
@@ -309,7 +309,7 @@ body[class*="nodeadd"] main#page--content input[type="text"]:focus-within, body[
   transition-timing-function: linear;
 }
 body[class*="nodeadd"] main#page--content input[type="number"], body[class*="edit"] main#page--content input[type="number"] {
-  width: 10% !important;
+  width: 10%;
   padding: 5px 10px !important;
   opacity: 0.75 !important;
   border-radius: 0.5rem !important;
@@ -367,19 +367,45 @@ body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fields
   margin: 0;
   padding: 0;
 }
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal {
+  width: 50%;
+  float: right;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal input[type="number"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal input[type="number"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal input[type="number"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset div.field--type-decimal input[type="number"] {
+  width: 25%;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset > div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset > div.field--type-decimal, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset > div.field--type-decimal, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset > div.field--type-decimal {
+  width: 50%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row {
+  width: 50%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer {
+  width: 50%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal input[type="number"], body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer input[type="number"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal input[type="number"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer input[type="number"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal input[type="number"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer input[type="number"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal input[type="number"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer input[type="number"] {
+  width: 25%;
+}
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset > legend:first-child {
   display: none;
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset fieldset[id*="edit-field-"] > div.fieldset-wrapper div[class*="field--name-field-"] {
   width: 50%;
   float: left;
+  margin-top: 0 !important;
 }
-body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset {
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference {
+  margin-top: 0px !important;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset {
   border: 0px solid transparent;
   margin: 0;
   padding: 0;
 }
-body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child {
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > legend:first-child {
   font-size: 15px;
   background-color: transparent;
   color: #1f2937;
@@ -387,10 +413,41 @@ body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div
   padding-right: 5px;
   padding-left: 0;
 }
-body[class*="nodeadd"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="edit"] main#page--content div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"] {
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"], body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference > div[id*="inline-entity-form"] > fieldset > div.fieldset-wrapper > div.uk-form-row input[id*="actions-ief-add"] {
   margin-top: 5px;
   margin-left: 0;
   margin-right: 5px;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table {
+  width: 90%;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table thead, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table thead, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table thead, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table thead {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table tbody tr td:last-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table tbody tr td:last-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset table.ief-entity-table tbody tr td:last-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset table.ief-entity-table tbody tr td:last-child {
+  float: right;
+}
+body[class*="nodeadd"] main#page--content div.field--type-entity-reference, body[class*="edit"] main#page--content div.field--type-entity-reference {
+  margin-top: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset.ief-form, body[class*="edit"] main#page--content fieldset.ief-form {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 92%;
+  border: 0px solid transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.ief-form legend.uk-legend, body[class*="edit"] main#page--content fieldset.ief-form legend.uk-legend {
+  margin: 0;
+  padding: 0 !important;
+}
+body[class*="nodeadd"] main#page--content fieldset.ief-form legend.uk-legend span.fieldset-legend, body[class*="edit"] main#page--content fieldset.ief-form legend.uk-legend span.fieldset-legend {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+  margin: 0;
+  padding: 0 !important;
 }
 body[class*="nodeadd"] main#page--content div.field--type-field-collection > div > fieldset, body[class*="edit"] main#page--content div.field--type-field-collection > div > fieldset {
   border: 0px solid transparent;
@@ -411,6 +468,13 @@ body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.right-fiel
 }
 body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
   width: 20% !important;
+}
+/* specific fields */
+body[class*="nodeadd"] div.field--name-field-website, body[class*="edit"] div.field--name-field-website {
+  margin-bottom: 15px !important;
+}
+body[class*="nodeadd"] div.field--name-field-website input.uk-input, body[class*="edit"] div.field--name-field-website input.uk-input {
+  width: 95% !important;
 }
 @font-face {
   font-family: "Inter";
@@ -677,14 +741,14 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list, form.node-form.node-s
   border-top-left-radius: 6px;
 }
 form.node-form.node-supplier-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-form ul.vertical-tabs__menu li a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a {
-  height: 100px;
-  line-height: 100px;
+  height: 75px;
+  line-height: 75px;
   color: #808080;
   text-align: left;
   background-repeat: no-repeat;
-  background-position: 90% 35px;
-  background-size: 7.5%;
-  font-size: 1.15em;
+  background-position: 90% 27px;
+  background-size: 7%;
+  font-size: 1.1em;
   font-family: "Inter_Semi_Bold";
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -731,7 +795,7 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   margin-left: -20em;
 }
 .vertical-tabs .vertical-tabs__menu li {
-  height: 100px;
+  height: 75px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }

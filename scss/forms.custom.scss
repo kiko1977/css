@@ -74,6 +74,37 @@ body[class*="edit"] {
                 display: none;
             }
             fieldset.main-line-fieldset {
+                &.two-field-fieldset {
+                    div.field--type-decimal {
+                        width: 50%;
+                        float: right;
+                        input[type="number"] {
+                            width: 25%;
+                        }
+                    }
+                    > div.field--type-decimal {
+                        width: 50%;
+                        float: left;
+                    }
+                    &.left-wide-fieldset {
+                        div.fieldset-wrapper {
+                            div.uk-form-row {
+                                width: 50%;
+                                float: left;
+                            }
+                        }
+                    }
+                }
+                &.four-field-fieldset {
+                    div.field--type-decimal,
+                    div.field--type-integer {
+                        width: 50%;
+                        float: left;
+                        input[type="number"] {
+                            width: 25%;
+                        }
+                    }
+                }
                 @include noBorder();
                 margin: 0;
                 padding: 0;
@@ -85,30 +116,63 @@ body[class*="edit"] {
                         div[class*="field--name-field-"] {
                             width: 50%;
                             float: left;
+                            margin-top: 0 !important;
+                        }
+                    }
+                }
+                div.field--type-entity-reference {
+                    margin-top: 0px !important;
+                    > div[id*="inline-entity-form"] {
+                        > fieldset {
+                            @include noBorder();
+                            margin: 0;
+                            padding: 0;
+                            > legend:first-child {
+                                @include labelBlack();
+                                padding-left: 0;
+                            }
+                            > div.fieldset-wrapper {
+                                > div.uk-form-row {
+                                    input[id*="actions-ief-add"] {
+                                        margin-top: 5px;
+                                        margin-left: 0;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                table.ief-entity-table {
+                    width: 90%;
+                    thead {
+                        display: none;
+                    }
+                    tbody {
+                        tr {
+                            td:last-child {
+                                float: right;
+                            }
                         }
                     }
                 }
             }
         }
         div.field--type-entity-reference {
-            > div[id*="inline-entity-form"] {
-                > fieldset {
-                    @include noBorder();
+            margin-top: 0 !important;
+        }
+        fieldset.ief-form {
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 92%;
+            @include noBorder();
+            legend.uk-legend {
+                margin: 0;
+                padding: 0 !important;
+                span.fieldset-legend {
+                    @include labelBlack();
                     margin: 0;
-                    padding: 0;
-                    > legend:first-child {
-                        @include labelBlack();
-                        padding-left: 0;
-                    }
-                    > div.fieldset-wrapper {
-                        > div.uk-form-row {
-                            input[id*="actions-ief-add"] {
-                                margin-top: 5px;
-                                margin-left: 0;
-                                margin-right: 5px;
-                            }
-                        }
-                    }
+                    padding: 0 !important;
                 }
             }
         }
@@ -143,6 +207,17 @@ body[class*="nodeadd"] {
             input#edit-field-country-code-0-value {
                 width: 20% !important;
             }
+        }
+    }
+}
+
+/* specific fields */
+body[class*="nodeadd"],
+body[class*="edit"] {
+    div.field--name-field-website {
+        margin-bottom: 15px !important;
+        input.uk-input {
+            width: 95% !important;
         }
     }
 }

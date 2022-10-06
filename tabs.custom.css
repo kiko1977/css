@@ -30,14 +30,14 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list, form.node-form.node-s
   border-top-left-radius: 6px;
 }
 form.node-form.node-supplier-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-form ul.vertical-tabs__menu li a, form.node-form.node-supplier-edit-form ul.horizontal-tabs-list li a, form.node-form.node-supplier-edit-form ul.vertical-tabs__menu li a {
-  height: 100px;
-  line-height: 100px;
+  height: 75px;
+  line-height: 75px;
   color: #808080;
   text-align: left;
   background-repeat: no-repeat;
-  background-position: 90% 35px;
-  background-size: 7.5%;
-  font-size: 1.15em;
+  background-position: 90% 27px;
+  background-size: 7%;
+  font-size: 1.1em;
   font-family: "Inter_Semi_Bold";
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -84,7 +84,7 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   margin-left: -20em;
 }
 .vertical-tabs .vertical-tabs__menu li {
-  height: 100px;
+  height: 75px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
