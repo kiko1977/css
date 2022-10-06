@@ -89,8 +89,11 @@ body[class*="edit"] {
                     &.left-wide-fieldset {
                         div.fieldset-wrapper {
                             div.uk-form-row {
-                                width: 50%;
+                                width: 25%;
                                 float: left;
+                            }
+                            > div.uk-form-row {
+                                width: 75%;
                             }
                         }
                     }
