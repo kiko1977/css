@@ -54,7 +54,8 @@ input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field
 input[id*="-actions-ief-add"],
 input[id*="field-contact"][type="submit"],
 input.field-add-more-submit,
-input.add-new-btn-er {
+input.add-new-btn-er,
+a[id*="new-entity-button"] {
   @include addButton();
   margin-top: 25px;
 }

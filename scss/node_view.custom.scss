@@ -1,0 +1,42 @@
+@import "variables";
+@import "mixins";
+
+body[class*="node-type-"] {
+
+
+    main#page--content {
+      @include shadowedWhiteBg();
+      width: 95%;
+      margin-left: auto;
+      margin-right: 1.5%;
+      margin-top: 35px;
+
+      ul.uk-tab {
+        margin-right: 3%;
+      }
+      div.contextual button.trigger {
+        display: none;
+      }
+
+      h1.uk-article-title {
+        @include pageTitleIcons("view", "view-blue");
+
+        em {
+          color: $font-black;
+          font-weight: normal;
+          display: inline-block;
+        }
+      }
+
+      div.uk-article-meta {
+        font-size: 12px !important;
+        line-height: 1;
+      }
+
+      label.uk-form-label,
+      div.fieldset-wrapper h4 {
+        @include labelBlack();
+      }
+    }
+  }
+

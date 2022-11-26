@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* specific fields */
+body[class*="nodeadd"], body[class*="edit"] {
+  /* Working hour field - Supplier */
+  /* Transportation routes field - Supplier */
+}
+body[class*="nodeadd"] div.field--name-field-website, body[class*="edit"] div.field--name-field-website {
+  margin-bottom: 15px !important;
+}
+body[class*="nodeadd"] div.field--name-field-website input.uk-input, body[class*="edit"] div.field--name-field-website input.uk-input {
+  width: 95% !important;
+}
+body[class*="nodeadd"] div.field--type-entity-reference.field--name-field-from-re.field--widget-entity-reference-autocomplete, body[class*="nodeadd"] div.field--type-entity-reference.field--name-field-to-re.field--widget-entity-reference-autocomplete, body[class*="edit"] div.field--type-entity-reference.field--name-field-from-re.field--widget-entity-reference-autocomplete, body[class*="edit"] div.field--type-entity-reference.field--name-field-to-re.field--widget-entity-reference-autocomplete {
+  width: 13%;
+}
+body[class*="nodeadd"] input#edit-field-region-re-supplier-0-mask-input, body[class*="edit"] input#edit-field-region-re-supplier-0-mask-input {
+  width: 70% !important;
+}
+body[class*="nodeadd"] span.uk-form-icon-flip, body[class*="edit"] span.uk-form-icon-flip {
+  left: 63%;
+}
+body[class*="nodeadd"] a[id*="new-entity-button"], body[class*="edit"] a[id*="new-entity-button"] {
+  position: relative;
+  top: -40px;
+  left: 69%;
+  margin-top: 0;
+}
+body[class*="nodeadd"] span.field-modal-reset, body[class*="edit"] span.field-modal-reset {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+  top: 12px;
+  left: 63%;
+  display: none !important;
+}
+body[class*="nodeadd"] span.field-modal-reset:hover, body[class*="edit"] span.field-modal-reset:hover {
+  background-color: #efbe4c;
+  color: #fafafa;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover {
+  background: transparent;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0 solid transparent !important;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a:hover, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a:hover {
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #1f2937;
+  border: 0 solid transparent !important;
+}
+body[class*="nodeadd"] div#edit-field-region-re-supplier-0, body[class*="edit"] div#edit-field-region-re-supplier-0 {
+  height: 70px !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc input#edit-field-working-hours-fc-add-more, body[class*="edit"] div.field--name-field-working-hours-fc input#edit-field-working-hours-fc-add-more {
+  margin-top: 0 !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"], body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] {
+  margin-top: 5px !important;
+  margin-left: 0 !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead {
+  display: block !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th {
+  padding-left: 0 !important;
+  background-color: transparent !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th h4, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr {
+  background: unset !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr:hover, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr:hover {
+  background: unset;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td {
+  padding: 2px 4px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-days, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-days {
+  float: left;
+  width: 20%;
+  margin-bottom: 3px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours {
+  float: left;
+  width: 67%;
+  margin-left: 3%;
+  margin-bottom: 3px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours div#field-to-time, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours div#field-to-time {
+  margin-left: 10%;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions {
+  margin-bottom: 3px;
+  width: 5% !important;
+  position: relative;
+  top: 27px;
+  width: 10% !important;
+  float: left;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input {
+  width: 55% !important;
+  padding: 0 !important;
+  color: transparent !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input[id*="actions-remove-button"], body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input[id*="actions-remove-button"] {
+  background-position: 8px !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc input.field-add-more-submit, body[class*="edit"] div.field--name-field-working-hours-fc input.field-add-more-submit {
+  margin-top: 0 !important;
+  width: 5%;
+  color: transparent;
+  background-position: 15px;
+  background-size: 21px;
+  position: relative;
+  top: -70px;
+  right: -92%;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers, body[class*="edit"] fieldset#main-bottom-suppliers {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend {
+  display: block;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend span.fieldset-legend, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend span.fieldset-legend {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values {
+  width: 100% !important;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values label.uk-form-label, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values label.uk-form-label {
+  font-size: 13px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values span.uk-form-icon-flip, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values span.uk-form-icon-flip {
+  left: 72%;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields div[id*="-actions"].form-actions, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields div[id*="-actions"].form-actions {
+  top: 23px;
+  left: 30px;
+}

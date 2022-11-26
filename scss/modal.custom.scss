@@ -1,0 +1,76 @@
+@import "variables";
+@import "mixins";
+
+.entity-modal-dialog.ui-dialog-buttons {
+  padding:0 !important;
+  border: 0 solid #fafafa !important;
+  top: 200px !important;
+  left: 10% !important;
+  @include shadowedWhiteBg();
+
+  /* header */
+  div.ui-dialog-titlebar {
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+
+    background-color: $black;
+    span.ui-dialog-title {
+      color: $whiteFont !important;
+      font-size:1.2em;
+    }
+    span.ui-icon-closethick {
+      background-color: transparent;
+    }
+  }
+
+  /* fields */
+  div#drupal-modal {
+      form.node-form {
+        h1.uk-article-title {
+          @include pageTitleIcons("edit", "edit-blue");
+
+          em {
+            color: $font-black;
+            font-weight: normal;
+            display: inline-block;
+          }
+        }
+        label.uk-form-label,
+        div.fieldset-wrapper h4 {
+          @include labelBlack();
+        }
+        input[type="text"],
+        textarea,
+        input[type="tel"],
+        input[type="date"],
+        input[type="email"],
+        select,
+        div.form-select {
+          @include inputField(90%, 5px 10px, 35px);
+        }
+
+        input[type="number"] {
+          @include inputField(10%, 5px 10px, 35px);
+        }
+        .field-suffix {
+          @include fieldSuffix();
+        }
+
+      }
+
+    }
+  /* buttons */
+  div.ui-dialog-buttonpane {
+    border-bottom-left-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+    border: 0 solid transparent !important;
+    button.button--primary {
+      @include saveButton();
+    }
+    button.uk-button-default {
+      @include cancelButton();
+    }
+  }
+
+}
+

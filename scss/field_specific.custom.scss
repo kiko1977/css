@@ -1,0 +1,164 @@
+@import "variables";
+@import "mixins";
+
+/* specific fields */
+body[class*="nodeadd"],
+body[class*="edit"] {
+  div.field--name-field-website {
+    margin-bottom: 15px !important;
+    input.uk-input {
+      width: 95% !important;
+    }
+  }
+
+  div.field--type-entity-reference.field--name-field-from-re.field--widget-entity-reference-autocomplete,
+  div.field--type-entity-reference.field--name-field-to-re.field--widget-entity-reference-autocomplete {
+    width: 13%;
+  }
+  input#edit-field-region-re-supplier-0-mask-input {
+    width: 70% !important;
+  }
+  span.uk-form-icon-flip {
+    left:63%;
+  }
+
+  a[id*="new-entity-button"] {
+    position: relative;
+    top: -40px;
+    left: 69%;
+    margin-top: 0;
+  }
+
+  span.field-modal-reset {
+    @include cancelButton();
+    top: 12px;
+    left: 63%;
+    display: none !important;
+  }
+  ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    li, li:hover {
+      background: transparent;
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 0 solid transparent !important;
+      a, a:hover {
+        background: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        color: $blue-menu;
+        border: 0 solid transparent !important;
+
+      }
+    }
+  }
+
+  div#edit-field-region-re-supplier-0 {
+    height: 70px !important;
+  }
+
+  /* Working hour field - Supplier */
+  div.field--name-field-working-hours-fc {
+    input#edit-field-working-hours-fc-add-more {
+      margin-top: 0 !important;
+    }
+    table[id*="field-working-hours-fc-values"] {
+      margin-top: 5px !important;
+      margin-left:0 !important;
+      thead {
+        display: block !important;
+        th {
+          padding-left: 0 !important;
+          background-color: transparent !important;
+
+          h4 {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            @include labelBlack();
+          }
+        }
+      }
+      tbody {
+        tr {
+          background: unset !important;
+          &:hover {
+            background: unset ;
+          }
+          td {
+            padding: 2px 4px;
+            div.field--name-field-days {
+              float:left;
+              width: 20%;
+              margin-bottom: 3px;
+            }
+            div.field--name-field-hours {
+              float:left;
+              width:67%;
+              margin-left: 3%;
+              margin-bottom: 3px;
+              div#field-to-time {
+                margin-left: 10%;
+              }
+            }
+            div[id*="edit-field-working-hours-fc"] {
+              &.form-actions {
+                margin-bottom: 3px;
+                @include fcRemoveBtnInTable();
+
+                width: 10% !important;
+                float: left;
+                input[id*="actions-remove-button"]{
+                  background-position: 8px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    input.field-add-more-submit {
+      margin-top: 0 !important;
+      width: 5%;
+      color: transparent;
+      background-position: 15px;
+      background-size: 21px;
+      position: relative;
+      top: -70px;
+      right: -92%;
+    }
+  }
+
+  /* Transportation routes field - Supplier */
+  fieldset#main-bottom-suppliers {
+    margin-bottom:0;
+    fieldset#main-line-1-service-transportation-fields{
+      > legend {
+      display: block;
+        padding-left: 0;
+        margin-bottom:15px;
+        span.fieldset-legend {
+          @include labelBlack();
+        }
+      }
+      margin-bottom:0;
+      table#field-rates-list-fc-values {
+        width: 100% !important;
+        label.uk-form-label {
+          font-size: 13px;
+        }
+        span.uk-form-icon-flip {
+          left:72%;
+        }
+      }
+      div[id*="-actions"].form-actions {
+        top: 23px;
+        left: 30px;
+        }
+      }
+    }
+  }

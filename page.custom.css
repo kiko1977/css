@@ -22,7 +22,10 @@
 /* font color */
 /* Buttons */
 /* FONTS */
-/* Home Page Footer block */
+.node-type-custom-site-pages .block-page-title-block {
+  display: none;
+}
+/* Database Footer block */
 footer .uk-container.uk-margin-top {
   width: 96%;
   margin-left: 2%;
@@ -51,13 +54,13 @@ footer .uk-container.uk-margin-top {
 #region--footer #database-entries .uk-margin h2 {
   color: #1f2937;
   font-family: "Inter_Semi_Bold";
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 10px !important;
   background-image: url(/sites/default/files/custom/svg/data_support/data_support-blue.svg);
   background-repeat: no-repeat;
   background-position: 0px;
-  background-size: 19px;
-  padding-left: 1.5%;
+  background-size: 28px;
+  padding-left: 2.5%;
 }
 #region--footer #accommodation-types, #region--footer #clients, #region--footer #countries, #region--footer #customers, #region--footer #destinations, #region--footer #file-statuses, #region--footer #file-types, #region--footer #invoicing-statuses, #region--footer #languages, #region--footer #markets, #region--footer #overnight-tax, #region--footer #regions, #region--footer #room-types, #region--footer #services-btn, #region--footer #suppliers, #region--footer #hotels, #region--footer #bus-types, #region--footer #route-from, #region--footer #route-to, #region--footer #route-list {
   width: calc(100% / 4);
@@ -80,7 +83,7 @@ footer .uk-container.uk-margin-top {
   border-radius: 0.5rem;
   margin: 1% 1%;
   font-family: "Inter_Semi_Bold";
-  font-size: 16px;
+  font-size: 19px;
   color: #ed9b24;
   padding: 15px 20px;
   margin-top: 10px !important;
@@ -99,7 +102,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #accommodation-types a:hover {
   background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-white.svg");
@@ -110,7 +113,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/bus/bus-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #bus-types a:hover {
   background-image: url("/sites/default/files/custom/svg/bus/bus-white.svg");
@@ -121,7 +124,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/from/from-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #route-from a:hover {
   background-image: url("/sites/default/files/custom/svg/from/from-white.svg");
@@ -132,7 +135,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/to/to-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #route-to a:hover {
   background-image: url("/sites/default/files/custom/svg/to/to-white.svg");
@@ -143,7 +146,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/customers/customers-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #clients a:hover {
   background-image: url("/sites/default/files/custom/svg/customers/customers-white.svg");
@@ -154,7 +157,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/country/country-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #countries a:hover {
   background-image: url("/sites/default/files/custom/svg/country/country-white.svg");
@@ -165,7 +168,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/language/language-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #languages a:hover {
   background-image: url("/sites/default/files/custom/svg/language/language-white.svg");
@@ -176,7 +179,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/bed/bed-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #room-types a:hover {
   background-image: url("/sites/default/files/custom/svg/bed/bed-white.svg");
@@ -187,7 +190,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/hotel/hotel-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #hotels a:hover {
   background-image: url("/sites/default/files/custom/svg/hotel/hotel-white.svg");
@@ -198,7 +201,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/region/region-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #regions a:hover {
   background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
@@ -209,7 +212,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/destination/destination-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #destinations a:hover {
   background-image: url("/sites/default/files/custom/svg/destination/destination-white.svg");
@@ -220,7 +223,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/market/market-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #markets a:hover {
   background-image: url("/sites/default/files/custom/svg/market/market-white.svg");
@@ -231,7 +234,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/temple/temple-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #services-btn a:hover {
   background-image: url("/sites/default/files/custom/svg/temple/temple-white.svg");
@@ -242,7 +245,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/taxi/taxi-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #suppliers a:hover {
   background-image: url("/sites/default/files/custom/svg/taxi/taxi-white.svg");
@@ -253,7 +256,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/calendar/calendar-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #customers a:hover {
   background-image: url("/sites/default/files/custom/svg/calendar/calendar-white.svg");
@@ -264,7 +267,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/status/status-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #file-statuses a:hover {
   background-image: url("/sites/default/files/custom/svg/status/status-white.svg");
@@ -275,7 +278,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/overnight/overnight-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #overnight-tax a:hover {
   background-image: url("/sites/default/files/custom/svg/overnight/overnight-white.svg");
@@ -286,7 +289,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/invoice/invoice-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #invoicing-statuses a:hover {
   background-image: url("/sites/default/files/custom/svg/invoice/invoice-white.svg");
@@ -297,7 +300,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #file-types a:hover {
   background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-white.svg");
@@ -308,7 +311,7 @@ footer .uk-container.uk-margin-top {
   background-image: url("/sites/default/files/custom/svg/money/money-orange.svg");
   background-repeat: no-repeat;
   background-position: 5%;
-  background-size: 21px;
+  background-size: 25px;
 }
 #region--footer #route-list a:hover {
   background-image: url("/sites/default/files/custom/svg/money/money-white.svg");

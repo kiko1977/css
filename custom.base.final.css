@@ -93,7 +93,7 @@ input#edit-submit:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-
   background-color: #34c494;
   color: #fafafa;
 }
-input[id*="edit-field-address"][type="submit"], input[id*="field-hotel-rooms-hotel-rooms-add-more"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"], input[id*="-actions-ief-add"], input[id*="field-contact"][type="submit"], input.field-add-more-submit, input.add-new-btn-er {
+input[id*="edit-field-address"][type="submit"], input[id*="field-hotel-rooms-hotel-rooms-add-more"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"], input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"], input[id*="-actions-ief-add"], input[id*="field-contact"][type="submit"], input.field-add-more-submit, input.add-new-btn-er, a[id*="new-entity-button"] {
   color: #fafafa;
   background-color: #1f57b8;
   border-radius: 5px;
@@ -110,7 +110,7 @@ input[id*="edit-field-address"][type="submit"], input[id*="field-hotel-rooms-hot
   margin-left: 5px;
   margin-top: 25px;
 }
-input[id*="edit-field-address"][type="submit"]:hover, input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover, input[id*="-actions-ief-add"]:hover, input[id*="field-contact"][type="submit"]:hover, input.field-add-more-submit:hover, input.add-new-btn-er:hover {
+input[id*="edit-field-address"][type="submit"]:hover, input[id*="field-hotel-rooms-hotel-rooms-add-more"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-actions-ief-add"]:hover, input[id*="edit-field-hotel-rooms-0-subform-field-room-type-details-form-0-field-room-rates-per-period-actions-ief-add--"]:hover, input[id*="-actions-ief-add"]:hover, input[id*="field-contact"][type="submit"]:hover, input.field-add-more-submit:hover, input.add-new-btn-er:hover, a[id*="new-entity-button"]:hover {
   background-color: #1e52af;
   color: #fafafa;
 }
@@ -249,6 +249,79 @@ form.node-form a#edit-delete {
 /* font color */
 /* Buttons */
 /* FONTS */
+body[class*="node-type-"] main#page--content {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1.5%;
+  margin-top: 35px;
+}
+body[class*="node-type-"] main#page--content ul.uk-tab {
+  margin-right: 3%;
+}
+body[class*="node-type-"] main#page--content div.contextual button.trigger {
+  display: none;
+}
+body[class*="node-type-"] main#page--content h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/view/view-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
+}
+body[class*="node-type-"] main#page--content h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+body[class*="node-type-"] main#page--content div.uk-article-meta {
+  font-size: 12px !important;
+  line-height: 1;
+}
+body[class*="node-type-"] main#page--content label.uk-form-label, body[class*="node-type-"] main#page--content div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
 /* forms */
 body[class*="nodeadd"] main#page--content, body[class*="edit"] main#page--content {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
@@ -335,9 +408,17 @@ body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodea
   display: none;
 }
 body[class*="nodeadd"] main#page--content div#edit-actions, body[class*="edit"] main#page--content div#edit-actions {
-  text-align: right;
   margin-top: 20px !important;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
+  position: relative;
+  top: -60px;
+  width: 20em;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions input#edit-submit, body[class*="edit"] main#page--content div#edit-actions input#edit-submit {
+  width: 46%;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions a#edit-cancel, body[class*="edit"] main#page--content div#edit-actions a#edit-cancel {
+  width: 46%;
 }
 body[class*="nodeadd"] main#page--content div.uk-form-row, body[class*="edit"] main#page--content div.uk-form-row {
   margin-bottom: 10px;
@@ -380,10 +461,17 @@ body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fields
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row {
   width: 25%;
+  float: right;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input {
+  width: 50%;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child {
+  width: 75%;
   float: left;
 }
-body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row {
-  width: 75%;
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input {
+  width: 90%;
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer {
   width: 50%;
@@ -399,6 +487,7 @@ body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fields
   width: 50%;
   float: left;
   margin-top: 0 !important;
+  margin-bottom: 3px;
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference {
   margin-top: 0px !important;
@@ -469,15 +558,409 @@ body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.left-field
 body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.right-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.right-fieldset {
   float: right;
 }
+body[class*="nodeadd"] main#page--content div.tabledrag-toggle-weight-wrapper, body[class*="edit"] main#page--content div.tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content td.field-multiple-drag, body[class*="edit"] main#page--content td.field-multiple-drag {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset, body[class*="edit"] main#page--content fieldset.full-size-fieldset {
+  width: 100%;
+  padding: 0;
+  border: 0px solid transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset > legend.uk-legend, body[class*="edit"] main#page--content fieldset.full-size-fieldset > legend.uk-legend {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields {
+  border: 0px solid transparent;
+  padding: 0;
+  margin-top: 5px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields > legend.uk-legend, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields > legend.uk-legend {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-vehicle-type-re, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-vehicle-type-re {
+  width: 15%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-rates-list-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-rates-list-fc {
+  width: 100%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table {
+  background: transparent;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody {
+  background: transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr {
+  background: transparent;
+  border-top: 0 solid transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td {
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper {
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper select, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper select {
+  width: 95% !important;
+  font-size: 13px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-from-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-from-fc {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-to, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-to {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-category, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-category {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-type-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-type-fc {
+  width: 8%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer {
+  width: 6%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer input {
+  width: 70%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"], body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] {
+  width: 5% !important;
+  position: relative;
+  top: 27px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] input {
+  width: 55% !important;
+  padding: 0 !important;
+  color: transparent !important;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset input[id*="edit-field-rates-list-fc-add-more"], body[class*="edit"] main#page--content fieldset.full-size-fieldset input[id*="edit-field-rates-list-fc-add-more"] {
+  margin-top: 0;
+}
 body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
   width: 20% !important;
 }
-/* specific fields */
-body[class*="nodeadd"] div.field--name-field-website, body[class*="edit"] div.field--name-field-website {
-  margin-bottom: 15px !important;
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
 }
-body[class*="nodeadd"] div.field--name-field-website input.uk-input, body[class*="edit"] div.field--name-field-website input.uk-input {
-  width: 95% !important;
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+.node-type-custom-site-pages .block-page-title-block {
+  display: none;
+}
+/* Database Footer block */
+footer .uk-container.uk-margin-top {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+#region--footer {
+  color: #1f2937;
+  font-family: "Inter_Semi_Bold";
+  font-size: 20px;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+#region--footer #database-entries {
+  width: 100%;
+  margin-left: 10px;
+}
+#region--footer #database-entries .uk-margin {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+#region--footer #database-entries .uk-margin h2 {
+  color: #1f2937;
+  font-family: "Inter_Semi_Bold";
+  font-size: 30px;
+  margin-bottom: 10px !important;
+  background-image: url(/sites/default/files/custom/svg/data_support/data_support-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 28px;
+  padding-left: 2.5%;
+}
+#region--footer #accommodation-types, #region--footer #clients, #region--footer #countries, #region--footer #customers, #region--footer #destinations, #region--footer #file-statuses, #region--footer #file-types, #region--footer #invoicing-statuses, #region--footer #languages, #region--footer #markets, #region--footer #overnight-tax, #region--footer #regions, #region--footer #room-types, #region--footer #services-btn, #region--footer #suppliers, #region--footer #hotels, #region--footer #bus-types, #region--footer #route-from, #region--footer #route-to, #region--footer #route-list {
+  width: calc(100% / 4);
+  float: left;
+}
+#region--footer #accommodation-types .uk-margin, #region--footer #clients .uk-margin, #region--footer #countries .uk-margin, #region--footer #customers .uk-margin, #region--footer #destinations .uk-margin, #region--footer #file-statuses .uk-margin, #region--footer #file-types .uk-margin, #region--footer #invoicing-statuses .uk-margin, #region--footer #languages .uk-margin, #region--footer #markets .uk-margin, #region--footer #overnight-tax .uk-margin, #region--footer #regions .uk-margin, #region--footer #room-types .uk-margin, #region--footer #services-btn .uk-margin, #region--footer #suppliers .uk-margin, #region--footer #hotels .uk-margin, #region--footer #bus-types .uk-margin, #region--footer #route-from .uk-margin, #region--footer #route-to .uk-margin, #region--footer #route-list .uk-margin {
+  width: 98%;
+  display: block;
+  margin: 0 2% !important;
+}
+#region--footer #accommodation-types .uk-margin a, #region--footer #clients .uk-margin a, #region--footer #countries .uk-margin a, #region--footer #customers .uk-margin a, #region--footer #destinations .uk-margin a, #region--footer #file-statuses .uk-margin a, #region--footer #file-types .uk-margin a, #region--footer #invoicing-statuses .uk-margin a, #region--footer #languages .uk-margin a, #region--footer #markets .uk-margin a, #region--footer #overnight-tax .uk-margin a, #region--footer #regions .uk-margin a, #region--footer #room-types .uk-margin a, #region--footer #services-btn .uk-margin a, #region--footer #suppliers .uk-margin a, #region--footer #hotels .uk-margin a, #region--footer #bus-types .uk-margin a, #region--footer #route-from .uk-margin a, #region--footer #route-to .uk-margin a, #region--footer #route-list .uk-margin a {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  font-family: "Inter_Semi_Bold";
+  font-size: 19px;
+  color: #ed9b24;
+  padding: 15px 20px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  width: 88%;
+  text-align: center;
+}
+#region--footer #accommodation-types .uk-margin a:hover, #region--footer #clients .uk-margin a:hover, #region--footer #countries .uk-margin a:hover, #region--footer #customers .uk-margin a:hover, #region--footer #destinations .uk-margin a:hover, #region--footer #file-statuses .uk-margin a:hover, #region--footer #file-types .uk-margin a:hover, #region--footer #invoicing-statuses .uk-margin a:hover, #region--footer #languages .uk-margin a:hover, #region--footer #markets .uk-margin a:hover, #region--footer #overnight-tax .uk-margin a:hover, #region--footer #regions .uk-margin a:hover, #region--footer #room-types .uk-margin a:hover, #region--footer #services-btn .uk-margin a:hover, #region--footer #suppliers .uk-margin a:hover, #region--footer #hotels .uk-margin a:hover, #region--footer #bus-types .uk-margin a:hover, #region--footer #route-from .uk-margin a:hover, #region--footer #route-to .uk-margin a:hover, #region--footer #route-list .uk-margin a:hover {
+  background-color: #ed9b24;
+  color: #fafafa;
+  text-decoration: none;
+}
+#region--footer #accommodation-types a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #accommodation-types a:hover {
+  background-image: url("/sites/default/files/custom/svg/accom-type/accom-type-white.svg");
+}
+#region--footer #bus-types a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/bus/bus-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #bus-types a:hover {
+  background-image: url("/sites/default/files/custom/svg/bus/bus-white.svg");
+}
+#region--footer #route-from a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/from/from-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #route-from a:hover {
+  background-image: url("/sites/default/files/custom/svg/from/from-white.svg");
+}
+#region--footer #route-to a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/to/to-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #route-to a:hover {
+  background-image: url("/sites/default/files/custom/svg/to/to-white.svg");
+}
+#region--footer #clients a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/customers/customers-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #clients a:hover {
+  background-image: url("/sites/default/files/custom/svg/customers/customers-white.svg");
+}
+#region--footer #countries a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/country/country-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #countries a:hover {
+  background-image: url("/sites/default/files/custom/svg/country/country-white.svg");
+}
+#region--footer #languages a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/language/language-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #languages a:hover {
+  background-image: url("/sites/default/files/custom/svg/language/language-white.svg");
+}
+#region--footer #room-types a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/bed/bed-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #room-types a:hover {
+  background-image: url("/sites/default/files/custom/svg/bed/bed-white.svg");
+}
+#region--footer #hotels a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/hotel/hotel-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #hotels a:hover {
+  background-image: url("/sites/default/files/custom/svg/hotel/hotel-white.svg");
+}
+#region--footer #regions a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/region/region-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #regions a:hover {
+  background-image: url("/sites/default/files/custom/svg/region/region-white.svg");
+}
+#region--footer #destinations a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/destination/destination-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #destinations a:hover {
+  background-image: url("/sites/default/files/custom/svg/destination/destination-white.svg");
+}
+#region--footer #markets a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/market/market-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #markets a:hover {
+  background-image: url("/sites/default/files/custom/svg/market/market-white.svg");
+}
+#region--footer #services-btn a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/temple/temple-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #services-btn a:hover {
+  background-image: url("/sites/default/files/custom/svg/temple/temple-white.svg");
+}
+#region--footer #suppliers a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/taxi/taxi-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #suppliers a:hover {
+  background-image: url("/sites/default/files/custom/svg/taxi/taxi-white.svg");
+}
+#region--footer #customers a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/calendar/calendar-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #customers a:hover {
+  background-image: url("/sites/default/files/custom/svg/calendar/calendar-white.svg");
+}
+#region--footer #file-statuses a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/status/status-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #file-statuses a:hover {
+  background-image: url("/sites/default/files/custom/svg/status/status-white.svg");
+}
+#region--footer #overnight-tax a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/overnight/overnight-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #overnight-tax a:hover {
+  background-image: url("/sites/default/files/custom/svg/overnight/overnight-white.svg");
+}
+#region--footer #invoicing-statuses a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/invoice/invoice-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #invoicing-statuses a:hover {
+  background-image: url("/sites/default/files/custom/svg/invoice/invoice-white.svg");
+}
+#region--footer #file-types a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #file-types a:hover {
+  background-image: url("/sites/default/files/custom/svg/trip-types/trip-types-white.svg");
+}
+#region--footer #route-list a {
+  border-bottom-left-radius: 2em !important;
+  border-top-left-radius: 2em !important;
+  background-image: url("/sites/default/files/custom/svg/money/money-orange.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+}
+#region--footer #route-list a:hover {
+  background-image: url("/sites/default/files/custom/svg/money/money-white.svg");
 }
 @font-face {
   font-family: "Inter";
@@ -712,6 +1195,182 @@ header#page--header #region--navbar_right #right-side-menu .uk-margin {
 /* font color */
 /* Buttons */
 /* FONTS */
+/* General Table Setting*/
+table.uk-table {
+  margin-bottom: 0px;
+  --bs-table-bg: transparent;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #374151;
+  --bs-table-striped-bg: rgba(17, 24, 39, 0.05);
+  --bs-table-active-color: #374151;
+  --bs-table-active-bg: rgba(17, 24, 39, 0.1);
+  --bs-table-hover-color: #374151;
+  --bs-table-hover-bg: rgba(17, 24, 39, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #374151;
+  vertical-align: top;
+  border-color: #e5e7eb;
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin-top: 0px !important;
+  position: relative;
+  top: -10px;
+  width: 95%;
+  margin: auto;
+}
+table.uk-table thead {
+  vertical-align: bottom;
+  border-radius: 0.5rem;
+}
+table.uk-table thead tr {
+  border-radius: 0.5rem;
+}
+table.uk-table thead tr th {
+  padding: 0.5rem 1.5rem;
+  background-color: #f2f4f6;
+  color: #1f2937;
+  font-weight: bold;
+}
+table.uk-table thead tr th:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+table.uk-table thead tr th:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+table.uk-table thead tr th#view-nid-table-column {
+  width: 10%;
+}
+table.uk-table thead tr th a {
+  color: #1f2937;
+}
+table.uk-table tbody tr td {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  border-bottom: 1px solid #e5e7eb;
+}
+table.uk-table tbody tr td a {
+  color: #ed9b24;
+  font-weight: bold;
+}
+/* Table Pager */
+.pager__items.js-pager__items.uk-pagination {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+/* Home Page tables Block */
+.views-element-container {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+}
+.views-element-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 1% 2.55%;
+  width: 45%;
+  float: left;
+  background-image: url(/sites/default/files/custom/svg/trip/trip-orange.svg);
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 19px;
+}
+.views-element-container h2 a {
+  color: #ed9b24;
+  margin-left: 3.5%;
+}
+.views-element-container .uk-form-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.views-element-container header {
+  position: absolute;
+  top: 7%;
+  left: 95%;
+}
+.views-element-container form {
+  width: 45%;
+  float: left;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 2.5%;
+}
+.views-element-container form .form-actions {
+  margin-top: -20px !important;
+}
+.views-element-container form .form-item-combine {
+  margin-bottom: 0px !important;
+}
+.views-element-container table.uk-table {
+  margin-top: 80px !important;
+}
+#views-block____custom-block-main-overview-block-1 form {
+  float: right;
+  margin-right: 2.55%;
+  text-align: right;
+  top: -45px;
+}
+#views-block____custom-block-hotels-overview-block-1, #views-block____custom-block-services-overview-block-1 {
+  width: 47%;
+  display: inline-flex;
+  margin-right: 1%;
+}
+#views-block____custom-block-hotels-overview-block-1 .views-exposed-form, #views-block____custom-block-services-overview-block-1 .views-exposed-form {
+  top: -43px;
+  width: 65%;
+}
+#views-block____custom-block-hotels-overview-block-1 h2, #views-block____custom-block-services-overview-block-1 h2 {
+  margin: 2% 2.55%;
+}
+#views-block____custom-block-hotels-overview-block-1 {
+  float: left;
+}
+#views-block____custom-block-services-overview-block-1 {
+  float: right;
+}
+/* SPECIFIC TABLE FIELDS */
+/* Destinations */
+div.layout__region.layout__region--first {
+  float: left;
+  margin-right: 1%;
+}
+body.overviewdestinations header, body.overviewservices header {
+  top: 3%;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
 @font-face {
   font-family: "Inter";
   src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
@@ -791,7 +1450,7 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
-  width: 81%;
+  width: 79%;
 }
 .vertical-tabs .vertical-tabs__menu {
   width: 20em;
@@ -839,10 +1498,400 @@ form.node-form.node-supplier-form ul.horizontal-tabs-list li:not(:first-child).s
   margin-right: 20px;
   border-radius: 6px;
 }
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+.entity-modal-dialog.ui-dialog-buttons {
+  padding: 0 !important;
+  border: 0 solid #fafafa !important;
+  top: 200px !important;
+  left: 10% !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  /* header */
+  /* fields */
+  /* buttons */
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+  background-color: #666;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar span.ui-dialog-title {
+  color: #fafafa !important;
+  font-size: 1.2em;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar span.ui-icon-closethick {
+  background-color: transparent;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form label.uk-form-label, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="text"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form textarea, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="tel"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="date"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="email"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form select, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.form-select {
+  width: 90%;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="text"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form textarea:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="tel"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="date"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="email"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form select:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.form-select:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="number"] {
+  width: 10%;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="number"]:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form .field-suffix {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane {
+  border-bottom-left-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.5rem !important;
+  border: 0 solid transparent !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.button--primary {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.button--primary:hover {
+  background-color: #34c494;
+  color: #fafafa;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.uk-button-default {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.uk-button-default:hover {
+  background-color: #efbe4c;
+  color: #fafafa;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+/* specific fields */
+body[class*="nodeadd"], body[class*="edit"] {
+  /* Working hour field - Supplier */
+  /* Transportation routes field - Supplier */
+}
+body[class*="nodeadd"] div.field--name-field-website, body[class*="edit"] div.field--name-field-website {
+  margin-bottom: 15px !important;
+}
+body[class*="nodeadd"] div.field--name-field-website input.uk-input, body[class*="edit"] div.field--name-field-website input.uk-input {
+  width: 95% !important;
+}
+body[class*="nodeadd"] div.field--type-entity-reference.field--name-field-from-re.field--widget-entity-reference-autocomplete, body[class*="nodeadd"] div.field--type-entity-reference.field--name-field-to-re.field--widget-entity-reference-autocomplete, body[class*="edit"] div.field--type-entity-reference.field--name-field-from-re.field--widget-entity-reference-autocomplete, body[class*="edit"] div.field--type-entity-reference.field--name-field-to-re.field--widget-entity-reference-autocomplete {
+  width: 13%;
+}
+body[class*="nodeadd"] input#edit-field-region-re-supplier-0-mask-input, body[class*="edit"] input#edit-field-region-re-supplier-0-mask-input {
+  width: 70% !important;
+}
+body[class*="nodeadd"] span.uk-form-icon-flip, body[class*="edit"] span.uk-form-icon-flip {
+  left: 63%;
+}
+body[class*="nodeadd"] a[id*="new-entity-button"], body[class*="edit"] a[id*="new-entity-button"] {
+  position: relative;
+  top: -40px;
+  left: 69%;
+  margin-top: 0;
+}
+body[class*="nodeadd"] span.field-modal-reset, body[class*="edit"] span.field-modal-reset {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+  top: 12px;
+  left: 63%;
+  display: none !important;
+}
+body[class*="nodeadd"] span.field-modal-reset:hover, body[class*="edit"] span.field-modal-reset:hover {
+  background-color: #efbe4c;
+  color: #fafafa;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover {
+  background: transparent;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0 solid transparent !important;
+}
+body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a:hover, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a, body[class*="nodeadd"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li a:hover, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a, body[class*="edit"] ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li:hover a:hover {
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #1f2937;
+  border: 0 solid transparent !important;
+}
+body[class*="nodeadd"] div#edit-field-region-re-supplier-0, body[class*="edit"] div#edit-field-region-re-supplier-0 {
+  height: 70px !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc input#edit-field-working-hours-fc-add-more, body[class*="edit"] div.field--name-field-working-hours-fc input#edit-field-working-hours-fc-add-more {
+  margin-top: 0 !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"], body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] {
+  margin-top: 5px !important;
+  margin-left: 0 !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead {
+  display: block !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th {
+  padding-left: 0 !important;
+  background-color: transparent !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th h4, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] thead th h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr {
+  background: unset !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr:hover, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr:hover {
+  background: unset;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td {
+  padding: 2px 4px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-days, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-days {
+  float: left;
+  width: 20%;
+  margin-bottom: 3px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours {
+  float: left;
+  width: 67%;
+  margin-left: 3%;
+  margin-bottom: 3px;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours div#field-to-time, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div.field--name-field-hours div#field-to-time {
+  margin-left: 10%;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions {
+  margin-bottom: 3px;
+  width: 5% !important;
+  position: relative;
+  top: 27px;
+  width: 10% !important;
+  float: left;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input, body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input {
+  width: 55% !important;
+  padding: 0 !important;
+  color: transparent !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input[id*="actions-remove-button"], body[class*="edit"] div.field--name-field-working-hours-fc table[id*="field-working-hours-fc-values"] tbody tr td div[id*="edit-field-working-hours-fc"].form-actions input[id*="actions-remove-button"] {
+  background-position: 8px !important;
+}
+body[class*="nodeadd"] div.field--name-field-working-hours-fc input.field-add-more-submit, body[class*="edit"] div.field--name-field-working-hours-fc input.field-add-more-submit {
+  margin-top: 0 !important;
+  width: 5%;
+  color: transparent;
+  background-position: 15px;
+  background-size: 21px;
+  position: relative;
+  top: -70px;
+  right: -92%;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers, body[class*="edit"] fieldset#main-bottom-suppliers {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields {
+  margin-bottom: 0;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend {
+  display: block;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend span.fieldset-legend, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields > legend span.fieldset-legend {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values {
+  width: 100% !important;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values label.uk-form-label, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values label.uk-form-label {
+  font-size: 13px;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values span.uk-form-icon-flip, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields table#field-rates-list-fc-values span.uk-form-icon-flip {
+  left: 72%;
+}
+body[class*="nodeadd"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields div[id*="-actions"].form-actions, body[class*="edit"] fieldset#main-bottom-suppliers fieldset#main-line-1-service-transportation-fields div[id*="-actions"].form-actions {
+  top: 23px;
+  left: 30px;
+}
 html {
   background-color: #f2f4f6;
 }
-.uk-alert, #edit-title-wrapper {
+/* breadcrumps */
+.uk-breadcrumb {
+  display: none;
+  margin-left: 2%;
+}
+.uk-breadcrumb li:first-child a {
+  background-image: url("/sites/default/files/custom/svg/home/home-grey.svg");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: 12px;
+  padding-left: 15px;
+}
+.uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
+  margin: 0 10px !important;
+}
+/* alerts */
+fieldset div.uk-alert-danger {
+  display: block;
+  background: transparent;
+  padding: 0;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 800;
+  font-style: italic;
+}
+div.uk-alert, #edit-title-wrapper {
   display: none;
 }
 .toolbar-horizontal .uk-alert {

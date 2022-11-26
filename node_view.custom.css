@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+body[class*="node-type-"] main#page--content {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1.5%;
+  margin-top: 35px;
+}
+body[class*="node-type-"] main#page--content ul.uk-tab {
+  margin-right: 3%;
+}
+body[class*="node-type-"] main#page--content div.contextual button.trigger {
+  display: none;
+}
+body[class*="node-type-"] main#page--content h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/view/view-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
+}
+body[class*="node-type-"] main#page--content h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+body[class*="node-type-"] main#page--content div.uk-article-meta {
+  font-size: 12px !important;
+  line-height: 1;
+}
+body[class*="node-type-"] main#page--content label.uk-form-label, body[class*="node-type-"] main#page--content div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}

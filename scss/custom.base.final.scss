@@ -1,12 +1,13 @@
 @import "buttons.custom";
 // @import "fieldset.custom";
+@import "node_view.custom";
 @import "forms.custom";
-// @import "footer.custom";
+ @import "page.custom";
 // @import "header.custom";
 // @import "labels.custom";
 @import "menus.custom";
 // @import "search_box.custom";
-// @import "tables.custom";
+@import "tables.custom";
 // @import "titles.custom";
 @import "variables";
 @import "mixins";
@@ -17,12 +18,43 @@
 // @import "hotels.custom";
 // @import "suppliers.custom";
 // @import "referenced_entities.custom";
+@import "modal.custom";
+ @import "field_specific.custom";
 
 html {
   background-color: $main-bg;
 }
+/* breadcrumps */
+.uk-breadcrumb {
+  display: none;
+  margin-left:2%;
+  li:first-child {
+    a {
+      background-image: url("/sites/default/files/custom/svg/home/home-grey.svg");
+      background-repeat: no-repeat;
+      background-position: 0%;
+      background-size: 12px;
+      padding-left:15px;
+    }
+  }
+}
 
-.uk-alert,
+.uk-breadcrumb>:nth-child(n+2):not(.uk-first-column)::before {
+  margin: 0 10px !important;
+}
+
+/* alerts */
+fieldset div.uk-alert-danger {
+  display: block;
+  background: transparent;
+  padding:0;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+div.uk-alert,
 #edit-title-wrapper {
   display: none;
 }

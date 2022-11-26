@@ -108,9 +108,17 @@ body[class*="nodeadd"] main#page--content #edit-path-wrapper, body[class*="nodea
   display: none;
 }
 body[class*="nodeadd"] main#page--content div#edit-actions, body[class*="edit"] main#page--content div#edit-actions {
-  text-align: right;
   margin-top: 20px !important;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
+  position: relative;
+  top: -60px;
+  width: 20em;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions input#edit-submit, body[class*="edit"] main#page--content div#edit-actions input#edit-submit {
+  width: 46%;
+}
+body[class*="nodeadd"] main#page--content div#edit-actions a#edit-cancel, body[class*="edit"] main#page--content div#edit-actions a#edit-cancel {
+  width: 46%;
 }
 body[class*="nodeadd"] main#page--content div.uk-form-row, body[class*="edit"] main#page--content div.uk-form-row {
   margin-bottom: 10px;
@@ -153,10 +161,17 @@ body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fields
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row {
   width: 25%;
+  float: right;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row input {
+  width: 50%;
+}
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child {
+  width: 75%;
   float: left;
 }
-body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper > div.uk-form-row {
-  width: 75%;
+body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.two-field-fieldset.left-wide-fieldset div.fieldset-wrapper div.uk-form-row:first-child input {
+  width: 90%;
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-decimal, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset.four-field-fieldset div.field--type-integer {
   width: 50%;
@@ -172,6 +187,7 @@ body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fields
   width: 50%;
   float: left;
   margin-top: 0 !important;
+  margin-bottom: 3px;
 }
 body[class*="nodeadd"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="nodeadd"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.multiple-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference, body[class*="edit"] main#page--content fieldset.single-line-fieldset fieldset.main-line-fieldset div.field--type-entity-reference {
   margin-top: 0px !important;
@@ -242,13 +258,89 @@ body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.left-field
 body[class*="nodeadd"] main#page--content fieldset.half-size-fieldset.right-fieldset, body[class*="edit"] main#page--content fieldset.half-size-fieldset.right-fieldset {
   float: right;
 }
+body[class*="nodeadd"] main#page--content div.tabledrag-toggle-weight-wrapper, body[class*="edit"] main#page--content div.tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content td.field-multiple-drag, body[class*="edit"] main#page--content td.field-multiple-drag {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset, body[class*="edit"] main#page--content fieldset.full-size-fieldset {
+  width: 100%;
+  padding: 0;
+  border: 0px solid transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset > legend.uk-legend, body[class*="edit"] main#page--content fieldset.full-size-fieldset > legend.uk-legend {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields {
+  border: 0px solid transparent;
+  padding: 0;
+  margin-top: 5px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields > legend.uk-legend, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields > legend.uk-legend {
+  display: none;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-vehicle-type-re, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-vehicle-type-re {
+  width: 15%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-rates-list-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset fieldset.supplier-line-service-transport-fields div.field--name-field-rates-list-fc {
+  width: 100%;
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table {
+  background: transparent;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody {
+  background: transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr {
+  background: transparent;
+  border-top: 0 solid transparent;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td {
+  padding: 0;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper {
+  float: left;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper select, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.form-wrapper select {
+  width: 95% !important;
+  font-size: 13px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-from-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-from-fc {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-to, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-to {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-category, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-route-category {
+  width: 12%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-type-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-type-fc {
+  width: 8%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer {
+  width: 6%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter input, body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-a-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-b-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-c-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-rate-of-type-d-fc input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-taxi input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-van input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-sprinter input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div.field--name-field-shared-transfer input {
+  width: 70%;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"], body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] {
+  width: 5% !important;
+  position: relative;
+  top: 27px;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] input, body[class*="edit"] main#page--content fieldset.full-size-fieldset table.field-multiple-table tbody tr td div[id*="-actions"] input {
+  width: 55% !important;
+  padding: 0 !important;
+  color: transparent !important;
+}
+body[class*="nodeadd"] main#page--content fieldset.full-size-fieldset input[id*="edit-field-rates-list-fc-add-more"], body[class*="edit"] main#page--content fieldset.full-size-fieldset input[id*="edit-field-rates-list-fc-add-more"] {
+  margin-top: 0;
+}
 body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="edit"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-short-0-value, body[class*="nodeadd"] form.node-form div.uk-form-controls input#edit-field-country-code-0-value {
   width: 20% !important;
-}
-/* specific fields */
-body[class*="nodeadd"] div.field--name-field-website, body[class*="edit"] div.field--name-field-website {
-  margin-bottom: 15px !important;
-}
-body[class*="nodeadd"] div.field--name-field-website input.uk-input, body[class*="edit"] div.field--name-field-website input.uk-input {
-  width: 95% !important;
 }

@@ -45,9 +45,18 @@ body[class*="edit"] {
             display: none;
         }
         div#edit-actions {
-            text-align: right;
+            // text-align: right;
             margin-top: 20px !important;
-            margin-bottom: 20px;
+            margin-bottom: -30px;
+            position: relative;
+            top: -60px;
+            width: 20em;
+            input#edit-submit {
+                width: 46%;
+            }
+            a#edit-cancel {
+                width: 46%;
+            }
         }
         div.uk-form-row {
             margin-bottom: 10px;
@@ -90,10 +99,17 @@ body[class*="edit"] {
                         div.fieldset-wrapper {
                             div.uk-form-row {
                                 width: 25%;
-                                float: left;
+                                float: right;
+                                input {
+                                    width: 50%;
+                                }
                             }
-                            > div.uk-form-row {
+                            div.uk-form-row:first-child {
                                 width: 75%;
+                                float: left;
+                                input {
+                                    width: 90%;
+                                }
                             }
                         }
                     }
@@ -120,6 +136,7 @@ body[class*="edit"] {
                             width: 50%;
                             float: left;
                             margin-top: 0 !important;
+                          margin-bottom: 3px;
                         }
                     }
                 }
@@ -200,6 +217,92 @@ body[class*="edit"] {
                 float: right;
             }
         }
+        div.tabledrag-toggle-weight-wrapper {
+            display: none;
+        }
+        td.field-multiple-drag {
+            display: none;
+        }
+      fieldset.full-size-fieldset {
+        width: 100%;
+        padding:0;
+        @include noBorder();
+        > legend.uk-legend {
+          display: none;
+        }
+        fieldset.supplier-line-service-transport-fields {
+          @include noBorder();
+          padding:0;
+          margin-top: 5px;
+          > legend.uk-legend {
+            display: none;
+          }
+          div.field--name-field-vehicle-type-re {
+            width: 15%;
+            float:left;
+          }
+          div.field--name-field-rates-list-fc {
+            width: 100%;
+            float:left;
+          }
+        }
+        table.field-multiple-table {
+          background: transparent;
+          margin-top: 0;
+          margin-bottom: 10px;
+          tbody {
+            background: transparent;
+            tr {
+              background: transparent;
+              border-top: 0 solid transparent;
+              td {
+                padding: 0;
+                div.form-wrapper {
+                  float:left;
+                  input,select {
+                    width: 95% !important;
+                    font-size: 13px;
+                  }
+                }
+                div.field--name-field-route-from-fc {
+                    width: 12%;
+                }
+                div.field--name-field-route-to {
+                  width: 12%;
+                }
+                div.field--name-field-route-category {
+                  width: 12%;
+                }
+                div.field--name-field-rate-type-fc {
+                  width: 8%;
+                }
+                div.field--name-field-rate-of-type-a-fc,
+                div.field--name-field-rate-of-type-b-fc,
+                div.field--name-field-rate-of-type-c-fc,
+                div.field--name-field-rate-of-type-d-fc,
+                div.field--name-field-taxi,
+                div.field--name-field-van,
+                div.field--name-field-sprinter,
+                div.field--name-field-shared-transfer
+                {
+                  width: 6%;
+                  input {
+                    width: 70%;
+
+                  }
+                }
+                div[id*="-actions"] {
+                  @include fcRemoveBtnInTable() ;
+                }
+              }
+
+            }
+          }
+        }
+        input[id*="edit-field-rates-list-fc-add-more"] {
+          margin-top: 0;
+        }
+      }
     }
 }
 body[class*="edit"],
@@ -210,17 +313,6 @@ body[class*="nodeadd"] {
             input#edit-field-country-code-0-value {
                 width: 20% !important;
             }
-        }
-    }
-}
-
-/* specific fields */
-body[class*="nodeadd"],
-body[class*="edit"] {
-    div.field--name-field-website {
-        margin-bottom: 15px !important;
-        input.uk-input {
-            width: 95% !important;
         }
     }
 }

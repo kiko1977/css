@@ -221,7 +221,7 @@
     background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image + ".svg");
     background-repeat: no-repeat;
     background-position: 5%;
-    background-size: 21px;
+    background-size: 25px;
 
     &:hover {
       background-image: url("/sites/default/files/custom/svg/" + $svgFolder + "/" + $bg-image-hover + ".svg");
@@ -259,4 +259,15 @@
 
 @mixin noBorder() {
   border: 0px solid transparent;
+}
+
+@mixin fcRemoveBtnInTable() {
+  width: 5% !important;
+  position: relative;
+  top: 27px;
+  input {
+    width: 55% !important;
+    padding: 0 !important;
+    color: transparent !important;
+  }
 }

@@ -39,8 +39,9 @@ form.node-form fieldset.form-wrapper {
     input,
     select {
       border-radius: 6px;
+
       &:focus {
         border-color: #808080;
       }
     }
-  }
+  }}

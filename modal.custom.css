@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+@font-face {
+  font-family: "Inter";
+  src: url("/sites/default/files/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "Inter_Semi_Bold";
+  src: url("/sites/default/files/fonts/static/Inter-SemiBold.ttf");
+}
+/* COLORS */
+/* font color */
+/* Buttons */
+/* FONTS */
+.entity-modal-dialog.ui-dialog-buttons {
+  padding: 0 !important;
+  border: 0 solid #fafafa !important;
+  top: 200px !important;
+  left: 10% !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.5rem;
+  margin: 1% 1%;
+  /* header */
+  /* fields */
+  /* buttons */
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+  background-color: #666;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar span.ui-dialog-title {
+  color: #fafafa !important;
+  font-size: 1.2em;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-titlebar span.ui-icon-closethick {
+  background-color: transparent;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form h1.uk-article-title {
+  background-image: url("/sites/default/files/custom/svg/edit/edit-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+  background-size: 25px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2%;
+  margin-top: 25px !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form h1.uk-article-title em {
+  color: #1f2937;
+  font-weight: normal;
+  display: inline-block;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form label.uk-form-label, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.fieldset-wrapper h4 {
+  font-size: 15px;
+  background-color: transparent;
+  color: #1f2937;
+  font-weight: 500;
+  padding-right: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="text"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form textarea, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="tel"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="date"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="email"], .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form select, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.form-select {
+  width: 90%;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="text"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form textarea:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="tel"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="date"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="email"]:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form select:focus-within, .entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form div.form-select:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="number"] {
+  width: 10%;
+  padding: 5px 10px !important;
+  opacity: 0.75 !important;
+  border-radius: 0.5rem !important;
+  min-height: 35px !important;
+  color: #0a0c0d;
+  border-color: #1f2937;
+  font-size: 15px;
+  margin-right: 2% !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form input[type="number"]:focus-within {
+  opacity: 1 !important;
+  border: 1.5px solid #ed9b24;
+  border-color: #ed9b24 !important;
+  transition-property: border-color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.entity-modal-dialog.ui-dialog-buttons div#drupal-modal form.node-form .field-suffix {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane {
+  border-bottom-left-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.5rem !important;
+  border: 0 solid transparent !important;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.button--primary {
+  color: #fafafa;
+  background-color: #0ea271;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/save/save-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.button--primary:hover {
+  background-color: #34c494;
+  color: #fafafa;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.uk-button-default {
+  color: #fafafa;
+  background-color: #ecb32c;
+  border-radius: 5px;
+  background-image: url("/sites/default/files/custom/svg/cancel/cancel-white.svg");
+  text-transform: none;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+  border: 0;
+  display: inline-block;
+  margin-left: 5px;
+}
+.entity-modal-dialog.ui-dialog-buttons div.ui-dialog-buttonpane button.uk-button-default:hover {
+  background-color: #efbe4c;
+  color: #fafafa;
+}
